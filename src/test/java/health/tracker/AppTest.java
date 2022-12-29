@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.*;
 class AppTest {
 
     @Test
-    void appHasAGreeting() {
+    void shouldGetGreeting() {
         var classUnderTest = new App();
         assertThat(classUnderTest.getGreeting(), is(not(nullValue())));
     }
