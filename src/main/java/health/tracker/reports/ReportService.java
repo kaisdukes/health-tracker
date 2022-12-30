@@ -60,16 +60,19 @@ public class ReportService {
         // render time series
         var timeSeries = healthService.getAveragedTimeSeries(metric);
         var chartHeight = 2 * height / 3;
+        var title = toSentenceCase(metric.getDescription() + " " + metric.getUnits())
+                + " (" + AVERAGE_DAY_COUNT + "-Day Average)";
         var image = renderTimeSeries(
                 timeSeries,
-                toSentenceCase(metric.getDescription()) + " (7-Day Average)",
+                title,
                 width,
                 chartHeight);
         g.drawImage(image, null, 0, 20);
 
         // render table
-        var font = new Font("SansSerif", Font.PLAIN, FONT_SIZE);
-        renderTable(g, 70, chartHeight + 40, font, getMetricsTable(metric));
+        var valueFont = new Font("SansSerif", Font.PLAIN, FONT_SIZE);
+        var headerFont = valueFont.deriveFont(Font.BOLD);
+        renderTable(g, 70, chartHeight + 40, headerFont, valueFont, getMetricsTable(metric));
 
         // done
         g.dispose();
@@ -119,10 +122,10 @@ public class ReportService {
         return chart.createBufferedImage(width, height);
     }
 
-    private void renderTable(Graphics2D g, int x, int y, Font font, Table table) {
+    private void renderTable(Graphics2D g, int x, int y, Font headerFont, Font valueFont, Table table) {
 
         // measure
-        var fm = g.getFontMetrics(font);
+        var fm = g.getFontMetrics(headerFont);
         var textWidth = 0;
         var textHeight = 0;
         var textOffsetY = 0;
@@ -134,14 +137,19 @@ public class ReportService {
         }
 
         // render
-        g.setFont(font);
         g.setPaint(Color.BLACK);
         var margin = (int) Math.round(0.25 * textHeight);
         var tx = x;
         for (var column : table.getColumns()) {
+
+            // header
             var ty = y + textOffsetY;
+            g.setFont(headerFont);
             g.drawString(column.getHeader(), tx, ty);
             ty += textHeight + margin;
+
+            // values
+            g.setFont(valueFont);
             for (var value : column.getValues()) {
                 g.drawString(value, tx, ty);
                 ty += textHeight + margin;
@@ -175,8 +183,8 @@ public class ReportService {
                     averagedTimeSeries.get(averagedTimeSeriesIndex).getValue()));
 
             changeColumn.getValues().add(NUMBER_FORMATTER.format(
-                    averagedTimeSeries.get(averagedTimeSeriesIndex - AVERAGE_DAY_COUNT).getValue()
-                            - averagedTimeSeries.get(averagedTimeSeriesIndex).getValue()));
+                    averagedTimeSeries.get(averagedTimeSeriesIndex).getValue()
+                            - averagedTimeSeries.get(averagedTimeSeriesIndex - AVERAGE_DAY_COUNT).getValue()));
         }
 
         var table = new Table();
