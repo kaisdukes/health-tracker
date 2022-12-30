@@ -1,3 +1,3 @@
 # Health Tracker
 
-Tracks bodyweight, body fat percentage and lean mass (with progress photos).
+Tracks metrics including bodyweight, body fat percentage and lean mass (with progress photos).
