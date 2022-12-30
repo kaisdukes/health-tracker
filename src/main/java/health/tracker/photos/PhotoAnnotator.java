@@ -4,7 +4,11 @@ import health.tracker.metrics.HealthService;
 import health.tracker.metrics.Metric;
 import lombok.SneakyThrows;
 
+import javax.imageio.IIOImage;
 import javax.imageio.ImageIO;
+import javax.imageio.ImageWriteParam;
+import javax.imageio.plugins.jpeg.JPEGImageWriteParam;
+import javax.imageio.stream.FileImageOutputStream;
 import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
@@ -71,7 +75,21 @@ public class PhotoAnnotator {
 
         // write
         var outputPath = resolvePath(ANNOTATED_FOLDER_NAME, originalFilename);
-        ImageIO.write(bufferedImage, IMAGE_FORMAT, outputPath.toFile());
+        writeHighQualityJpeg(bufferedImage, outputPath);
+    }
+
+    @SneakyThrows
+    private static void writeHighQualityJpeg(BufferedImage image, Path path) {
+
+        // specify quality
+        var params = new JPEGImageWriteParam(null);
+        params.setCompressionMode(ImageWriteParam.MODE_EXPLICIT);
+        params.setCompressionQuality(1);
+
+        // write image
+        var writer = ImageIO.getImageWritersByFormatName(IMAGE_FORMAT).next();
+        writer.setOutput(new FileImageOutputStream(path.toFile()));
+        writer.write(null, new IIOImage(image, null, null), params);
     }
 
     private static BufferedImage resizeImage(BufferedImage image, int width, int height) {
