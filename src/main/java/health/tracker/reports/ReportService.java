@@ -21,7 +21,7 @@ import java.util.Map;
 public class ReportService {
     private final Path basePath;
     private final HealthService healthService;
-    private static NumberFormat NUMBER_FORMATTER = NumberFormat.getInstance();
+    private static final NumberFormat NUMBER_FORMATTER = NumberFormat.getInstance();
     private static final String REPORTS_FOLDER_NAME = "reports";
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd MMM yyyy");
     private static final int FONT_SIZE = 12;
