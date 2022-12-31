@@ -6,7 +6,7 @@ My current goal is to diet while weightlifting until I reach 12% body fat, ideal
 
 After years on/off at the gym, I restarted seriously again at the end of August 2022 (4 months ago). For the first three months (September, October and November) I ate pretty much at maintenance levels (or slightly over) and went up from 82 kg to 84 kg, although that was probably largely increased water retention. I felt a bit stronger though after those initial three months.
 
-By December 2022 not much had changed, and I was at 25% body fat at 84 kg at the start of the month. I decided to start cutting by reducing calories by 600 kcal/day. After a month (end of December 2022), I reached 80 kg at 22% body fat, so a mix of water and fat loss. Assuming I don't lose any further lean mass, I need to keeping dieting until I hit around 70 kg to achieve 12% body fat. Another 10 kilos to go. That would give me a lean mass of around 62 kg. To bulk back up to 78 kg and keep at 12% body fat, I'd need to gain around 7 kg of lean mass.
+By December 2022 not much had changed, and I was at 25% body fat at 84 kg at the start of the month. I decided to start cutting by reducing calories by 600 kcal/day. After a month (end of December 2022), I reached 80 kg at 22% body fat, so a mix of water and fat loss. Assuming I don't lose any further lean mass, I need to keep dieting until I hit around 70 kg to achieve 12% body fat. Another 10 kilos to go. That would give me a lean mass of around 62 kg. To bulk back up to 78 kg and keep at 12% body fat, I'd need to gain around 7 kg of lean mass.
 
 Is this realistic?
 
