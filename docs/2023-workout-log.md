@@ -1,5 +1,3 @@
-# 2023 Workout Log
-
 # January 2023
 
 ## Goals and recent stats
