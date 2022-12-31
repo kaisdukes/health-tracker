@@ -87,7 +87,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Triceps push downs          | 2    | Triceps                   |
 | Preacher curls              | 4    | Biceps                    |
 
-## Sets per muscle group
+## Volume and sets per muscle group
 
 Let's see how our sets per week compare against [these guidelines](https://outlift.com/hypertrophy-training-volume) from Dr Mike Israetel.
 
