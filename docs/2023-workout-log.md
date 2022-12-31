@@ -24,7 +24,7 @@ I feel like I'm overtraining. I'm going to try to switch to a 4-day a week split
 
 ## Workout priorities and design
 
-The main muscle groups I really want to focus on are on chest, arms and abs, as I feel these are currently underdeveloped. However, I still want to do everything else in those 4 days. I started by picking the chest focus 4-day split suggestion from [this guide](https://www.muscleandstrength.com/articles/the-ultimate-muscle-building-split-reference-guide.html), which was split out as chest/triceps/abs, legs, chest/shoulders/abs, back/biceps.
+The main muscle groups I really want to focus on are chest, arms and abs, as I feel these are currently underdeveloped. However, I still want to do everything else in those 4 days. I started by picking the chest focus 4-day split suggestion from [this guide](https://www.muscleandstrength.com/articles/the-ultimate-muscle-building-split-reference-guide.html), which was split out as chest/triceps/abs, legs, chest/shoulders/abs, back/biceps.
 
 I kept revising this until I got the balance I wanted and in the end the final workout didn't really resemble the starting point. But it was good to have something to work with other than a blank piece of paper. By the end of the all the revisions, I ended up with chest/shoulders/triceps/abs, back/biceps, chest/shoulders/abs, legs/arms. My legs are pretty strong from 10k steps a day and plus my muscle growth tends to be lower body focused as opposed to upper body, given my genetics. I'm still going to do squats and leg press once a week, but less of the other leg isolation exercises so I can focus more on arms.
 
