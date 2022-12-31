@@ -48,7 +48,7 @@ So what's different from what I'm currently doing? Two main differences. Firstly
 
 To work out how many sets, I'd like to follow some research by [Dr Mike Israetel](https://rpstrength.com/team-member/mike-israetel-phd), who has a PhD and is also a bodybuilder. However, because I only have 4 days and want to train for not much over an hour each time, I have to limit sets. My current routine is around 26 sets per workout, aiming for around 90 seconds to 2 minutes between rest between sets, so let's stick with that.
 
-## Workout plan
+## January 2023 workout plan
 
 Now I've got a number of sets to work with (26 sets per day), I can break this down into exercises.
 
