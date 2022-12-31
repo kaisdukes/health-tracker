@@ -36,56 +36,56 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 
 ### Monday: Chest, shoulders, triceps and abs (26 sets)
 
-| Exercise                  | Sets | Main muscle groups |
-| ------------------------- | ---- | ------------------ |
-| Flat chest dumbbells      | 4    | Chest              |
-| Incline chest dumbeblls   | 4    | Chest              |
-| Dumbbell flys             | 2    | Chest              |
-| Shoulder press            | 3    | Shoulders          |
-| Close grip dumbbell press | 3    | Triceps            |
-| Skull crushers            | 3    | Triceps            |
-| Triceps push downs        | 2    | Triceps            |
-| Hanging leg raise         | 3    | Abs                |
-| Roman chair side bends    | 2    | Abs                |
+| Exercise                  | Sets | Main muscle groups | Target volume (kg) |
+| ------------------------- | ---- | ------------------ | ------------------ |
+| Flat chest dumbbells      | 4    | Chest              | 44, 48, 52, 56     |
+| Incline chest dumbbells   | 4    | Chest              | 40, 44, 48, 52     |
+| Dumbbell flys             | 2    | Chest              | 36, 36             |
+| Shoulder press            | 3    | Shoulders          | 28, 32, 36         |
+| Close grip dumbbell press | 3    | Triceps            | 36, 40, 44         |
+| Skull crushers            | 3    | Triceps            | 22.5, 25, 27.5     |
+| Triceps push downs        | 2    | Triceps            | 27, 32             |
+| Hanging leg raise         | 3    | Abs                |                    |
+| Roman chair side bends    | 2    | Abs                |                    |
 
 ### Tuesday: Back and biceps (26 sets)
 
-| Exercise         | Sets | Main muscle groups |
-| ---------------- | ---- | ------------------ |
-| Pull-ups         | 3    | Back               |
-| Deadlifts        | 4    | Back               |
-| Pull downs       | 4    | Back               |
-| V-bar pull downs | 3    | Back               |
-| Dumbbell rows    | 4    | Back               |
-| Hammer curls     | 4    | Biceps             |
-| Preacher curls   | 4    | Biceps             |
+| Exercise         | Sets | Main muscle groups | Target volume (kg) |
+| ---------------- | ---- | ------------------ | ------------------ |
+| Pull-ups         | 3    | Back               |                    |
+| Deadlifts        | 4    | Back               | 60, 65, 70, 75     |
+| Pull downs       | 4    | Back               | 52, 59, 59, 66     |
+| V-bar pull downs | 3    | Back               | 52, 59, 66         |
+| Dumbbell rows    | 4    | Back               | 56, 60, 64, 68     |
+| Hammer curls     | 4    | Biceps             | 28, 28, 32, 32     |
+| Preacher curls   | 4    | Biceps             | 32.5, 35, 35, 37.5 |
 
 ### Thursday: Chest, shoulders and abs (26 sets)
 
-| Exercise                | Sets | Main muscle groups |
-| ----------------------- | ---- | ------------------ |
-| Flat chest dumbbells    | 4    | Chest              |
-| Incline chest dumbbells | 4    | Chest              |
-| Dumbbell flys           | 2    | Chest              |
-| Shoulder press          | 3    | Shoulders          |
-| Dumbbell shoulder flys  | 3    | Shoulders          |
-| Dumbbell front raise    | 2    | Shoulders          |
-| Hanging knee raise      | 3    | Abs                |
-| Hanging leg raise       | 3    | Abs                |
-| Roman chair side bends  | 2    | Abs                |
+| Exercise                | Sets | Main muscle groups | Target volume (kg) |
+| ----------------------- | ---- | ------------------ | ------------------ |
+| Flat chest dumbbells    | 4    | Chest              | 44, 48, 52, 56     |
+| Incline chest dumbbells | 4    | Chest              | 40, 44, 48, 52     |
+| Dumbbell flys           | 2    | Chest              | 36, 36             |
+| Shoulder press          | 3    | Shoulders          | 28, 32, 36         |
+| Dumbbell shoulder flys  | 3    | Shoulders          | 24, 28, 32         |
+| Dumbbell front raise    | 2    | Shoulders          | 20, 24, 28         |
+| Hanging knee raise      | 3    | Abs                |                    |
+| Hanging leg raise       | 3    | Abs                |                    |
+| Roman chair side bends  | 2    | Abs                |                    |
 
 ### Friday: Legs and arms (26 sets)
 
-| Exercise                    | Sets | Main muscle groups        |
-| --------------------------- | ---- | ------------------------- |
-| 4-minute cycle warm up      |      |                           |
-| Pull-ups                    | 3    | Back                      |
-| Squats (including bar only) | 5    | Quads, hamstrings, calves |
-| Leg press                   | 6    | Quads, hamstrings, calves |
-| Close grip dumbbell press   | 3    | Triceps                   |
-| Skull crushers              | 3    | Triceps                   |
-| Triceps push downs          | 2    | Triceps                   |
-| Preacher curls              | 4    | Biceps                    |
+| Exercise                    | Sets | Main muscle groups        | Target volume (kg)           |
+| --------------------------- | ---- | ------------------------- | ---------------------------- |
+| 4-minute cycle warm up      |      |                           |                              |
+| Pull-ups                    | 3    | Back                      |                              |
+| Squats (including bar only) | 5    | Quads, hamstrings, calves | 20, 60, 65, 70, 75           |
+| Leg press                   | 6    | Quads, hamstrings, calves | 110, 120, 130, 140, 150, 160 |
+| Close grip dumbbell press   | 3    | Triceps                   | 36, 40, 44                   |
+| Skull crushers              | 3    | Triceps                   | 22.5, 25, 27.5               |
+| Triceps push downs          | 2    | Triceps                   | 27, 32                       |
+| Preacher curls              | 4    | Biceps                    | 32.5, 35, 35, 37.5           |
 
 ## Volume and sets per muscle group
 
