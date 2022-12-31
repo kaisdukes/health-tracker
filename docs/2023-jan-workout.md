@@ -24,7 +24,7 @@ I kept revising this until I got the balance I wanted and in the end the final w
 
 ## Differences from my current routine
 
-So what's different from what I'm currently doing? Two main differences. Firstly, more rest days. I'm getting three days a week rest in the new plan instead of only two days rest. Secondly, I'm going to start doing core exercises (ab workouts) and more variety on shoulders. Sure, my current 22% body fat is covering my abs right now with a fat stomach, but I still want to start abs work right now so when I finally burn that fat, I have some abs to show underneath. Plus the new plan still hits chest twice a week, which is great news.
+So what's different from what I'm currently doing? Two main differences. Firstly, more rest days. I'm getting three days a week rest in the new plan instead of only two days rest. Secondly, I'm going to start doing core exercises (ab workouts) and more variety on shoulders. Sure, my current 22% body fat is covering my abs right now with a fat stomach, but I still want to start abs work right now so when I finally burn that fat, I have some abs to show underneath. Plus the new plan still does chest and pull-ups twice a week, which is great news.
 
 ## How many sets per muscle group?
 
@@ -79,9 +79,9 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Exercise                    | Sets | Main muscle groups        |
 | --------------------------- | ---- | ------------------------- |
 | 4-minute cycle warm up      |      |                           |
+| Pull-ups                    | 3    | Back                      |
 | Squats (including bar only) | 5    | Quads, hamstrings, calves |
 | Leg press                   | 6    | Quads, hamstrings, calves |
-| Leg extensions              | 3    | Quads                     |
 | Close grip dumbbell press   | 3    | Triceps                   |
 | Skull crushers              | 3    | Triceps                   |
 | Triceps push downs          | 2    | Triceps                   |
@@ -96,13 +96,13 @@ Let's see how our sets per week compare against [these guidelines](https://outli
 | Chest           | 20            | 10-22              | 16                 |
 | Triceps         | 16            | 6-30               | 18                 |
 | Abs             | 13            | 0-25               | 13                 |
-| Quads           | 15            | 8-20               | 14                 |
+| Quads           | 11            | 8-20               | 14                 |
 | Hamstrings      | 11            | 6-20               | 13                 |
 | Calves          | 11            | 8-16               | 12                 |
 | Shoulders       | 11            | 8-26               | 17                 |
-| Upper back      | 14            | 10-25              | 18                 |
+| Upper back      | 17            | 10-25              | 18                 |
 | Biceps          | 12            | 8-26               | 17                 |
 
-Looking good! We're in the guideline range for all muscle groups. It's hard to hit the midpoint for all muscle groups as this only a 4-day split and not a 5-day routine. However, we're pretty close in most cases. Shoulders, upper back and biceps could be better, but we only have a limited number of total sets per week and the focus was more on chest and triceps by design, so this is expected.
+Looking good! We're in the guideline range for all muscle groups. It's hard to hit the midpoint for all muscle groups as this only a 4-day split and not a 5-day routine. However, we're pretty close in most cases. Shoulders and biceps could be better, but we only have a limited number of total sets per week and the focus was more on chest and triceps by design, so this is expected.
 
 I'll try this workout for a while and see how it goes. Will be interesting to compare this to the 5-day split I'm currently doing. Hopefully, the extra rest will be worth it.
