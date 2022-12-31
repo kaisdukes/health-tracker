@@ -97,7 +97,7 @@ Let's see how our sets per week compare against [these guidelines](https://outli
 | Triceps         | 16            | 6-30               | 18                 |
 | Abs             | 13            | 0-25               | 13                 |
 | Quads           | 15            | 8-20               | 14                 |
-| Hamstrings      | 14            | 6-20               | 13                 |
+| Hamstrings      | 11            | 6-20               | 13                 |
 | Calves          | 11            | 8-16               | 12                 |
 | Shoulders       | 11            | 8-26               | 17                 |
 | Upper back      | 14            | 10-25              | 18                 |
