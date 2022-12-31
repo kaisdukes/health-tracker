@@ -36,7 +36,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 
 ### Monday: Chest, shoulders, triceps and abs (26 sets)
 
-| Exercise                  | Sets | Main muscle groups | Target volume (kg) |
+| Exercise                  | Sets | Main muscle groups | Target weight (kg) |
 | ------------------------- | ---- | ------------------ | ------------------ |
 | Flat chest dumbbells      | 4    | Chest              | 44, 48, 52, 56     |
 | Incline chest dumbbells   | 4    | Chest              | 40, 44, 48, 52     |
@@ -50,7 +50,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 
 ### Tuesday: Back and biceps (26 sets)
 
-| Exercise         | Sets | Main muscle groups | Target volume (kg) |
+| Exercise         | Sets | Main muscle groups | Target weight (kg) |
 | ---------------- | ---- | ------------------ | ------------------ |
 | Pull-ups         | 3    | Back               |                    |
 | Deadlifts        | 4    | Back               | 60, 65, 70, 75     |
@@ -62,7 +62,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 
 ### Thursday: Chest, shoulders and abs (26 sets)
 
-| Exercise                | Sets | Main muscle groups | Target volume (kg) |
+| Exercise                | Sets | Main muscle groups | Target weight (kg) |
 | ----------------------- | ---- | ------------------ | ------------------ |
 | Flat chest dumbbells    | 4    | Chest              | 44, 48, 52, 56     |
 | Incline chest dumbbells | 4    | Chest              | 40, 44, 48, 52     |
@@ -76,7 +76,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 
 ### Friday: Legs and arms (26 sets)
 
-| Exercise                    | Sets | Main muscle groups        | Target volume (kg)           |
+| Exercise                    | Sets | Main muscle groups        | Target weight (kg)           |
 | --------------------------- | ---- | ------------------------- | ---------------------------- |
 | 4-minute cycle warm up      |      |                           |                              |
 | Pull-ups                    | 3    | Back                      |                              |
