@@ -16,7 +16,7 @@ I'm 100% motivated. I've so far completed 4 months of weightlifting and the last
 
 Wish me luck! This is probably a 3-5 year journey…
 
-## Motivation for changing routine in January 2023
+## Motivation for changing routine for January 2023
 
 It's a new year and time for me to adjust my training routine. I'm currently doing push-ups every morning on training days (3 sets of 20) and following a 4-day pull, push, legs, rest cycle that equates to slightly over 5 days a week weightlifting on average. This is on top of 10k steps every day including rest days.
 
