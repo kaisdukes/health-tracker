@@ -69,7 +69,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Dumbbell flys           | 2    | Chest              | 36, 36             |
 | Shoulder press          | 3    | Shoulders          | 28, 32, 36         |
 | Dumbbell shoulder flys  | 3    | Shoulders          | 24, 28, 32         |
-| Dumbbell front raise    | 2    | Shoulders          | 20, 24, 28         |
+| Dumbbell front raise    | 2    | Shoulders          | 20, 24             |
 | Hanging knee raise      | 3    | Abs                |                    |
 | Hanging leg raise       | 3    | Abs                |                    |
 | Roman chair side bends  | 2    | Abs                |                    |
