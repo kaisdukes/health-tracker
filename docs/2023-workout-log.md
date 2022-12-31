@@ -2,7 +2,7 @@
 
 ## Goals and recent stats
 
-My current goal is to diet while weightlifting until reach 12% body fat, ideally without losing any muscle mass. After that, I want to start bulking and cutting cycles until I reach my long term life goal of 78 kg at 12% body fat.
+My current goal is to diet while weightlifting until I reach 12% body fat, ideally without losing any muscle mass. After that, I want to start bulking and cutting cycles until I reach my long term life goal of 78 kg at 12% body fat.
 
 After years on/off at the gym, I restarted seriously again at the end of August 2022 (4 months ago). For the first three months (September, October and November) I ate pretty much at maintenance levels (or slightly over) and went up from 82 kg to 84 kg, although that was probably largely increased water retention. I felt a bit stronger though after those initial three months.
 
