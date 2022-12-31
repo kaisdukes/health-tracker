@@ -36,8 +36,8 @@ I kept revising this until I got the balance I wanted and in the end the final w
 | Tuesday   | Back and biceps                    |
 | Wednesday |                                    |
 | Thursday  | Chest, shoulders and abs           |
-| Friday    | Legs and arms                      |
-| Saturday  |                                    |
+| Friday    |                                    |
+| Saturday  | Legs and arms                      |
 | Sunday    |                                    |
 
 ## Differences from my current routine
@@ -92,7 +92,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Hanging leg raise       | 3    | Abs                |                    |
 | Roman chair side bends  | 2    | Abs                |                    |
 
-### Friday: Legs and arms (26 sets)
+### Saturday: Legs and arms (26 sets)
 
 | Exercise                    | Sets | Main muscle groups        | Target weight (kg)           |
 | --------------------------- | ---- | ------------------------- | ---------------------------- |
