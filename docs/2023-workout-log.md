@@ -1,12 +1,30 @@
-# Jan 2023 4-day Split
+# 2023 Workout Log
 
-## Motivation
+# January 2023
+
+## Goals and recent stats
+
+My current goal is to diet while weightlifting until reach 12% body fat, ideally without losing any muscle mass. After that, I want to start bulking and cutting cycles until I reach my long term life goal of 78 kg at 12% body fat.
+
+After years on/off at the gym, I restarted seriously again at the end of August 2022 (4 months ago). For the first three months (September, October and November) I ate pretty much at maintenance levels (or slightly over) and went up from 82 kg to 84 kg, although that was probably largely increased water retention. I felt a bit stronger though after those initial three months.
+
+By December 2022 not much had changed, and I was at 25% body fat at 84 kg at the start of the month. I decided to start cutting by reducing calories by 600 kcal/day. After a month (end of December 2022), I reached 80 kg at 22% body fat, so a mix of water and fat loss. Assuming I don't lose any further lean mass, I need to keeping dieting until I hit around 70 kg to achieve 12% body fat. Another 10 kilos to go. That would give me a lean mass of around 62 kg. To bulk back up to 78 kg and keep at 12% body fat, I'd need to gain around 7 kg of lean mass.
+
+Is this realistic?
+
+In a lifetime and without using steroids, the natural limit for most men who lift weights consistently and train hard is to gain a maximum of 15-20 kg. So, 7 kg sounds like it's doable, assuming I've already gained over half of my max potential and it's not too late given my age. Not sure how long it's going to take given I'm heading into my mid 40s, but if there was one last chance to do it before I get too old, it's probably now.
+
+I'm 100% motivated. I've so far completed 4 months of weightlifting and the last 4 weeks of that has been dieting. I'm really looking forward to hitting 12% body fat. After that I'll start alternating between bulking and cutting to grow muscle but to keep the body fat within an acceptable percentage.
+
+Wish me luck! This is probably a 3-5 year journey…
+
+## Motivation for changing routine in January 2023
 
 It's a new year and time for me to adjust my training routine. I'm currently doing push-ups every morning on training days (3 sets of 20) and following a 4-day pull, push, legs, rest cycle that equates to slightly over 5 days a week weightlifting on average. This is on top of 10k steps every day including rest days.
 
 I feel like I'm overtraining. I'm going to try to switch to a 4-day a week split instead of 5 days to get an extra rest day and I'm also going to stop the morning push-ups to avoid overtraining chest and to get more recovery.
 
-## Workout design
+## Workout priorities and design
 
 The main muscle groups I really want to focus are on chest, arms and abs, as I feel these are currently underdeveloped. However, I still want to do everything else in those 4 days. I started by picking the chest focus 4-day split suggestion from [this guide](https://www.muscleandstrength.com/articles/the-ultimate-muscle-building-split-reference-guide.html), which was split out as chest/triceps/abs, legs, chest/shoulders/abs, back/biceps.
 
