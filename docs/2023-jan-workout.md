@@ -94,14 +94,14 @@ Let's see how our sets per week compare against [these guidelines](https://outli
 | Muscle group    | Sets per week | Guideline          | Guideline midpoint |
 | --------------- | ------------- | ------------------ | ------------------ |
 | Chest           | 20            | 10-22              | 16                 |
+| Upper back      | 17            | 10-25              | 18                 |
 | Triceps         | 16            | 6-30               | 18                 |
 | Abs             | 13            | 0-25               | 13                 |
+| Biceps          | 12            | 8-26               | 17                 |
+| Shoulders       | 11            | 8-26               | 17                 |
 | Quads           | 11            | 8-20               | 14                 |
 | Hamstrings      | 11            | 6-20               | 13                 |
 | Calves          | 11            | 8-16               | 12                 |
-| Shoulders       | 11            | 8-26               | 17                 |
-| Upper back      | 17            | 10-25              | 18                 |
-| Biceps          | 12            | 8-26               | 17                 |
 
 Looking good! We're in the guideline range for all muscle groups. It's hard to hit the midpoint for all muscle groups as this only a 4-day split and not a 5-day routine. However, we're pretty close in most cases. Shoulders and biceps could be better, but we only have a limited number of total sets per week and the focus was more on chest and triceps by design, so this is expected.
 
