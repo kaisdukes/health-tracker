@@ -19,11 +19,11 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Map;
 
-import static health.tracker.io.Io.processFiles;
+import static health.tracker.io.Io.getFiles;
+import static health.tracker.photos.PhotoFilenameParser.parsePhotoFilename;
 import static health.tracker.text.SentenceCase.toSentenceCase;
 
 public class PhotoAnnotator {
-    private final PhotoFilenameParser filenameParser = new PhotoFilenameParser();
     private final Path basePath;
     private final HealthService healthService;
     private static final int SCALED_HEIGHT = 1000;
@@ -40,17 +40,17 @@ public class PhotoAnnotator {
 
     @SneakyThrows
     public void annotate() {
-        processFiles(
+        getFiles(
                 basePath.resolve(PHOTOS_FOLDER_NAME).resolve(ORIGINALS_FOLDER_NAME),
-                IMAGE_FORMAT,
-                this::annotatePhoto);
+                IMAGE_FORMAT)
+                .forEach(this::annotatePhoto);
     }
 
     @SneakyThrows
     private void annotatePhoto(Path originalPath) {
 
         // parse filename
-        var photoInfo = filenameParser.parse(originalPath);
+        var photoInfo = parsePhotoFilename(originalPath);
 
         // read original image
         var image = ImageIO.read(originalPath.toFile());

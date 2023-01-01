@@ -9,7 +9,10 @@ import static java.lang.System.arraycopy;
 
 public class FilenameParser {
 
-    public FilenameInfo parse(Path path) {
+    private FilenameParser() {
+    }
+
+    public static FilenameInfo parseFilename(Path path) {
 
         // parts
         var name = getFilenameWithoutExtension(path);
@@ -25,6 +28,6 @@ public class FilenameParser {
         var size = parts.length - 3;
         var tags = new String[size];
         arraycopy(parts, 3, tags, 0, size);
-        return new FilenameInfo(date, tags);
+        return new FilenameInfo(path, date, tags);
     }
 }

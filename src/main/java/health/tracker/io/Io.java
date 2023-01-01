@@ -4,19 +4,26 @@ import lombok.SneakyThrows;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.function.Consumer;
+import java.util.stream.Stream;
+
+import static java.util.Comparator.comparing;
 
 public class Io {
-
     private Io() {
     }
 
+    public static FilenameInfo[] getFilesOrderedByDate(Path path, String extension) {
+        return getFiles(path, extension)
+                .map(FilenameParser::parseFilename)
+                .sorted(comparing(FilenameInfo::getDate))
+                .toArray(FilenameInfo[]::new);
+    }
+
     @SneakyThrows
-    public static void processFiles(Path path, String extension, Consumer<Path> fileProcessor) {
-        Files.walk(path)
+    public static Stream<Path> getFiles(Path path, String extension) {
+        return Files.walk(path)
                 .filter(p -> !Files.isDirectory(p))
-                .filter(p -> p.getFileName().toString().endsWith('.' + extension))
-                .forEach(fileProcessor);
+                .filter(p -> p.getFileName().toString().endsWith('.' + extension));
     }
 
     public static String getFilenameWithoutExtension(Path path) {

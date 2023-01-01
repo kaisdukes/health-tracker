@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static health.tracker.io.Io.getFilenameWithoutExtension;
-import static health.tracker.io.Io.processFiles;
+import static health.tracker.io.Io.getFiles;
 
 public class HealthService {
     private final Path basePath;
@@ -57,17 +57,15 @@ public class HealthService {
 
     @SneakyThrows
     private void loadMetrics() {
-        processFiles(
+        getFiles(
                 basePath.resolve(METRICS_FOLDER_NAME),
-                "tsv",
-                this::readTimeSeries);
-    }
-
-    private void readTimeSeries(Path path) {
-        var metric = Metric.getMetric(getFilenameWithoutExtension(path));
-        var reader = new TimeSeriesTsvReader();
-        var timeSeries = reader.read(path);
-        metrics.put(metric, timeSeries);
+                "tsv")
+                .forEach(path -> {
+                    var metric = Metric.getMetric(getFilenameWithoutExtension(path));
+                    var reader = new TimeSeriesTsvReader();
+                    var timeSeries = reader.read(path);
+                    metrics.put(metric, timeSeries);
+                });
     }
 
     private TimeSeries computeBodyFatPercentage() {
