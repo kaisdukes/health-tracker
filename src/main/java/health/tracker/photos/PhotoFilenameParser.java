@@ -2,6 +2,7 @@ package health.tracker.photos;
 
 import health.tracker.io.FilenameParser;
 
+import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -17,8 +18,8 @@ public class PhotoFilenameParser {
         keywords.put("unflexed", "unflexed");
     }
 
-    public PhotoInfo parse(String filename) {
-        var filenameInfo = filenameParser.parse(filename);
+    public PhotoInfo parse(Path path) {
+        var filenameInfo = filenameParser.parse(path);
         var keywords = Arrays.stream(filenameInfo.getTags()).map(tag -> {
             var keyword = this.keywords.get(tag);
             if (keyword == null) {

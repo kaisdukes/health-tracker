@@ -13,13 +13,13 @@ import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Map;
 
+import static health.tracker.io.Io.processFiles;
 import static health.tracker.text.SentenceCase.toSentenceCase;
 
 public class PhotoAnnotator {
@@ -40,21 +40,19 @@ public class PhotoAnnotator {
 
     @SneakyThrows
     public void annotate() {
-        Files.walk(basePath.resolve(PHOTOS_FOLDER_NAME).resolve(ORIGINALS_FOLDER_NAME))
-                .filter(p -> !Files.isDirectory(p))
-                .map(p -> p.getFileName().toString())
-                .filter(p -> p.endsWith("." + IMAGE_FORMAT))
-                .forEach(this::annotatePhoto);
+        processFiles(
+                basePath.resolve(PHOTOS_FOLDER_NAME).resolve(ORIGINALS_FOLDER_NAME),
+                IMAGE_FORMAT,
+                this::annotatePhoto);
     }
 
     @SneakyThrows
-    private void annotatePhoto(String originalFilename) {
+    private void annotatePhoto(Path originalPath) {
 
         // parse filename
-        var photoInfo = filenameParser.parse(originalFilename);
+        var photoInfo = filenameParser.parse(originalPath);
 
         // read original image
-        var originalPath = resolvePath(ORIGINALS_FOLDER_NAME, originalFilename);
         var image = ImageIO.read(originalPath.toFile());
 
         //  create a graphics context
@@ -76,7 +74,10 @@ public class PhotoAnnotator {
         g.dispose();
 
         // write
-        var outputPath = resolvePath(ANNOTATED_FOLDER_NAME, originalFilename);
+        var originalFilename = originalPath.getFileName().toString();
+        var outputPath = basePath
+                .resolve(PHOTOS_FOLDER_NAME)
+                .resolve(Paths.get(ANNOTATED_FOLDER_NAME, originalFilename));
         writeHighQualityJpeg(bufferedImage, outputPath);
     }
 
@@ -125,11 +126,5 @@ public class PhotoAnnotator {
 
     private static String formatKeywords(String[] keywords) {
         return toSentenceCase(String.join(", ", keywords));
-    }
-
-    private Path resolvePath(String folder, String filename) {
-        return basePath
-                .resolve(PHOTOS_FOLDER_NAME)
-                .resolve(Paths.get(folder, filename));
     }
 }

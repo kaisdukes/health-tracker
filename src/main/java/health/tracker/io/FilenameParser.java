@@ -1,16 +1,18 @@
 package health.tracker.io;
 
+import java.nio.file.Path;
 import java.time.LocalDate;
 
+import static health.tracker.io.Io.getFilenameWithoutExtension;
 import static java.lang.Integer.parseInt;
 import static java.lang.System.arraycopy;
 
 public class FilenameParser {
 
-    public FilenameInfo parse(String filename) {
+    public FilenameInfo parse(Path path) {
 
         // parts
-        var name = getFilenameWithoutExtension(filename);
+        var name = getFilenameWithoutExtension(path);
         var parts = name.split("-");
 
         // date
@@ -24,9 +26,5 @@ public class FilenameParser {
         var tags = new String[size];
         arraycopy(parts, 3, tags, 0, size);
         return new FilenameInfo(date, tags);
-    }
-
-    private static String getFilenameWithoutExtension(String filename) {
-        return filename.substring(0, filename.lastIndexOf('.'));
     }
 }

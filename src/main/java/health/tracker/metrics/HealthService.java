@@ -5,11 +5,13 @@ import health.tracker.timeseries.TimeSeries;
 import health.tracker.timeseries.TimeSeriesTsvReader;
 import lombok.SneakyThrows;
 
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
+
+import static health.tracker.io.Io.getFilenameWithoutExtension;
+import static health.tracker.io.Io.processFiles;
 
 public class HealthService {
     private final Path basePath;
@@ -55,23 +57,17 @@ public class HealthService {
 
     @SneakyThrows
     private void loadMetrics() {
-        Files.walk(basePath.resolve(METRICS_FOLDER_NAME))
-                .filter(p -> !Files.isDirectory(p))
-                .map(p -> p.getFileName().toString())
-                .filter(p -> p.endsWith(".tsv"))
-                .forEach(this::readTimeSeries);
+        processFiles(
+                basePath.resolve(METRICS_FOLDER_NAME),
+                "tsv",
+                this::readTimeSeries);
     }
 
-    private void readTimeSeries(String filename) {
-        var metric = Metric.getMetric(getFilenameWithoutExtension(filename));
-        var path = basePath.resolve(METRICS_FOLDER_NAME).resolve(filename);
+    private void readTimeSeries(Path path) {
+        var metric = Metric.getMetric(getFilenameWithoutExtension(path));
         var reader = new TimeSeriesTsvReader();
         var timeSeries = reader.read(path);
         metrics.put(metric, timeSeries);
-    }
-
-    private static String getFilenameWithoutExtension(String filename) {
-        return filename.substring(0, filename.lastIndexOf('.'));
     }
 
     private TimeSeries computeBodyFatPercentage() {
