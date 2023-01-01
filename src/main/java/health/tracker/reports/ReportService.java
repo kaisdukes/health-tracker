@@ -18,6 +18,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.Map;
 
+import static health.tracker.text.SentenceCase.toSentenceCase;
+
 public class ReportService {
     private final Path basePath;
     private final HealthService healthService;
@@ -193,9 +195,5 @@ public class ReportService {
         table.getColumns().add(averageColumn);
         table.getColumns().add(changeColumn);
         return table;
-    }
-
-    private static String toSentenceCase(String text) {
-        return Character.toUpperCase(text.charAt(0)) + text.substring(1);
     }
 }

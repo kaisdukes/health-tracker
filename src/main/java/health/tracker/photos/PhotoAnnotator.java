@@ -20,8 +20,10 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Map;
 
+import static health.tracker.text.SentenceCase.toSentenceCase;
+
 public class PhotoAnnotator {
-    private final FilenameParser filenameParser = new FilenameParser();
+    private final PhotoFilenameParser filenameParser = new PhotoFilenameParser();
     private final Path basePath;
     private final HealthService healthService;
     private static final int SCALED_HEIGHT = 1000;
@@ -123,10 +125,6 @@ public class PhotoAnnotator {
 
     private static String formatKeywords(String[] keywords) {
         return toSentenceCase(String.join(", ", keywords));
-    }
-
-    private static String toSentenceCase(String text) {
-        return Character.toUpperCase(text.charAt(0)) + text.substring(1);
     }
 
     private Path resolvePath(String folder, String filename) {

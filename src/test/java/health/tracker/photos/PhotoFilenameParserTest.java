@@ -8,11 +8,11 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 
-class FilenameParserTest {
+class PhotoFilenameParserTest {
 
     @Test
-    void shouldParseFilename() {
-        var filenameParser = new FilenameParser();
+    void shouldParsePhotoFilename() {
+        var filenameParser = new PhotoFilenameParser();
         var photoInfo = filenameParser.parse("2022-12-29-preworkout-unflexed.jpeg");
 
         assertThat(
