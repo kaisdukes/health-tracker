@@ -30,13 +30,13 @@ I kept revising this until I got the balance I wanted and in the end the final w
 
 | Day       | Muscle groups                      |
 | --------- | ---------------------------------- |
-| Monday    | Chest, shoulders, triceps and  abs |
-| Tuesday   | Back and biceps                    |
-| Wednesday |                                    |
-| Thursday  | Chest, shoulders and abs           |
-| Friday    |                                    |
-| Saturday  | Legs and arms                      |
-| Sunday    |                                    |
+| Day 1     | Chest, shoulders, triceps and  abs |
+| Day 2     | Back and biceps                    |
+| Day 3     |                                    |
+| Day 4     | Chest, shoulders and abs           |
+| Day 5     |                                    |
+| Day 6     | Legs and arms                      |
+| Day 7     |                                    |
 
 ## Differences from my current routine
 
@@ -50,7 +50,7 @@ To work out how many sets, I'd like to follow some research by [Dr Mike Israetel
 
 Now I've got a number of sets to work with (26 sets per day), I can break this down into exercises.
 
-### Monday: Chest, shoulders, triceps and abs (26 sets)
+### Day 1: Chest, shoulders, triceps and abs (26 sets)
 
 | Exercise                  | Sets | Main muscle groups | Target weight (kg) |
 | ------------------------- | ---- | ------------------ | ------------------ |
@@ -64,7 +64,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Hanging leg raise         | 3    | Abs                |                    |
 | Roman chair side bends    | 2    | Abs                |                    |
 
-### Tuesday: Back and biceps (26 sets)
+### Day 2: Back and biceps (26 sets)
 
 | Exercise         | Sets | Main muscle groups | Target weight (kg) |
 | ---------------- | ---- | ------------------ | ------------------ |
@@ -76,7 +76,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Hammer curls     | 4    | Biceps             | 28, 28, 32, 32     |
 | Preacher curls   | 4    | Biceps             | 32.5, 35, 35, 37.5 |
 
-### Thursday: Chest, shoulders and abs (26 sets)
+### Day 4: Chest, shoulders and abs (26 sets)
 
 | Exercise                | Sets | Main muscle groups | Target weight (kg) |
 | ----------------------- | ---- | ------------------ | ------------------ |
@@ -90,7 +90,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Hanging leg raise       | 3    | Abs                |                    |
 | Roman chair side bends  | 2    | Abs                |                    |
 
-### Saturday: Legs and arms (26 sets)
+### Day 6: Legs and arms (26 sets)
 
 | Exercise                    | Sets | Main muscle groups        | Target weight (kg)           |
 | --------------------------- | ---- | ------------------------- | ---------------------------- |
