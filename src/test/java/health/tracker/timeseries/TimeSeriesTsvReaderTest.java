@@ -8,12 +8,12 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.greaterThan;
 import static org.hamcrest.Matchers.is;
 
-class TsvReaderTest {
+class TimeSeriesTsvReaderTest {
 
     @Test
     void shouldReadTimeSeries() {
-        var tsvReader = new TsvReader();
-        var timeSeries = tsvReader.read(Paths.get("data/metrics/weight.tsv"));
+        var reader = new TimeSeriesTsvReader();
+        var timeSeries = reader.read(Paths.get("data/metrics/weight.tsv"));
         assertThat(timeSeries.size(), is(greaterThan(0)));
     }
 }

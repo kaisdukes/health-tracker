@@ -2,7 +2,7 @@ package health.tracker.metrics;
 
 import health.tracker.timeseries.Averager;
 import health.tracker.timeseries.TimeSeries;
-import health.tracker.timeseries.TsvReader;
+import health.tracker.timeseries.TimeSeriesTsvReader;
 import lombok.SneakyThrows;
 
 import java.nio.file.Files;
@@ -65,8 +65,8 @@ public class HealthService {
     private void readTimeSeries(String filename) {
         var metric = Metric.getMetric(getFilenameWithoutExtension(filename));
         var path = basePath.resolve(METRICS_FOLDER_NAME).resolve(filename);
-        var tsvReader = new TsvReader();
-        var timeSeries = tsvReader.read(path);
+        var reader = new TimeSeriesTsvReader();
+        var timeSeries = reader.read(path);
         metrics.put(metric, timeSeries);
     }
 
