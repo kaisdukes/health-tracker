@@ -12,11 +12,10 @@ public class Io {
     private Io() {
     }
 
-    public static FilenameInfo[] getFilesOrderedByDate(Path path, String extension) {
+    public static Stream<FilenameInfo> getFilesOrderedByDate(Path path, String extension) {
         return getFiles(path, extension)
                 .map(FilenameParser::parseFilename)
-                .sorted(comparing(FilenameInfo::getDate))
-                .toArray(FilenameInfo[]::new);
+                .sorted(comparing(FilenameInfo::getDate));
     }
 
     @SneakyThrows
