@@ -57,12 +57,11 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Flat chest dumbbells      | 4    | Chest              | 44, 48, 52, 56     |
 | Incline chest dumbbells   | 4    | Chest              | 40, 44, 48, 52     |
 | Dumbbell flys             | 2    | Chest              | 36, 36             |
-| Shoulder press            | 3    | Shoulders          | 28, 32, 36         |
+| Shoulder press            | 4    | Shoulders          | 28, 32, 36, 36      |
 | Close grip dumbbell press | 3    | Triceps            | 36, 40, 44         |
 | Skull crushers            | 3    | Triceps            | 22.5, 25, 27.5     |
 | Triceps push downs        | 2    | Triceps            | 27, 32             |
-| Hanging leg raise         | 3    | Abs                |                    |
-| Roman chair side bends    | 2    | Abs                |                    |
+| Hanging leg raise         | 4    | Abs                |                    |
 
 ### Day 2: Back and biceps (26 sets)
 
@@ -86,8 +85,8 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Shoulder press          | 4    | Shoulders          | 28, 32, 36, 36     |
 | Dumbbell shoulder flys  | 3    | Shoulders          | 24, 28, 32         |
 | Dumbbell front raise    | 3    | Shoulders          | 20, 24, 28         |
+| Hanging knee raise      | 2    | Abs                |                    |
 | Hanging leg raise       | 4    | Abs                |                    |
-| Roman chair side bends  | 2    | Abs                |                    |
 
 ### Day 6: Legs and arms (26 sets)
 
@@ -112,11 +111,11 @@ Let's see how our sets per week compare against [these volume guidelines](https:
 | Triceps         | 16            | 6-30               | 18                 |
 | Upper back      | 15            | 10-25              | 18                 |
 | Biceps          | 14            | 8-26               | 17                 |
-| Shoulders       | 13            | 8-26               | 17                 |
+| Shoulders       | 14            | 8-26               | 17                 |
 | Quads           | 11            | 8-20               | 14                 |
 | Hamstrings      | 11            | 6-20               | 13                 |
 | Calves          | 11            | 8-16               | 12                 |
-| Abs             | 11            | 0-25               | 13                 |
+| Abs             | 10            | 0-25               | 13                 |
 
 Looking good! We're in the guideline range for all muscle groups. It's hard to hit the midpoint for all muscle groups as this only a 4-day split and not a 5-day routine. However, we're pretty close in most cases.
 
