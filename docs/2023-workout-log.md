@@ -83,12 +83,11 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Flat chest dumbbells    | 4    | Chest              | 44, 48, 52, 56     |
 | Incline chest dumbbells | 4    | Chest              | 40, 44, 48, 52     |
 | Dumbbell flys           | 2    | Chest              | 36, 36             |
-| Shoulder press          | 3    | Shoulders          | 28, 32, 36         |
+| Shoulder press          | 4    | Shoulders          | 28, 32, 36, 36     |
 | Dumbbell shoulder flys  | 3    | Shoulders          | 24, 28, 32         |
-| Dumbbell front raise    | 2    | Shoulders          | 20, 24             |
-| Hanging knee raise      | 3    | Abs                |                    |
+| Dumbbell front raise    | 3    | Shoulders          | 20, 24, 28         |
 | Hanging leg raise       | 3    | Abs                |                    |
-| Roman chair side bends  | 2    | Abs                |                    |
+| Roman chair side bends  | 3    | Abs                |                    |
 
 ### Day 6: Legs and arms (26 sets)
 
@@ -113,12 +112,12 @@ Let's see how our sets per week compare against [these volume guidelines](https:
 | Triceps         | 16            | 6-30               | 18                 |
 | Upper back      | 15            | 10-25              | 18                 |
 | Biceps          | 14            | 8-26               | 17                 |
-| Abs             | 13            | 0-25               | 13                 |
-| Shoulders       | 11            | 8-26               | 17                 |
+| Shoulders       | 13            | 8-26               | 17                 |
 | Quads           | 11            | 8-20               | 14                 |
 | Hamstrings      | 11            | 6-20               | 13                 |
 | Calves          | 11            | 8-16               | 12                 |
+| Abs             | 11            | 0-25               | 13                 |
 
-Looking good! We're in the guideline range for all muscle groups. It's hard to hit the midpoint for all muscle groups as this only a 4-day split and not a 5-day routine. However, we're pretty close in most cases. Shoulders could be better, but we only have a limited number of total sets per week and the focus was more on chest and arms by design, so this is expected.
+Looking good! We're in the guideline range for all muscle groups. It's hard to hit the midpoint for all muscle groups as this only a 4-day split and not a 5-day routine. However, we're pretty close in most cases.
 
 I'll try this workout for a while and see how it goes. Will be interesting to compare this to the 5-day split I'm currently doing. Hopefully, the extra rest will be worth it.
