@@ -66,15 +66,15 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 
 ### Day 2: Back and biceps (26 sets)
 
-| Exercise         | Sets | Main muscle groups | Target weight (kg) |
-| ---------------- | ---- | ------------------ | ------------------ |
-| Pull-ups         | 3    | Back               |                    |
-| Deadlifts        | 4    | Back               | 60, 65, 70, 75     |
-| Pull downs       | 3    | Back               | 52, 59, 66         |
-| V-bar pull downs | 3    | Back               | 52, 59, 66         |
-| Dumbbell rows    | 3    | Back               | 60, 64, 68         |
-| Hammer curls     | 5    | Biceps             | 28, 28, 32, 32     |
-| Preacher curls   | 5    | Biceps             | 32.5, 35, 35, 37.5 |
+| Exercise         | Sets | Main muscle groups | Target weight (kg)       |
+| ---------------- | ---- | ------------------ | ------------------------ |
+| Pull-ups         | 3    | Back               |                          |
+| Deadlifts        | 4    | Back               | 60, 65, 70, 75           |
+| Pull downs       | 3    | Back               | 52, 59, 66               |
+| V-bar pull downs | 3    | Back               | 52, 59, 66               |
+| Dumbbell rows    | 3    | Back               | 60, 64, 68               |
+| Hammer curls     | 5    | Biceps             | 28, 28, 32, 32, 32       |
+| Preacher curls   | 5    | Biceps             | 32.5, 35, 35, 37.5, 37.5 |
 
 ### Day 4: Chest, shoulders and abs (26 sets)
 
