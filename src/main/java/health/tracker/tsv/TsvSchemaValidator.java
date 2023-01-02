@@ -1,7 +1,5 @@
 package health.tracker.tsv;
 
-import java.nio.file.Path;
-
 public class TsvSchemaValidator {
     private final String[] columns;
 
@@ -9,20 +7,21 @@ public class TsvSchemaValidator {
         this.columns = columns;
     }
 
-    public void validate(Path path, String[] columns) {
+    public void validate(TsvReader tsvReader) {
 
         // count
+        var columns = tsvReader.getColumns();
         var size = this.columns.length;
         if (columns.length != size) {
             throw new RuntimeException(
-                    "Expected " + this.columns.length + " columns in time series TSV file: " + path);
+                    "Expected " + this.columns.length + " columns in time series TSV file: " + tsvReader.getPath());
         }
 
         // names
         for (var i = 0; i < size; i++) {
             if (!columns[i].equals(this.columns[i])) {
                 throw new RuntimeException(
-                        "Expected '" + this.columns[i] + "' column in TSV file: " + path);
+                        "Expected '" + this.columns[i] + "' column in TSV file: " + tsvReader.getPath());
             }
         }
     }

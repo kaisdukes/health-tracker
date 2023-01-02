@@ -7,12 +7,14 @@ import java.io.FileReader;
 import java.nio.file.Path;
 
 public class TsvReader {
+    private final Path path;
     private final BufferedReader reader;
     private final String[] columns;
     private String[] values;
 
     @SneakyThrows
     public TsvReader(Path path) {
+        this.path = path;
         this.reader = new BufferedReader(new FileReader(path.toFile()));
 
         // header
@@ -21,6 +23,10 @@ public class TsvReader {
             throw new RuntimeException("Failed to read header row from TSV file: " + path);
         }
         this.columns = line.split("\\t");
+    }
+
+    public Path getPath() {
+        return path;
     }
 
     public String[] getColumns() {

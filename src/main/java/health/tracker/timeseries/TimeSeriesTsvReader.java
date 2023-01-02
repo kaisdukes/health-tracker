@@ -13,7 +13,7 @@ public class TimeSeriesTsvReader {
 
         // columns
         var reader = new TsvReader(path);
-        validator.validate(path, reader.getColumns());
+        validator.validate(reader);
 
         // rows
         var timeSeries = new TimeSeries();
