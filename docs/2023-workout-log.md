@@ -86,8 +86,8 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Shoulder press          | 4    | Shoulders          | 28, 32, 36, 36     |
 | Dumbbell shoulder flys  | 3    | Shoulders          | 24, 28, 32         |
 | Dumbbell front raise    | 3    | Shoulders          | 20, 24, 28         |
-| Hanging leg raise       | 3    | Abs                |                    |
-| Roman chair side bends  | 3    | Abs                |                    |
+| Hanging leg raise       | 4    | Abs                |                    |
+| Roman chair side bends  | 2    | Abs                |                    |
 
 ### Day 6: Legs and arms (26 sets)
 
