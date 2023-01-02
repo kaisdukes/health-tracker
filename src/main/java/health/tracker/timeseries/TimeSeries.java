@@ -3,6 +3,8 @@ package health.tracker.timeseries;
 import java.time.LocalDate;
 import java.util.*;
 
+import static health.tracker.timeseries.MostRecent.getMostRecentItem;
+
 public class TimeSeries implements Iterable<Point> {
     private final List<Point> points = new ArrayList<>();
     private final Map<LocalDate, Double> valuesByDate = new HashMap<>();
@@ -27,13 +29,7 @@ public class TimeSeries implements Iterable<Point> {
     }
 
     public double getMostRecent(LocalDate date) {
-        for (var i = points.size() - 1; i >= 0; i--) {
-            var point = points.get(i);
-            if (point.getDate().compareTo(date) <= 0) {
-                return point.getValue();
-            }
-        }
-        throw new UnsupportedOperationException("No most recent time series value for date " + date);
+        return getMostRecentItem(points, Point::getDate, date).getValue();
     }
 
     public boolean hasValue(LocalDate date) {
