@@ -6,6 +6,9 @@ import java.util.function.Function;
 
 public class MostRecent {
 
+    private MostRecent() {
+    }
+
     // Uses binary search to find the most recent item in a
     // list by date. Assumes that the list is already ordered.
     public static <T> T getMostRecentItem(List<T> items, Function<T, LocalDate> dateSelector, LocalDate date) {
