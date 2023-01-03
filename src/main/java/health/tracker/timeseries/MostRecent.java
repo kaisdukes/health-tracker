@@ -11,7 +11,9 @@ public class MostRecent {
 
     // Uses binary search to find the most recent item in a
     // list by date. Assumes that the list is already ordered.
-    public static <T> T getMostRecentItem(List<T> items, Function<T, LocalDate> dateSelector, LocalDate date) {
+    public static <T> T getMostRecentItem(
+            List<T> items, Function<T, LocalDate> dateSelector, LocalDate date) {
+
         var lowIndex = 0;
         var highIndex = items.size() - 1;
         T mostRecent = null;
@@ -33,6 +35,8 @@ public class MostRecent {
                 return midItem;
             }
         }
+
+        // not found?
         if (mostRecent == null) {
             throw new UnsupportedOperationException("No most recent value for date " + date);
         }
