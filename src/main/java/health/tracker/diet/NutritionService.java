@@ -65,14 +65,23 @@ public class NutritionService {
         }
     }
 
-    public Nutrition getNutrition(String name, String brand, int amountGrams) {
+    public Nutrition getNutrition(String name, String brand, Integer amountGrams) {
         var nutritionList = nutritionByName.get(name);
         if (nutritionList != null) {
             for (var nutrition : nutritionList) {
                 if (Objects.equals(nutrition.getName(), name)
-                        && Objects.equals(nutrition.getBrand(), brand)
-                        && nutrition.getAmountGrams() == amountGrams) {
-                    return nutrition;
+                        && Objects.equals(nutrition.getBrand(), brand)) {
+
+                    switch (nutrition.getAmountType()) {
+                        case ByQuantity -> {
+                            if (amountGrams == null || Objects.equals(nutrition.getAmountGrams(), amountGrams)) {
+                                return nutrition;
+                            }
+                        }
+                        case ByWeight -> {
+                            return nutrition;
+                        }
+                    }
                 }
             }
         }

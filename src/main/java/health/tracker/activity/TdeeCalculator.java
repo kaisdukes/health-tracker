@@ -48,9 +48,9 @@ public class TdeeCalculator {
     private int getTef(LocalDate date) {
         var diet = dietService.getDiet(date);
         return (int) Math.round(
-                4 * 0.25 * diet.getProteinGrams()
-                        + 4 * 0.075 * diet.getCarbsGrams()
-                        + 9 * 0.015 * diet.getFatGrams());
+                4 * 0.25 * diet.getProtein()
+                        + 4 * 0.075 * diet.getCarbs()
+                        + 9 * 0.015 * diet.getFat());
     }
 
     private static int getKatchMcArdleRmr(int leanMass) {

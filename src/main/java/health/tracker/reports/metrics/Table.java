@@ -1,4 +1,4 @@
-package health.tracker.reports;
+package health.tracker.reports.metrics;
 
 import lombok.Value;
 
