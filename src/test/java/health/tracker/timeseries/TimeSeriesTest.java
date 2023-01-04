@@ -46,7 +46,7 @@ class TimeSeriesTest {
     void shouldThrowForMissingValueLookup() {
         var timeSeries = new TimeSeries();
         assertThrows(
-                UnsupportedOperationException.class,
+                RuntimeException.class,
                 () -> timeSeries.get(LocalDate.of(2020, 1, 1)));
     }
 }

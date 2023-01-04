@@ -4,7 +4,9 @@ import health.tracker.tsv.TsvReader;
 import health.tracker.tsv.TsvSchemaValidator;
 
 import java.nio.file.Path;
-import java.time.LocalDate;
+
+import static java.lang.Double.parseDouble;
+import static java.time.LocalDate.parse;
 
 public class TimeSeriesTsvReader {
     private final TsvSchemaValidator validator = new TsvSchemaValidator("Date", "Value");
@@ -19,8 +21,8 @@ public class TimeSeriesTsvReader {
         var timeSeries = new TimeSeries();
         while (reader.next()) {
             var text = reader.getValues();
-            var date = LocalDate.parse(text[0]);
-            var value = Double.parseDouble(text[1]);
+            var date = parse(text[0]);
+            var value = parseDouble(text[1]);
             timeSeries.add(date, value);
         }
         return timeSeries;

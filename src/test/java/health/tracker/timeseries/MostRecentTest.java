@@ -55,7 +55,7 @@ class MostRecentTest {
     void shouldThrowForMissingMostRecentItem() {
         var items = list(12, 13, 14, 15);
         assertThrows(
-                UnsupportedOperationException.class,
+                RuntimeException.class,
                 () -> getMostRecentItem(items, x -> x.date, date(11)));
     }
 

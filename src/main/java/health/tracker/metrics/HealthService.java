@@ -32,7 +32,7 @@ public class HealthService {
                 timeSeries = computeBodyFatPercentage();
                 metrics.put(metric, timeSeries);
             } else {
-                throw new UnsupportedOperationException("No time series data found for metric '" + metric + "'.");
+                throw new RuntimeException("No time series data found for metric '" + metric + "'.");
             }
         }
         return timeSeries;

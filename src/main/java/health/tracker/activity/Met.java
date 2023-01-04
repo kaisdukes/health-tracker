@@ -3,8 +3,7 @@ package health.tracker.activity;
 import lombok.Data;
 
 @Data
-public class Activity {
+public class Met {
     String name;
-    double hoursPerDay;
-    double daysPerWeek;
+    double met;
 }

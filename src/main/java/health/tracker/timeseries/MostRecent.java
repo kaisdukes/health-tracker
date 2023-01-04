@@ -38,7 +38,7 @@ public class MostRecent {
 
         // not found?
         if (mostRecent == null) {
-            throw new UnsupportedOperationException("No most recent value for date " + date);
+            throw new RuntimeException("No most recent value for date " + date);
         }
         return mostRecent;
     }

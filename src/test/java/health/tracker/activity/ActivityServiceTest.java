@@ -1,6 +1,5 @@
 package health.tracker.activity;
 
-import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 
 import java.nio.file.Paths;
@@ -17,8 +16,7 @@ class ActivityServiceTest {
         var basePath = Paths.get("data");
         var activityService = new ActivityService(basePath);
         var today = now();
-        var dailyActivities = activityService.getActivities(today);
-        assertThat(dailyActivities.getDate(), is(Matchers.lessThanOrEqualTo(today)));
-        assertThat(dailyActivities.getActivities().size(), is(greaterThan(0)));
+        var activities = activityService.getActivities(today);
+        assertThat(activities.size(), is(greaterThan(0)));
     }
 }

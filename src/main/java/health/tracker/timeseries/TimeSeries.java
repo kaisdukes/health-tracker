@@ -24,7 +24,7 @@ public class TimeSeries implements Iterable<Point> {
 
     public double get(LocalDate date) {
         var value = valuesByDate.get(date);
-        if (value == null) throw new UnsupportedOperationException("No time series value for date " + date);
+        if (value == null) throw new RuntimeException("No time series value for date " + date);
         return value;
     }
 

@@ -18,5 +18,9 @@ public class TdeeCalculator {
         System.err.println("Calculating TDEE for " + date);
         var weightKg = (int) Math.round(healthService.getAveragedMetric(date, Metric.WeightKg));
         System.err.println("Weight (kg): " + weightKg);
+
+        for (var activity : activityService.getActivities(date)) {
+            System.err.println("met ? --> " + activity);
+        }
     }
 }
