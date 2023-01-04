@@ -2,14 +2,13 @@ package health.tracker.reports;
 
 import org.junit.jupiter.api.Test;
 
-import java.nio.file.Paths;
+import static health.tracker.TestContext.BASE_PATH;
 
 class ReportServiceTest {
 
     @Test
     void shouldCreateReports() {
-        var basePath = Paths.get("data");
-        var reportService = new ReportService(basePath);
+        var reportService = new ReportService(BASE_PATH);
         reportService.createReports();
     }
 }

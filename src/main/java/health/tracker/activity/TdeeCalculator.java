@@ -24,11 +24,11 @@ public class TdeeCalculator {
         this.dietService = dietService;
     }
 
-    public int getTdee(final LocalDate date) {
+    public int getTdee(LocalDate date) {
         return getAee(date) + getTef(date);
     }
 
-    private int getAee(final LocalDate date) {
+    private int getAee(LocalDate date) {
         var leanMass = (int) Math.round(healthService.getAveragedMetric(date, Metric.LeanMassKg));
         var rmr = getKatchMcArdleRmr(leanMass);
         var kcal = 0;
