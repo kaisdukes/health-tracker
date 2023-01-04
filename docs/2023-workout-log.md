@@ -60,7 +60,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Shoulder press            | 4    | Shoulders          | 28, 32, 36, 36      |
 | Close grip dumbbell press | 3    | Triceps            | 36, 40, 44         |
 | Skull crushers            | 3    | Triceps            | 22.5, 25, 27.5     |
-| Triceps push downs        | 2    | Triceps            | 27, 32             |
+| Tricep push downs         | 2    | Triceps            | 27, 32             |
 | Hanging leg raise         | 4    | Abs                |                    |
 
 ### Day 2: Back and biceps (26 sets)
@@ -98,7 +98,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Leg press                   | 6    | Quads, hamstrings, calves | 110, 120, 130, 140, 150, 160 |
 | Close grip dumbbell press   | 3    | Triceps                   | 36, 40, 44                   |
 | Skull crushers              | 3    | Triceps                   | 22.5, 25, 27.5               |
-| Triceps push downs          | 2    | Triceps                   | 27, 32                       |
+| Tricep push downs           | 2    | Triceps                   | 27, 32                       |
 | Preacher curls              | 4    | Biceps                    | 32.5, 35, 35, 37.5           |
 
 ## Volume and sets per muscle group
