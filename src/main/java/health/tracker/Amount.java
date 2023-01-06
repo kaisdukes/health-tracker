@@ -9,6 +9,14 @@ public class Amount {
     double value;
     Unit unit;
 
+    public Amount toLiters() {
+        return switch (unit) {
+            case Liter -> this;
+            case Milliliter -> new Amount(value * 0.001, Unit.Liter);
+            default -> throw new RuntimeException("Can't convert unit to liters: " + unit);
+        };
+    }
+
     public static Amount parseAmount(String text) {
 
         // no text?

@@ -9,6 +9,7 @@ public enum Unit {
     Percentage("%"),
     Gram("g"),
     Kilogram("kg"),
+    Liter("l"),
     Milliliter("ml");
 
     private static final Map<String, Unit> UNITS_BY_SYMBOL

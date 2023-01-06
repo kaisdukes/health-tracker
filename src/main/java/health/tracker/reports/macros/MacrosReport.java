@@ -73,11 +73,16 @@ public class MacrosReport {
                 if (text.length() != 0) {
                     text.append("\n\n");
                 }
-                text.append("### ").append(meal).append(" (");
-                formatMealMacros(text, "protein", macros.getProtein());
-                text.append(", ");
-                formatMealMacros(text, "carbs", macros.getCarbs());
-                text.append(")");
+                text.append("### ").append(meal);
+
+                // macros?
+                if (macros.getProtein() > 0 || macros.getCarbs() > 0) {
+                    text.append(" (");
+                    formatMealMacros(text, "protein", macros.getProtein());
+                    text.append(", ");
+                    formatMealMacros(text, "carbs", macros.getCarbs());
+                    text.append(")");
+                }
                 text.append('\n');
             }
 
@@ -126,6 +131,9 @@ public class MacrosReport {
 
         // fiber
         text.append("\n- Fiber: ").append(diet.getFiber()).append('g');
+
+        // water
+        text.append("\n- Water: ").append(VALUE_FORMATTER.format(diet.getWater())).append('l');
 
         // calories
         text.append("\n\n### Calories\n");

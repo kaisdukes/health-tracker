@@ -101,17 +101,22 @@ public class DietService {
         var carbs = 0d;
         var fat = 0d;
         var fiber = 0d;
+        var water = 0d;
         for (var portion : diet.getPortions()) {
             kcal += portion.getKcal();
             protein += portion.getProtein();
             carbs += portion.getCarbs();
             fat += portion.getFat();
             fiber += portion.getFiber();
+            if (portion.getName().equals("water")) {
+                water += portion.getAmount().toLiters().getValue();
+            }
         }
         diet.setKcal((int) Math.round(kcal));
         diet.setProtein((int) Math.round(protein));
         diet.setCarbs((int) Math.round(carbs));
         diet.setFat((int) Math.round(fat));
         diet.setFiber((int) Math.round(fiber));
+        diet.setWater(water);
     }
 }

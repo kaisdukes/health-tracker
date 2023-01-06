@@ -14,5 +14,6 @@ public class Diet {
     int fat;
     int kcal;
     int fiber;
+    double water;
     List<Portion> portions = new ArrayList<>();
 }
