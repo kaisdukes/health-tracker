@@ -27,7 +27,7 @@ public class Amount {
             throw new RuntimeException("Invalid amount without value: '" + text + "'.");
         }
 
-        // no amount?
+        // no unit?
         if (i == text.length() - 1) {
             throw new RuntimeException("Invalid amount without unit: '" + text + "'.");
         }
