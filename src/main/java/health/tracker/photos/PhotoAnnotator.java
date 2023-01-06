@@ -121,7 +121,7 @@ public class PhotoAnnotator {
 
     private String formatMetric(Metric metric, LocalDate date) {
         var value = (int) Math.round(healthService.getAveragedMetric(date, metric));
-        return toSentenceCase(metric.getDescription() + ": " + value + metric.getUnits());
+        return toSentenceCase(metric.getDescription() + ": " + value + metric.getUnit().getSymbol());
     }
 
     private static String formatKeywords(String[] keywords) {

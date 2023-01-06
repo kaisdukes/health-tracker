@@ -173,7 +173,7 @@ public class MacrosReport {
         text.append(toSentenceCase(metric.getDescription()));
         text.append(": ");
         text.append((int) Math.round(healthService.getAveragedMetric(date, metric)));
-        text.append(metric.getUnits());
+        text.append(metric.getUnit().getSymbol());
     }
 
     private void formatMealMacros(StringBuilder text, String name, int value) {

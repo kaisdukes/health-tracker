@@ -58,7 +58,7 @@ public class MetricsReport {
         // render time series
         var timeSeries = healthService.getAveragedTimeSeries(metric);
         var chartHeight = 2 * height / 3;
-        var title = toSentenceCase(metric.getDescription() + " " + metric.getUnits())
+        var title = toSentenceCase(metric.getDescription() + ' ' + metric.getUnit().getSymbol())
                 + " (" + AVERAGE_DAY_COUNT + "-Day Average)";
         var image = renderTimeSeries(
                 timeSeries,
@@ -161,7 +161,7 @@ public class MetricsReport {
         var averagedTimeSeries = healthService.getAveragedTimeSeries(metric);
 
         var dateColumn = new Column("Date");
-        var valueColumn = new Column(toSentenceCase(metric.getDescription() + " " + metric.getUnits()));
+        var valueColumn = new Column(toSentenceCase(metric.getDescription() + ' ' + metric.getUnit().getSymbol()));
         var averageColumn = new Column(AVERAGE_DAY_COUNT + "-Day Average");
         var changeColumn = new Column(AVERAGE_DAY_COUNT + "-Day Change");
 

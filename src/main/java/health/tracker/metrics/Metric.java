@@ -1,22 +1,24 @@
 package health.tracker.metrics;
 
+import health.tracker.Unit;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public enum Metric {
-    WeightKg("weight", "kg"),
-    LeanMassKg("lean mass", "kg"),
-    BodyFatPercentage("body fat", "%");
+    WeightKg("weight", Unit.Kilogram),
+    LeanMassKg("lean mass", Unit.Kilogram),
+    BodyFatPercentage("body fat", Unit.Percentage);
 
     private static final Map<String, Metric> METRICS_BY_KEY = new HashMap<>();
     private final String key;
     private final String description;
-    private final String units;
+    private final Unit unit;
 
-    Metric(String description, String units) {
+    Metric(String description, Unit unit) {
         this.key = description.replace(' ', '-');
         this.description = description;
-        this.units = units;
+        this.unit = unit;
     }
 
     public String getKey() {
@@ -27,8 +29,8 @@ public enum Metric {
         return description;
     }
 
-    public String getUnits() {
-        return units;
+    public Unit getUnit() {
+        return unit;
     }
 
     public static Metric getMetric(String key) {
