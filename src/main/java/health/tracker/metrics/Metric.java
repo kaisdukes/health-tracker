@@ -2,15 +2,19 @@ package health.tracker.metrics;
 
 import health.tracker.Unit;
 
-import java.util.HashMap;
+import java.util.Arrays;
 import java.util.Map;
+
+import static java.util.stream.Collectors.toMap;
 
 public enum Metric {
     WeightKg("weight", Unit.Kilogram),
     LeanMassKg("lean mass", Unit.Kilogram),
     BodyFatPercentage("body fat", Unit.Percentage);
 
-    private static final Map<String, Metric> METRICS_BY_KEY = new HashMap<>();
+    private static final Map<String, Metric> METRICS_BY_KEY
+            = Arrays.stream(values()).collect(toMap(Metric::getKey, x -> x));
+
     private final String key;
     private final String description;
     private final Unit unit;
@@ -39,11 +43,5 @@ public enum Metric {
             throw new RuntimeException("Metric key '" + key + "' not recognized.");
         }
         return metric;
-    }
-
-    static {
-        for (var metric : Metric.values()) {
-            METRICS_BY_KEY.put(metric.getKey(), metric);
-        }
     }
 }
