@@ -24,7 +24,7 @@ public class MacrosReport {
     private final ActivityService activityService;
     private final MetService metService;
     private final DietService dietService;
-    private final NumberFormat QUANTITY_FORMATTER = new DecimalFormat("0.#");
+    private final NumberFormat VALUE_FORMATTER = new DecimalFormat("0.#");
     private static final NumberFormat MACRO_PERCENTAGE_FORMATTER = NumberFormat.getInstance();
     private static final String MACROS_FOLDER_NAME = "macros";
 
@@ -84,14 +84,15 @@ public class MacrosReport {
             // quantity
             text.append("\n- ");
             if (portion.getQuantity() != null && portion.getQuantity() != 1) {
-                text.append(QUANTITY_FORMATTER.format(portion.getQuantity()));
+                text.append(VALUE_FORMATTER.format(portion.getQuantity()));
                 text.append(" x ");
             }
 
             // amount
-            if (portion.getAmountGrams() != null) {
-                text.append(portion.getAmountGrams());
-                text.append("g ");
+            if (portion.getAmount() != null) {
+                text.append(VALUE_FORMATTER.format(portion.getAmount().getValue()));
+                text.append(portion.getAmount().getUnit().getSymbol());
+                text.append(' ');
             }
 
             // portion

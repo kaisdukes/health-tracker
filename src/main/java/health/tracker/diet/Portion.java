@@ -1,5 +1,6 @@
 package health.tracker.diet;
 
+import health.tracker.Amount;
 import lombok.Data;
 
 @Data
@@ -7,7 +8,7 @@ public class Portion {
     String meal;
     String name;
     String brand;
-    Integer amountGrams;
+    Amount amount;
     Double quantity;
     double kcal;
     double protein;

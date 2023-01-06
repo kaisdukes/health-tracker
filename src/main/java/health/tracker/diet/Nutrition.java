@@ -1,12 +1,13 @@
 package health.tracker.diet;
 
+import health.tracker.Amount;
 import lombok.Data;
 
 @Data
 public class Nutrition {
     String name;
     String brand;
-    Integer amountGrams;
+    Amount amount;
     AmountType amountType;
     double kcal;
     double protein;

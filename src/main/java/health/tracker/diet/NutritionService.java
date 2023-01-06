@@ -1,12 +1,13 @@
 package health.tracker.diet;
 
+import health.tracker.Amount;
 import health.tracker.tsv.TsvReader;
 import health.tracker.tsv.TsvSchemaValidator;
 
 import java.nio.file.Path;
 import java.util.*;
 
-import static health.tracker.diet.AmountGrams.parseAmountGrams;
+import static health.tracker.Amount.parseAmount;
 import static java.lang.Double.parseDouble;
 
 public class NutritionService {
@@ -47,7 +48,7 @@ public class NutritionService {
                 case "by quantity" -> nutrition.setAmountType(AmountType.ByQuantity);
                 case "by weight" -> nutrition.setAmountType(AmountType.ByWeight);
                 default -> {
-                    nutrition.setAmountGrams(parseAmountGrams(amountText));
+                    nutrition.setAmount(parseAmount(amountText));
                     nutrition.setAmountType(AmountType.ByQuantity);
                 }
             }
@@ -65,7 +66,7 @@ public class NutritionService {
         }
     }
 
-    public Nutrition getNutrition(String name, String brand, Integer amountGrams) {
+    public Nutrition getNutrition(String name, String brand, Amount amount) {
         var nutritionList = nutritionByName.get(name);
         if (nutritionList != null) {
             for (var nutrition : nutritionList) {
@@ -74,7 +75,7 @@ public class NutritionService {
 
                     switch (nutrition.getAmountType()) {
                         case ByQuantity -> {
-                            if (amountGrams == null || Objects.equals(nutrition.getAmountGrams(), amountGrams)) {
+                            if (amount == null || Objects.equals(nutrition.getAmount(), amount)) {
                                 return nutrition;
                             }
                         }

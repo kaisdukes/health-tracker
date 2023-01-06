@@ -9,7 +9,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import static health.tracker.diet.AmountGrams.parseAmountGrams;
+import static health.tracker.Amount.parseAmount;
 import static health.tracker.io.Io.getFilesOrderedByDate;
 import static health.tracker.timeseries.MostRecent.getMostRecentItem;
 import static java.lang.Double.parseDouble;
@@ -51,7 +51,7 @@ public class DietService {
             portion.setMeal(text[0]);
             portion.setName(text[1]);
             portion.setBrand(!text[2].equals("any") ? text[2] : null);
-            portion.setAmountGrams(!text[3].equals("n/a") ? parseAmountGrams(text[3]) : null);
+            portion.setAmount(!text[3].equals("n/a") ? parseAmount(text[3]) : null);
             portion.setQuantity(!text[4].equals("n/a") ? parseDouble(text[4]) : null);
             diet.getPortions().add(portion);
         }
@@ -66,7 +66,7 @@ public class DietService {
             var nutrition = nutritionService.getNutrition(
                     portion.getName(),
                     portion.getBrand(),
-                    portion.getAmountGrams());
+                    portion.getAmount());
 
             var multiplier = 0d;
             switch (nutrition.getAmountType()) {
@@ -77,13 +77,13 @@ public class DietService {
                     multiplier = portion.getQuantity();
                 }
                 case ByWeight -> {
-                    if (portion.getAmountGrams() == null) {
+                    if (portion.getAmount() == null) {
                         throw new RuntimeException("Expected an amount to be specified for '" + portion.getName() + ".");
                     }
                     if (portion.getQuantity() != null) {
                         throw new RuntimeException("Expected no quantity to be specified for '" + portion.getName() + ".");
                     }
-                    multiplier = portion.getAmountGrams();
+                    multiplier = portion.getAmount().getValue();
                 }
             }
             portion.setKcal(multiplier * nutrition.getKcal());
