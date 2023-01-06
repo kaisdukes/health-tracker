@@ -9,12 +9,25 @@ public class Amount {
     double value;
     Unit unit;
 
-    public Amount toLiters() {
-        return switch (unit) {
-            case Liter -> this;
-            case Milliliter -> new Amount(value * 0.001, Unit.Liter);
-            default -> throw new RuntimeException("Can't convert unit to liters: " + unit);
-        };
+    public Amount to(Unit unit) {
+
+        // no conversion?
+        if (unit == this.unit) {
+            return this;
+        }
+
+        // liter -> milliliter
+        if (this.unit == Unit.Liter && unit == Unit.Milliliter) {
+            return new Amount(value * 1000, Unit.Milliliter);
+        }
+
+        // milliliter -> liter
+        if (this.unit == Unit.Milliliter && unit == Unit.Liter) {
+            return new Amount(value * 0.001, Unit.Liter);
+        }
+
+        // no match
+        throw new RuntimeException("Can't convert " + this.unit + " to " + unit);
     }
 
     public static Amount parseAmount(String text) {

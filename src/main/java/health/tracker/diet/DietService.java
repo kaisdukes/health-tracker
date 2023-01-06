@@ -1,5 +1,6 @@
 package health.tracker.diet;
 
+import health.tracker.Unit;
 import health.tracker.io.FilenameInfo;
 import health.tracker.tsv.TsvReader;
 import health.tracker.tsv.TsvSchemaValidator;
@@ -76,14 +77,14 @@ public class DietService {
                     }
                     multiplier = portion.getQuantity();
                 }
-                case ByWeight -> {
+                case ByUnit -> {
                     if (portion.getAmount() == null) {
                         throw new RuntimeException("Expected an amount to be specified for '" + portion.getName() + ".");
                     }
                     if (portion.getQuantity() != null) {
                         throw new RuntimeException("Expected no quantity to be specified for '" + portion.getName() + ".");
                     }
-                    multiplier = portion.getAmount().getValue();
+                    multiplier = portion.getAmount().to(nutrition.getByUnit()).getValue();
                 }
             }
             portion.setKcal(multiplier * nutrition.getKcal());
@@ -109,7 +110,7 @@ public class DietService {
             fat += portion.getFat();
             fiber += portion.getFiber();
             if (portion.getName().equals("water")) {
-                water += portion.getAmount().toLiters().getValue();
+                water += portion.getAmount().to(Unit.Liter).getValue();
             }
         }
         diet.setKcal((int) Math.round(kcal));

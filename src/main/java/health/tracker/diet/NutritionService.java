@@ -1,6 +1,7 @@
 package health.tracker.diet;
 
 import health.tracker.Amount;
+import health.tracker.Unit;
 import health.tracker.tsv.TsvReader;
 import health.tracker.tsv.TsvSchemaValidator;
 
@@ -44,13 +45,14 @@ public class NutritionService {
 
             // amount
             var amountText = text[2];
-            switch (amountText) {
-                case "by quantity" -> nutrition.setAmountType(AmountType.ByQuantity);
-                case "by weight" -> nutrition.setAmountType(AmountType.ByWeight);
-                default -> {
-                    nutrition.setAmount(parseAmount(amountText));
-                    nutrition.setAmountType(AmountType.ByQuantity);
-                }
+            if (amountText.equals("by quantity")) {
+                nutrition.setAmountType(AmountType.ByQuantity);
+            } else if (amountText.startsWith("per ")) {
+                nutrition.setAmountType(AmountType.ByUnit);
+                nutrition.setByUnit(Unit.getUnit(amountText.substring(4)));
+            } else {
+                nutrition.setAmount(parseAmount(amountText));
+                nutrition.setAmountType(AmountType.ByQuantity);
             }
 
             // values
@@ -79,7 +81,7 @@ public class NutritionService {
                                 return nutrition;
                             }
                         }
-                        case ByWeight -> {
+                        case ByUnit -> {
                             return nutrition;
                         }
                     }
