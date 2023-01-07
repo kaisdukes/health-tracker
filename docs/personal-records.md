@@ -1,7 +1,7 @@
 ### Personal records (8-12 reps)
 
-| Exercise | Weight | Reps | Date |
-| -------- | ------ | ---- | ---- |
+| Exercise | Weight (kg) | Reps | Date |
+| -------- | ----------- | ---- | ---- |
 | close grip dumbbell press | 36 | 8 | 04 Jan 2023 |
 | deadlifts | 75 | 10 | 05 Jan 2023 |
 | dumbbell flys | 36 | 10 | 26 Dec 2022 |

@@ -37,8 +37,8 @@ public class RecordsReport {
         var outputPath = docsPath.resolve("personal-records.md");
         try (var writer = new BufferedWriter(new FileWriter(outputPath.toFile()))) {
             writer.write("### Personal records (" + MIN_REPS + '-' + MAX_REPS + " reps)\n");
-            writer.write("\n| Exercise | Weight | Reps | Date |");
-            writer.write("\n| -------- | ------ | ---- | ---- |");
+            writer.write("\n| Exercise | Weight (kg) | Reps | Date |");
+            writer.write("\n| -------- | ----------- | ---- | ---- |");
             for (var record : records) {
                 writer.write("\n| ");
                 writer.write(record.getExercise());
