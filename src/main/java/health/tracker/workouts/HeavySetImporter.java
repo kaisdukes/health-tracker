@@ -42,7 +42,7 @@ public class HeavySetImporter {
 
                 // new workout?
                 var date = parse(row.getField("Date").substring(0, 10));
-                var workoutName = row.getField("Workout Name");
+                var workoutName = row.getField("Workout Name").toLowerCase();
                 if (workout == null || !workout.getDate().equals(date) || !workout.getName().equals(workoutName)) {
                     workout = new Workout();
                     workout.setName(workoutName);
@@ -52,7 +52,7 @@ public class HeavySetImporter {
 
                 // set
                 var set = new Set();
-                set.setExercise(row.getField("Exercise Name"));
+                set.setExercise(row.getField("Exercise Name").toLowerCase());
                 set.setReps(parseInt(row.getField("Reps")));
                 var weightKg = parseDouble(row.getField("Weight (kg)"));
                 if (weightKg != 0) {
