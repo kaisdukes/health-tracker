@@ -33,6 +33,10 @@ public class DietService {
         return diets.get(0).getDate();
     }
 
+    public LocalDate getEndDate() {
+        return diets.get(diets.size() - 1).getDate();
+    }
+
     public Diet getDiet(LocalDate date) {
         return getMostRecentItem(diets, Diet::getDate, date);
     }

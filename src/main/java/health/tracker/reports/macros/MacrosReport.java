@@ -46,8 +46,16 @@ public class MacrosReport {
 
     @SneakyThrows
     public void createReports() {
+
+        // run up to either today or to the last defined diet
         var startDate = dietService.getStartDate();
-        var endDate = now();
+        var endDate = dietService.getEndDate();
+        var today = now();
+        if (today.compareTo(endDate) > 0) {
+            endDate = today;
+        }
+
+        // reports
         String lastReport = null;
         for (var date = startDate; date.compareTo(endDate) <= 0; date = date.plusDays(1)) {
             var report = getMacrosReport(date);
