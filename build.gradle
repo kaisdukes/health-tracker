@@ -16,6 +16,7 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
 
     implementation 'org.jfree:jfreechart:1.5.3'
+    implementation 'de.siegmar:fastcsv:2.2.1'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.1'
     testImplementation 'org.hamcrest:hamcrest:2.2'

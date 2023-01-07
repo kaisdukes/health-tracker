@@ -11,10 +11,10 @@ import lombok.SneakyThrows;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.time.LocalDate;
 
+import static health.tracker.text.DoubleFormat.formatDouble;
 import static health.tracker.text.SentenceCase.toSentenceCase;
 import static java.time.LocalDate.now;
 
@@ -24,7 +24,6 @@ public class MacrosReport {
     private final ActivityService activityService;
     private final MetService metService;
     private final DietService dietService;
-    private final NumberFormat VALUE_FORMATTER = new DecimalFormat("0.#");
     private static final NumberFormat MACRO_PERCENTAGE_FORMATTER = NumberFormat.getInstance();
     private static final String REPORTS_FOLDER_NAME = "reports";
     private static final String MACROS_FOLDER_NAME = "macros";
@@ -94,13 +93,13 @@ public class MacrosReport {
             // quantity
             text.append("\n- ");
             if (portion.getQuantity() != null && portion.getQuantity() != 1) {
-                text.append(VALUE_FORMATTER.format(portion.getQuantity()));
+                text.append(formatDouble(portion.getQuantity()));
                 text.append(" x ");
             }
 
             // amount
             if (portion.getAmount() != null) {
-                text.append(VALUE_FORMATTER.format(portion.getAmount().getValue()));
+                text.append(formatDouble(portion.getAmount().getValue()));
                 text.append(portion.getAmount().getUnit().getSymbol());
                 text.append(' ');
             }
@@ -138,7 +137,7 @@ public class MacrosReport {
         text.append("\n- Fiber: ").append(diet.getFiber()).append('g');
 
         // water
-        text.append("\n- Water: ").append(VALUE_FORMATTER.format(diet.getWater())).append('l');
+        text.append("\n- Water: ").append(formatDouble(diet.getWater())).append('l');
 
         // calories
         text.append("\n\n### Calories\n");
