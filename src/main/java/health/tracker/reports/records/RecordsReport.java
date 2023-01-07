@@ -94,9 +94,14 @@ public class RecordsReport {
             return set.getReps() > record.getReps();
         }
 
-        // otherwise, compare weights
+        // if the weight is the same, need a higher number of reps
         var existingWeight = record.getWeightKg() != null ? record.getWeightKg() : 0;
         var newWeight = set.getWeightKg() != null ? set.getWeightKg() : 0;
+        if (newWeight == existingWeight) {
+            return set.getReps() > record.getReps();
+        }
+
+        // compare weights
         return newWeight > existingWeight;
     }
 }
