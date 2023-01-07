@@ -3,6 +3,7 @@ package health.tracker.reports;
 import health.tracker.activity.ActivityService;
 import health.tracker.activity.MetService;
 import health.tracker.diet.DietService;
+import health.tracker.exercises.ExerciseService;
 import health.tracker.metrics.HealthService;
 import health.tracker.metrics.Metric;
 import health.tracker.reports.macros.MacrosReport;
@@ -20,6 +21,7 @@ public class ReportService {
     private final MetService metService;
     private final DietService dietService;
     private final WorkoutService workoutService;
+    private final ExerciseService exerciseService;
 
     public ReportService(Path dataPath,
                          Path docsPath,
@@ -27,7 +29,8 @@ public class ReportService {
                          ActivityService activityService,
                          MetService metService,
                          DietService dietService,
-                         WorkoutService workoutService) {
+                         WorkoutService workoutService,
+                         ExerciseService exerciseService) {
 
         this.dataPath = dataPath;
         this.docsPath = docsPath;
@@ -36,6 +39,7 @@ public class ReportService {
         this.metService = metService;
         this.dietService = dietService;
         this.workoutService = workoutService;
+        this.exerciseService = exerciseService;
     }
 
     public void createReports() {
@@ -56,7 +60,8 @@ public class ReportService {
         // records
         var recordsReport = new RecordsReport(
                 docsPath,
-                workoutService);
+                workoutService,
+                exerciseService);
         recordsReport.createReport();
     }
 }
