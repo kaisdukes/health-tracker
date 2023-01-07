@@ -12,6 +12,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import static health.tracker.text.DoubleFormat.formatDouble;
+import static health.tracker.text.SentenceCase.toSentenceCase;
 import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toList;
 
@@ -41,7 +42,7 @@ public class RecordsReport {
             writer.write("\n| -------- | ----------- | ---- | ---- |");
             for (var record : records) {
                 writer.write("\n| ");
-                writer.write(record.getExercise());
+                writer.write(toSentenceCase(record.getExercise()));
                 writer.write(" | ");
                 writer.write(record.getWeightKg() != null ? formatDouble(record.getWeightKg()) : "n/a");
                 writer.write(" | ");
