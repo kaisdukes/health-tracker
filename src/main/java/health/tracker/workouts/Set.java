@@ -5,6 +5,6 @@ import lombok.Data;
 @Data
 public class Set {
     String exercise;
-    int reps;
+    Integer reps;
     Double weightKg;
 }

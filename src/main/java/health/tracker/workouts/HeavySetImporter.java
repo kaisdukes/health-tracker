@@ -50,10 +50,17 @@ public class HeavySetImporter {
                     workouts.add(workout);
                 }
 
-                // set
+                // exercise
                 var set = new Set();
                 set.setExercise(row.getField("Exercise Name").toLowerCase());
-                set.setReps(parseInt(row.getField("Reps")));
+
+                // reps
+                var reps = parseInt(row.getField("Reps"));
+                if (reps > 1) {
+                    set.setReps(reps);
+                }
+
+                // weight
                 var weightKg = parseDouble(row.getField("Weight (kg)"));
                 if (weightKg != 0) {
                     set.setWeightKg(weightKg);
@@ -82,7 +89,11 @@ public class HeavySetImporter {
                 writer.write('\t');
                 writer.write(set.getExercise());
                 writer.write('\t');
-                writer.write(Integer.toString(set.getReps()));
+                if (set.getReps() != null) {
+                    writer.write(Integer.toString(set.getReps()));
+                } else {
+                    writer.write("n/a");
+                }
                 writer.write('\t');
                 if (set.getWeightKg() != null) {
                     writer.write(formatDouble(set.getWeightKg()));

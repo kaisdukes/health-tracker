@@ -116,9 +116,14 @@ public class RecordsReport {
 
     private boolean isRecord(PersonalRecord record, Set set) {
 
+        // no reps?
+        if (set.getReps() == null) {
+            return false;
+        }
+
         // first set?
         if (record == null) {
-            return set.getReps() > 1;
+            return true;
         }
 
         // if below threshold, need a higher number of reps

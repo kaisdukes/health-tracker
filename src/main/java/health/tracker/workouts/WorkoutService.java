@@ -44,7 +44,7 @@ public class WorkoutService {
             }
             var set = new Set();
             set.setExercise(text[1]);
-            set.setReps(parseInt(text[2]));
+            set.setReps(!text[2].equals("n/a") ? parseInt(text[2]) : null);
             set.setWeightKg(!text[3].equals("n/a") ? parseDouble(text[3]) : null);
             workout.getSets().add(set);
         }
