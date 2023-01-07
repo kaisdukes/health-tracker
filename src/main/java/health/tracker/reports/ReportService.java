@@ -7,6 +7,8 @@ import health.tracker.metrics.HealthService;
 import health.tracker.metrics.Metric;
 import health.tracker.reports.macros.MacrosReport;
 import health.tracker.reports.metrics.MetricsReport;
+import health.tracker.reports.records.RecordsReport;
+import health.tracker.workouts.WorkoutService;
 
 import java.nio.file.Path;
 
@@ -17,13 +19,15 @@ public class ReportService {
     private final ActivityService activityService;
     private final MetService metService;
     private final DietService dietService;
+    private final WorkoutService workoutService;
 
     public ReportService(Path dataPath,
                          Path docsPath,
                          HealthService healthService,
                          ActivityService activityService,
                          MetService metService,
-                         DietService dietService) {
+                         DietService dietService,
+                         WorkoutService workoutService) {
 
         this.dataPath = dataPath;
         this.docsPath = docsPath;
@@ -31,6 +35,7 @@ public class ReportService {
         this.activityService = activityService;
         this.metService = metService;
         this.dietService = dietService;
+        this.workoutService = workoutService;
     }
 
     public void createReports() {
@@ -47,5 +52,11 @@ public class ReportService {
                 metService,
                 dietService);
         macrosReport.createReports();
+
+        // records
+        var recordsReport = new RecordsReport(
+                docsPath,
+                workoutService);
+        recordsReport.createReport();
     }
 }

@@ -5,6 +5,7 @@ import health.tracker.activity.MetService;
 import health.tracker.diet.DietService;
 import health.tracker.diet.NutritionService;
 import health.tracker.metrics.HealthService;
+import health.tracker.workouts.WorkoutService;
 import org.junit.jupiter.api.Test;
 
 import static health.tracker.TestContext.DATA_PATH;
@@ -19,13 +20,15 @@ class ReportServiceTest {
         var metService = new MetService(DATA_PATH);
         var nutritionService = new NutritionService(DATA_PATH);
         var dietService = new DietService(DATA_PATH, nutritionService);
+        var workoutService = new WorkoutService(DATA_PATH);
         var reportService = new ReportService(
                 DATA_PATH,
                 DOCS_PATH,
                 healthService,
                 activityService,
                 metService,
-                dietService);
+                dietService,
+                workoutService);
         reportService.createReports();
     }
 }
