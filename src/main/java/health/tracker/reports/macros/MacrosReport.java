@@ -67,6 +67,7 @@ public class MacrosReport {
         var text = new StringBuilder();
         var diet = dietService.getDiet(date);
 
+        // meals
         String meal = null;
         for (var portion : diet.getPortions()) {
 
