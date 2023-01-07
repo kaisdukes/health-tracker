@@ -11,19 +11,22 @@ import health.tracker.reports.metrics.MetricsReport;
 import java.nio.file.Path;
 
 public class ReportService {
-    private final Path basePath;
+    private final Path dataPath;
+    private final Path docsPath;
     private final HealthService healthService;
     private final ActivityService activityService;
     private final MetService metService;
     private final DietService dietService;
 
-    public ReportService(Path basePath,
+    public ReportService(Path dataPath,
+                         Path docsPath,
                          HealthService healthService,
                          ActivityService activityService,
                          MetService metService,
                          DietService dietService) {
 
-        this.basePath = basePath;
+        this.dataPath = dataPath;
+        this.docsPath = docsPath;
         this.healthService = healthService;
         this.activityService = activityService;
         this.metService = metService;
@@ -33,12 +36,12 @@ public class ReportService {
     public void createReports() {
 
         // metrics
-        var metricsReport = new MetricsReport(basePath, healthService);
+        var metricsReport = new MetricsReport(dataPath, healthService);
         metricsReport.createReport(Metric.WeightKg);
 
         // macros
         var macrosReport = new MacrosReport(
-                basePath,
+                docsPath,
                 healthService,
                 activityService,
                 metService,

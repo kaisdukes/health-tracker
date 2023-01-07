@@ -19,23 +19,24 @@ import static health.tracker.text.SentenceCase.toSentenceCase;
 import static java.time.LocalDate.now;
 
 public class MacrosReport {
-    private final Path basePath;
+    private final Path docsPath;
     private final HealthService healthService;
     private final ActivityService activityService;
     private final MetService metService;
     private final DietService dietService;
     private final NumberFormat VALUE_FORMATTER = new DecimalFormat("0.#");
     private static final NumberFormat MACRO_PERCENTAGE_FORMATTER = NumberFormat.getInstance();
+    private static final String REPORTS_FOLDER_NAME = "reports";
     private static final String MACROS_FOLDER_NAME = "macros";
 
     public MacrosReport(
-            Path basePath,
+            Path docsPath,
             HealthService healthService,
             ActivityService activityService,
             MetService metService,
             DietService dietService) {
 
-        this.basePath = basePath;
+        this.docsPath = docsPath;
         this.healthService = healthService;
         this.activityService = activityService;
         this.metService = metService;
@@ -52,7 +53,10 @@ public class MacrosReport {
         for (var date = startDate; date.compareTo(endDate) <= 0; date = date.plusDays(1)) {
             var report = getMacrosReport(date);
             if (!report.equals(lastReport)) {
-                var outputPath = basePath.resolve(MACROS_FOLDER_NAME).resolve(date + "-macros.md");
+                var outputPath = docsPath
+                        .resolve(REPORTS_FOLDER_NAME)
+                        .resolve(MACROS_FOLDER_NAME)
+                        .resolve(date + "-macros.md");
                 Files.writeString(outputPath, report);
                 lastReport = report;
             }

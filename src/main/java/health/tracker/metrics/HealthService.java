@@ -14,14 +14,14 @@ import static health.tracker.io.Io.getFilenameWithoutExtension;
 import static health.tracker.io.Io.getFiles;
 
 public class HealthService {
-    private final Path basePath;
+    private final Path dataPath;
     private final Map<Metric, TimeSeries> metrics = new HashMap<>();
     private final Map<Metric, TimeSeries> averagedMetrics = new HashMap<>();
     private static final String METRICS_FOLDER_NAME = "metrics";
     private static final int AVERAGE_DAY_COUNT = 7;
 
-    public HealthService(Path basePath) {
-        this.basePath = basePath;
+    public HealthService(Path dataPath) {
+        this.dataPath = dataPath;
         loadMetrics();
     }
 
@@ -58,7 +58,7 @@ public class HealthService {
     @SneakyThrows
     private void loadMetrics() {
         getFiles(
-                basePath.resolve(METRICS_FOLDER_NAME),
+                dataPath.resolve(METRICS_FOLDER_NAME),
                 "tsv")
                 .forEach(path -> {
                     var metric = Metric.getMetric(getFilenameWithoutExtension(path));

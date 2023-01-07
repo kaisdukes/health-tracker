@@ -19,9 +19,9 @@ public class ActivityService {
     private final List<DailyActivities> activities = new ArrayList<>();
     private static final String ACTIVITY_FOLDER_NAME = "activity";
 
-    public ActivityService(Path basePath) {
+    public ActivityService(Path dataPath) {
         getFilesOrderedByDate(
-                basePath.resolve(ACTIVITY_FOLDER_NAME), "tsv")
+                dataPath.resolve(ACTIVITY_FOLDER_NAME), "tsv")
                 .forEach(this::readDailyActivities);
     }
 

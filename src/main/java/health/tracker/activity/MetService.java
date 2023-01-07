@@ -12,10 +12,10 @@ import static java.lang.Double.parseDouble;
 public class MetService {
     private final Map<String, Met> mets = new HashMap<>();
 
-    public MetService(Path basePath) {
+    public MetService(Path dataPath) {
 
         // columns
-        var reader = new TsvReader(basePath.resolve("met.tsv"));
+        var reader = new TsvReader(dataPath.resolve("met.tsv"));
         var validator = new TsvSchemaValidator("Name", "MET");
         validator.validate(reader);
 

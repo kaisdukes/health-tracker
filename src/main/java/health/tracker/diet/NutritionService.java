@@ -14,10 +14,10 @@ import static java.lang.Double.parseDouble;
 public class NutritionService {
     private final Map<String, List<Nutrition>> nutritionByName = new HashMap<>();
 
-    public NutritionService(Path basePath) {
+    public NutritionService(Path dataPath) {
 
         // columns
-        var reader = new TsvReader(basePath.resolve("nutrition.tsv"));
+        var reader = new TsvReader(dataPath.resolve("nutrition.tsv"));
         var validator = new TsvSchemaValidator(
                 "Name",
                 "Brand",

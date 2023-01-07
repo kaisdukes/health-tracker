@@ -28,11 +28,11 @@ public class MetricsReport {
     private static final int AVERAGE_DAY_COUNT = 7;
     private static final NumberFormat NUMBER_FORMATTER = NumberFormat.getInstance();
     private static final String REPORTS_FOLDER_NAME = "reports";
-    private final Path basePath;
+    private final Path dataPath;
     private final HealthService healthService;
 
-    public MetricsReport(Path basePath, HealthService healthService) {
-        this.basePath = basePath;
+    public MetricsReport(Path dataPath, HealthService healthService) {
+        this.dataPath = dataPath;
         this.healthService = healthService;
         NUMBER_FORMATTER.setMinimumFractionDigits(2);
         NUMBER_FORMATTER.setMaximumFractionDigits(2);
@@ -76,7 +76,7 @@ public class MetricsReport {
         g.dispose();
 
         // write
-        var outputPath = basePath.resolve(REPORTS_FOLDER_NAME).resolve(metric.getKey() + ".png");
+        var outputPath = dataPath.resolve(REPORTS_FOLDER_NAME).resolve(metric.getKey() + ".png");
         ImageIO.write(bufferedImage, "png", outputPath.toFile());
     }
 

@@ -22,10 +22,10 @@ public class DietService {
     private final List<Diet> diets = new ArrayList<>();
     private static final String DIET_FOLDER_NAME = "diet";
 
-    public DietService(Path basePath, NutritionService nutritionService) {
+    public DietService(Path dataPath, NutritionService nutritionService) {
         this.nutritionService = nutritionService;
         getFilesOrderedByDate(
-                basePath.resolve(DIET_FOLDER_NAME), "tsv")
+                dataPath.resolve(DIET_FOLDER_NAME), "tsv")
                 .forEach(this::readDiet);
     }
 

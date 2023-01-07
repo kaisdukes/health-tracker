@@ -7,18 +7,25 @@ import health.tracker.diet.NutritionService;
 import health.tracker.metrics.HealthService;
 import org.junit.jupiter.api.Test;
 
-import static health.tracker.TestContext.BASE_PATH;
+import static health.tracker.TestContext.DATA_PATH;
+import static health.tracker.TestContext.DOCS_PATH;
 
 class ReportServiceTest {
 
     @Test
     void shouldCreateReports() {
-        var healthService = new HealthService(BASE_PATH);
-        var activityService = new ActivityService(BASE_PATH);
-        var metService = new MetService(BASE_PATH);
-        var nutritionService = new NutritionService(BASE_PATH);
-        var dietService = new DietService(BASE_PATH, nutritionService);
-        var reportService = new ReportService(BASE_PATH, healthService, activityService, metService, dietService);
+        var healthService = new HealthService(DATA_PATH);
+        var activityService = new ActivityService(DATA_PATH);
+        var metService = new MetService(DATA_PATH);
+        var nutritionService = new NutritionService(DATA_PATH);
+        var dietService = new DietService(DATA_PATH, nutritionService);
+        var reportService = new ReportService(
+                DATA_PATH,
+                DOCS_PATH,
+                healthService,
+                activityService,
+                metService,
+                dietService);
         reportService.createReports();
     }
 }

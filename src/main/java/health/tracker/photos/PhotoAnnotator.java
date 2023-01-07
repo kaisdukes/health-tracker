@@ -24,7 +24,7 @@ import static health.tracker.photos.PhotoFilenameParser.parsePhotoFilename;
 import static health.tracker.text.SentenceCase.toSentenceCase;
 
 public class PhotoAnnotator {
-    private final Path basePath;
+    private final Path dataPath;
     private final HealthService healthService;
     private static final int SCALED_HEIGHT = 1000;
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd MMM yyyy");
@@ -33,15 +33,15 @@ public class PhotoAnnotator {
     private static final String ANNOTATED_FOLDER_NAME = "annotated";
     private static final String IMAGE_FORMAT = "jpeg";
 
-    public PhotoAnnotator(Path basePath, HealthService healthService) {
-        this.basePath = basePath;
+    public PhotoAnnotator(Path dataPath, HealthService healthService) {
+        this.dataPath = dataPath;
         this.healthService = healthService;
     }
 
     @SneakyThrows
     public void annotate() {
         getFiles(
-                basePath.resolve(PHOTOS_FOLDER_NAME).resolve(ORIGINALS_FOLDER_NAME),
+                dataPath.resolve(PHOTOS_FOLDER_NAME).resolve(ORIGINALS_FOLDER_NAME),
                 IMAGE_FORMAT)
                 .forEach(this::annotatePhoto);
     }
@@ -75,7 +75,7 @@ public class PhotoAnnotator {
 
         // write
         var originalFilename = originalPath.getFileName().toString();
-        var outputPath = basePath
+        var outputPath = dataPath
                 .resolve(PHOTOS_FOLDER_NAME)
                 .resolve(Paths.get(ANNOTATED_FOLDER_NAME, originalFilename));
         writeHighQualityJpeg(bufferedImage, outputPath);
