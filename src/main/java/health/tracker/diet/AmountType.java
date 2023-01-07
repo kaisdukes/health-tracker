@@ -2,5 +2,6 @@ package health.tracker.diet;
 
 public enum AmountType {
     ByQuantity,
-    ByUnit
+    ByUnit,
+    NotApplicable
 }

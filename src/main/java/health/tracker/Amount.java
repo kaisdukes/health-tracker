@@ -38,28 +38,28 @@ public class Amount {
         }
 
         // split
-        var i = text.length() - 1;
-        while (i >= 0 && isText(text.charAt(i))) {
-            i--;
+        var i = 0;
+        while (i < text.length() && isNumeric(text.charAt(i))) {
+            i++;
         }
 
         // no value?
-        if (i == -1) {
+        if (i == 0) {
             throw new RuntimeException("Invalid amount without value: '" + text + "'.");
         }
 
         // no unit?
-        if (i == text.length() - 1) {
+        if (i == text.length()) {
             throw new RuntimeException("Invalid amount without unit: '" + text + "'.");
         }
 
         // parse
-        var value = parseDouble(text.substring(0, i + 1));
-        var unit = Unit.getUnit(text.substring(i + 1));
+        var value = parseDouble(text.substring(0, i));
+        var unit = Unit.getUnit(text.substring(i));
         return new Amount(value, unit);
     }
 
-    private static boolean isText(char ch) {
-        return (ch >= 'a' && ch <= 'z') || ch == '%';
+    private static boolean isNumeric(char ch) {
+        return (ch >= '0' && ch <= '9') || ch == '.' || ch == '-';
     }
 }

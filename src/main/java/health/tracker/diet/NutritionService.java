@@ -50,6 +50,8 @@ public class NutritionService {
             } else if (amountText.startsWith("per ")) {
                 nutrition.setAmountType(AmountType.ByUnit);
                 nutrition.setByUnit(Unit.getUnit(amountText.substring(4)));
+            } else if (amountText.equals("n/a")) {
+                nutrition.setAmountType(AmountType.NotApplicable);
             } else {
                 nutrition.setAmount(parseAmount(amountText));
                 nutrition.setAmountType(AmountType.ByQuantity);
@@ -82,6 +84,12 @@ public class NutritionService {
                             }
                         }
                         case ByUnit -> {
+                            return nutrition;
+                        }
+                        case NotApplicable -> {
+                            if (amount != null) {
+                                throw new RuntimeException("Expected no amount to be specified for '" + name + "'.");
+                            }
                             return nutrition;
                         }
                     }

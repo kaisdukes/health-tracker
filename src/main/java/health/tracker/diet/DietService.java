@@ -69,24 +69,24 @@ public class DietService {
                     portion.getBrand(),
                     portion.getAmount());
 
-            var multiplier = 0d;
-            switch (nutrition.getAmountType()) {
+            var multiplier = switch (nutrition.getAmountType()) {
                 case ByQuantity -> {
                     if (portion.getQuantity() == null) {
                         throw new RuntimeException("Expected a quantity to be specified for '" + portion.getName() + ".");
                     }
-                    multiplier = portion.getQuantity();
+                    yield portion.getQuantity();
                 }
                 case ByUnit -> {
                     if (portion.getAmount() == null) {
-                        throw new RuntimeException("Expected an amount to be specified for '" + portion.getName() + ".");
+                        throw new RuntimeException("Expected an amount to be specified for '" + portion.getName() + "'.");
                     }
                     if (portion.getQuantity() != null) {
-                        throw new RuntimeException("Expected no quantity to be specified for '" + portion.getName() + ".");
+                        throw new RuntimeException("Expected no quantity to be specified for '" + portion.getName() + "'.");
                     }
-                    multiplier = portion.getAmount().to(nutrition.getByUnit()).getValue();
+                    yield portion.getAmount().to(nutrition.getByUnit()).getValue();
                 }
-            }
+                case NotApplicable -> 1;
+            };
             portion.setKcal(multiplier * nutrition.getKcal());
             portion.setProtein(multiplier * nutrition.getProtein());
             portion.setCarbs(multiplier * nutrition.getCarbs());

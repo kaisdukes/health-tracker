@@ -8,6 +8,7 @@ import static java.util.stream.Collectors.toMap;
 public enum Unit {
     Percentage("%"),
     Gram("g"),
+    Microgram("μg"),
     Kilogram("kg"),
     Liter("l"),
     Milliliter("ml");
