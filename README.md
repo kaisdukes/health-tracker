@@ -4,4 +4,4 @@ Tracks metrics including bodyweight, body fat percentage and lean mass (with pro
 
 ### Useful links
 
-* [Macros](tree/main/docs/reports/macros)
+* [Macros](docs/reports/macros)
