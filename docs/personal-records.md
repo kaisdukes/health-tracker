@@ -10,6 +10,7 @@
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
+| Hanging knee raise | n/a | 8 | 07 Jan 2023 |
 | Hanging leg raise | n/a | 6 | 04 Jan 2023 |
 
 ### Back
@@ -40,8 +41,8 @@
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
-| Dumbbell flys | 36 | 10 | 26 Dec 2022 |
-| Flat chest dumbbells | 52 | 10 | 20 Dec 2022 |
+| Dumbbell flys | 36 | 11 | 07 Jan 2023 |
+| Flat chest dumbbells | 56 | 8 | 07 Jan 2023 |
 | Incline chest dumbbells | 48 | 9 | 26 Dec 2022 |
 
 ### Hamstrings
@@ -65,6 +66,8 @@
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
+| Dumbbell front raise | 28 | 8 | 07 Jan 2023 |
+| Dumbbell shoulder flys | 32 | 8 | 07 Jan 2023 |
 | Shoulder press | 32 | 11 | 04 Jan 2023 |
 
 ### Traps

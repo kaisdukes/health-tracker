@@ -78,22 +78,26 @@ public class HeavySetImporter {
                 .resolve(workout.getDate() + "-workout.tsv");
 
         try (var writer = new BufferedWriter(new FileWriter(outputPath.toFile()))) {
-
-            // header
             writer.write("Workout\tExercise\tReps\tWeight");
-
-            // sets
             for (var set : workout.getSets()) {
+
+                // name
                 writer.write('\n');
                 writer.write(workout.getName());
+
+                // exercise
                 writer.write('\t');
                 writer.write(set.getExercise());
+
+                // reps
                 writer.write('\t');
                 if (set.getReps() != null) {
                     writer.write(Integer.toString(set.getReps()));
                 } else {
                     writer.write("n/a");
                 }
+
+                // weight
                 writer.write('\t');
                 if (set.getWeightKg() != null) {
                     writer.write(formatDouble(set.getWeightKg()));
