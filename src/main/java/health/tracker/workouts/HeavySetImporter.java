@@ -24,17 +24,17 @@ public class HeavySetImporter {
 
     public void importFile(Path path) {
 
-        // import
-        var workouts = importWorkouts(path);
+        // read
+        var workouts = readWorkouts(path);
 
-        // export
+        // import
         for (var workout : workouts) {
-            exportWorkout(workout);
+            importWorkout(workout);
         }
     }
 
     @SneakyThrows
-    private List<Workout> importWorkouts(Path path) {
+    private List<Workout> readWorkouts(Path path) {
         Workout workout = null;
         var workouts = new ArrayList<Workout>();
         try (var reader = NamedCsvReader.builder().build(path)) {
@@ -72,7 +72,7 @@ public class HeavySetImporter {
     }
 
     @SneakyThrows
-    private void exportWorkout(Workout workout) {
+    private void importWorkout(Workout workout) {
         var outputPath = dataPath
                 .resolve(WORKOUTS_FOLDER_NAME)
                 .resolve(workout.getDate() + "-workout.tsv");
