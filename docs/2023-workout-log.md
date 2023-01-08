@@ -93,13 +93,13 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Exercise                    | Sets | Main muscle groups        | Target weight (kg)           |
 | --------------------------- | ---- | ------------------------- | ---------------------------- |
 | 4-minute cycle warm up      | n/a  | n/a                       | n/a                          |
-| Pull-ups                    | 3    | Back                      | n/a                          |
-| Squats (including bar only) | 5    | Quads, hamstrings, calves | 20, 60, 65, 70, 75           |
-| Leg press                   | 6    | Quads, hamstrings, calves | 110, 120, 130, 140, 150, 160 |
-| Close grip dumbbell press   | 3    | Triceps                   | 36, 40, 44                   |
-| Skull crushers              | 3    | Triceps                   | 22.5, 25, 27.5               |
-| Tricep push downs           | 2    | Triceps                   | 27, 32                       |
-| Preacher curls              | 4    | Biceps                    | 32.5, 35, 35, 37.5           |
+| [Pull-ups](reports/exercises/pull-ups.md)                    | 3    | Back                      | n/a                          |
+| [Squats (including bar only)](reports/exercises/squats.md) | 5    | Quads, hamstrings, calves | 20, 60, 65, 70, 75           |
+| [Leg press](reports/exercises/leg-press.md)                   | 6    | Quads, hamstrings, calves | 110, 120, 130, 140, 150, 160 |
+| [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md)   | 3    | Triceps                   | 36, 40, 44                   |
+| [Skull crushers](reports/exercises/skull-crushers.md)              | 3    | Triceps                   | 22.5, 25, 27.5               |
+| [Tricep push downs](reports/exercises/tricep-push-downs.md)           | 2    | Triceps                   | 27, 32                       |
+| [Preacher curls](reports/exercises/preacher-curls.md)              | 4    | Biceps                    | 32.5, 35, 35, 37.5           |
 
 ## Volume and sets per muscle group
 
