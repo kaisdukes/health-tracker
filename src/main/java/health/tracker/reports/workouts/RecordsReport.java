@@ -1,4 +1,4 @@
-package health.tracker.reports.records;
+package health.tracker.reports.workouts;
 
 import health.tracker.exercises.ExerciseService;
 import health.tracker.workouts.Set;

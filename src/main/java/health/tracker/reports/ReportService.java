@@ -8,7 +8,7 @@ import health.tracker.metrics.HealthService;
 import health.tracker.metrics.Metric;
 import health.tracker.reports.macros.MacrosReport;
 import health.tracker.reports.metrics.MetricsReport;
-import health.tracker.reports.records.RecordsReport;
+import health.tracker.reports.workouts.RecordsReport;
 import health.tracker.workouts.WorkoutService;
 
 import java.nio.file.Path;
