@@ -14,17 +14,16 @@ import java.awt.image.BufferedImage;
 import java.nio.file.Path;
 import java.text.NumberFormat;
 import java.time.ZoneId;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.Map;
 
 import static health.tracker.text.SentenceCase.toSentenceCase;
+import static health.tracker.text.ShortDateFormat.formatShortDate;
 
 public class MetricsReport {
     private static final int FONT_SIZE = 12;
     private static final int IMAGE_WIDTH = 1000;
     private static final int IMAGE_HEIGHT = 700;
-    private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd MMM yyyy");
     private static final int AVERAGE_DAY_COUNT = 7;
     private static final NumberFormat NUMBER_FORMATTER = NumberFormat.getInstance();
     private static final String REPORTS_FOLDER_NAME = "reports";
@@ -169,7 +168,7 @@ public class MetricsReport {
         for (var i = 0; i < valueCount; i++) {
             var timeSeriesIndex = timeSeries.size() - valueCount + i;
 
-            dateColumn.getValues().add(DATE_FORMATTER.format(
+            dateColumn.getValues().add(formatShortDate(
                     timeSeries.get(timeSeriesIndex).getDate()));
 
             valueColumn.getValues().add(NUMBER_FORMATTER.format(

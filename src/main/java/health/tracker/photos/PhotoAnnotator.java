@@ -16,18 +16,17 @@ import java.awt.image.BufferedImage;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.Map;
 
 import static health.tracker.io.Io.getFiles;
 import static health.tracker.photos.PhotoFilenameParser.parsePhotoFilename;
 import static health.tracker.text.SentenceCase.toSentenceCase;
+import static health.tracker.text.ShortDateFormat.formatShortDate;
 
 public class PhotoAnnotator {
     private final Path dataPath;
     private final HealthService healthService;
     private static final int SCALED_HEIGHT = 1000;
-    private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd MMM yyyy");
     private static final String PHOTOS_FOLDER_NAME = "photos";
     private static final String ORIGINALS_FOLDER_NAME = "originals";
     private static final String ANNOTATED_FOLDER_NAME = "annotated";
@@ -113,7 +112,7 @@ public class PhotoAnnotator {
     private String[] getAnnotations(PhotoInfo photoInfo) {
         var date = photoInfo.getDate();
         return new String[]{
-                DATE_FORMATTER.format(date),
+                formatShortDate(date),
                 formatMetric(Metric.WeightKg, date),
                 formatMetric(Metric.BodyFatPercentage, date),
                 formatKeywords(photoInfo.getKeywords())};

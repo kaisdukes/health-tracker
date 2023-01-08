@@ -8,6 +8,7 @@ import health.tracker.metrics.HealthService;
 import health.tracker.metrics.Metric;
 import health.tracker.reports.macros.MacrosReport;
 import health.tracker.reports.metrics.MetricsReport;
+import health.tracker.reports.workouts.ExerciseReports;
 import health.tracker.reports.workouts.RecordsReport;
 import health.tracker.workouts.WorkoutService;
 
@@ -58,10 +59,11 @@ public class ReportService {
         macrosReport.createReports();
 
         // records
-        var recordsReport = new RecordsReport(
-                docsPath,
-                workoutService,
-                exerciseService);
+        var recordsReport = new RecordsReport(docsPath, workoutService, exerciseService);
         recordsReport.createReport();
+
+        // exercises
+        var exerciseReports = new ExerciseReports(docsPath, workoutService);
+        exerciseReports.createReports();
     }
 }

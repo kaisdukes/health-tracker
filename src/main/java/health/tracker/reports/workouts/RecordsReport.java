@@ -9,7 +9,6 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.Writer;
 import java.nio.file.Path;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -17,6 +16,7 @@ import java.util.Map;
 
 import static health.tracker.text.DoubleFormat.formatDouble;
 import static health.tracker.text.SentenceCase.toSentenceCase;
+import static health.tracker.text.ShortDateFormat.formatShortDate;
 import static java.util.Comparator.comparing;
 import static java.util.Map.Entry.comparingByKey;
 import static java.util.stream.Collectors.toList;
@@ -27,7 +27,6 @@ public class RecordsReport {
     private final ExerciseService exerciseService;
     private static final int MIN_REPS = 8;
     private static final int MAX_REPS = 12;
-    private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd MMM yyyy");
 
     public RecordsReport(Path docsPath, WorkoutService workoutService, ExerciseService exerciseService) {
         this.docsPath = docsPath;
@@ -60,14 +59,16 @@ public class RecordsReport {
         writer.write("\n| Exercise | Weight (kg) | Reps | Date |");
         writer.write("\n| -------- | ----------- | ---- | ---- |");
         for (var record : records) {
-            writer.write("\n| ");
+            writer.write("\n| [");
             writer.write(toSentenceCase(record.getExercise()));
-            writer.write(" | ");
+            writer.write("](exercises/");
+            writer.write(record.getExercise().replace(' ', '-'));
+            writer.write(".md) | ");
             writer.write(record.getWeightKg() != null ? formatDouble(record.getWeightKg()) : "n/a");
             writer.write(" | ");
             writer.write(Integer.toString(record.getReps()));
             writer.write(" | ");
-            writer.write(DATE_FORMATTER.format(record.getDate()));
+            writer.write(formatShortDate(record.getDate()));
             writer.write(" |");
         }
     }
