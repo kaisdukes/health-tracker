@@ -61,13 +61,13 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md) | 3    | Triceps            | 36, 40, 44         |
 | [Skull crushers](reports/exercises/skull-crushers.md)            | 3    | Triceps            | 22.5, 25, 27.5     |
 | [Tricep push downs](reports/exercises/tricep-push-downs.md)         | 2    | Triceps            | 27, 32             |
-| [Hanging leg raise](reports/exercises/hanging-leg-raise.md)         | 4    | Abs                |                    |
+| [Hanging leg raise](reports/exercises/hanging-leg-raise.md)         | 4    | Abs                | n/a                |
 
 ### Day 2: Back and biceps (26 sets)
 
 | Exercise         | Sets | Main muscle groups | Target weight (kg)       |
 | ---------------- | ---- | ------------------ | ------------------------ |
-| [Pull-ups](reports/exercises/pull-ups.md)         | 3    | Back               |                          |
+| [Pull-ups](reports/exercises/pull-ups.md)         | 3    | Back               | n/a                      |
 | [Deadlifts](reports/exercises/deadlifts.md)        | 4    | Back               | 60, 65, 70, 75           |
 | [Pull downs](reports/exercises/pull-downs.md)       | 3    | Back               | 52, 59, 66               |
 | [V-bar pull downs](reports/exercises/v-bar-pull-downs.md) | 3    | Back               | 52, 59, 66               |
@@ -85,15 +85,15 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | [Shoulder press](reports/exercises/shoulder-press.md)          | 4    | Shoulders          | 28, 32, 36, 36     |
 | [Dumbbell shoulder flys](reports/exercises/dumbbell-shoulder-flys.md)  | 3    | Shoulders          | 24, 28, 32         |
 | [Dumbbell front raise](reports/exercises/dumbbell-front-raise.md)    | 3    | Shoulders          | 20, 24, 28         |
-| [Hanging knee raise](reports/exercises/hanging-knee-raise.md)      | 2    | Abs                |                    |
-| [Hanging leg raise](reports/exercises/hanging-leg-raise.md)       | 4    | Abs                |                    |
+| [Hanging knee raise](reports/exercises/hanging-knee-raise.md)      | 2    | Abs                | n/a                |
+| [Hanging leg raise](reports/exercises/hanging-leg-raise.md)       | 4    | Abs                | n/a                |
 
 ### Day 6: Legs and arms (26 sets)
 
 | Exercise                    | Sets | Main muscle groups        | Target weight (kg)           |
 | --------------------------- | ---- | ------------------------- | ---------------------------- |
-| 4-minute cycle warm up      |      |                           |                              |
-| Pull-ups                    | 3    | Back                      |                              |
+| 4-minute cycle warm up      | n/a  | n/a                       | n/a                          |
+| Pull-ups                    | 3    | Back                      | n/a                          |
 | Squats (including bar only) | 5    | Quads, hamstrings, calves | 20, 60, 65, 70, 75           |
 | Leg press                   | 6    | Quads, hamstrings, calves | 110, 120, 130, 140, 150, 160 |
 | Close grip dumbbell press   | 3    | Triceps                   | 36, 40, 44                   |
