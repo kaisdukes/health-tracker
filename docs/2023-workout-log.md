@@ -54,7 +54,7 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 
 | Exercise                  | Sets | Main muscle groups | Target weight (kg) |
 | ------------------------- | ---- | ------------------ | ------------------ |
-| Flat chest dumbbells      | 4    | Chest              | 44, 48, 52, 56     |
+| [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md)      | 4    | Chest              | 44, 48, 52, 56     |
 | Incline chest dumbbells   | 4    | Chest              | 40, 44, 48, 52     |
 | Dumbbell flys             | 2    | Chest              | 36, 36             |
 | Shoulder press            | 4    | Shoulders          | 28, 32, 36, 36      |
