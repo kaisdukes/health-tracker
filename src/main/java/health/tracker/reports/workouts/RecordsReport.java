@@ -61,7 +61,7 @@ public class RecordsReport {
         for (var record : records) {
             writer.write("\n| [");
             writer.write(toSentenceCase(record.getExercise()));
-            writer.write("](exercises/");
+            writer.write("](reports/exercises/");
             writer.write(record.getExercise().replace(' ', '-'));
             writer.write(".md) | ");
             writer.write(record.getWeightKg() != null ? formatDouble(record.getWeightKg()) : "n/a");
