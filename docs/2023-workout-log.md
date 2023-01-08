@@ -79,14 +79,14 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 
 | Exercise                | Sets | Main muscle groups | Target weight (kg) |
 | ----------------------- | ---- | ------------------ | ------------------ |
-| Flat chest dumbbells    | 4    | Chest              | 44, 48, 52, 56     |
-| Incline chest dumbbells | 4    | Chest              | 40, 44, 48, 52     |
-| Dumbbell flys           | 2    | Chest              | 36, 36             |
-| Shoulder press          | 4    | Shoulders          | 28, 32, 36, 36     |
-| Dumbbell shoulder flys  | 3    | Shoulders          | 24, 28, 32         |
-| Dumbbell front raise    | 3    | Shoulders          | 20, 24, 28         |
-| Hanging knee raise      | 2    | Abs                |                    |
-| Hanging leg raise       | 4    | Abs                |                    |
+| [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md)    | 4    | Chest              | 44, 48, 52, 56     |
+| [Incline chest dumbbells](reports/exercises/incline-chest-dumbbells.md) | 4    | Chest              | 40, 44, 48, 52     |
+| [Dumbbell flys](reports/exercises/dumbbell-flys.md)           | 2    | Chest              | 36, 36             |
+| [Shoulder press](reports/exercises/shoulder-press.md)          | 4    | Shoulders          | 28, 32, 36, 36     |
+| [Dumbbell shoulder flys](reports/exercises/dumbbell-shoulder-flys.md)  | 3    | Shoulders          | 24, 28, 32         |
+| [Dumbbell front raise](reports/exercises/dumbbell-front-raise.md)    | 3    | Shoulders          | 20, 24, 28         |
+| [Hanging knee raise](reports/exercises/hanging-knee-raise.md)      | 2    | Abs                |                    |
+| [Hanging leg raise](reports/exercises/hanging-leg-raise.md)       | 4    | Abs                |                    |
 
 ### Day 6: Legs and arms (26 sets)
 
