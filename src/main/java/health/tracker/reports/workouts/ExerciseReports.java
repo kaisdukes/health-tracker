@@ -1,20 +1,22 @@
 package health.tracker.reports.workouts;
 
+import health.tracker.workouts.Set;
 import health.tracker.workouts.WorkoutService;
 import lombok.SneakyThrows;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.io.Writer;
 import java.nio.file.Path;
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+import java.util.stream.StreamSupport;
 
 import static health.tracker.text.DoubleFormat.formatDouble;
 import static health.tracker.text.SentenceCase.toSentenceCase;
 import static health.tracker.text.ShortDateFormat.formatShortDate;
+import static java.util.Comparator.reverseOrder;
 
 public class ExerciseReports {
     private final Path docsPath;
@@ -28,61 +30,56 @@ public class ExerciseReports {
     }
 
     public void createReports() {
-        var datedSetsByExercise = groupSetsByExercise();
-        writeReports(datedSetsByExercise);
-    }
-
-    private void writeReports(Map<String, List<DatedSet>> datedSetsByExercise) {
-        for (var e : datedSetsByExercise.entrySet()) {
-            writeReport(e.getKey(), e.getValue());
+        var exercises = groupSetsByExercise();
+        for (var exercise : exercises) {
+            writeReport(exercise);
         }
     }
 
     @SneakyThrows
-    private void writeReport(String exercise, List<DatedSet> datedSets) {
+    private void writeReport(ExerciseSetMap exercise) {
+        var dates = StreamSupport
+                .stream(exercise.getDates().spliterator(), false)
+                .sorted(reverseOrder());
+
         var outputPath = docsPath
                 .resolve(REPORTS_FOLDER_NAME)
                 .resolve(EXERCISES_FOLDER_NAME)
-                .resolve(exercise.replace(' ', '-') + ".md");
+                .resolve(exercise.getName().replace(' ', '-') + ".md");
 
-        LocalDate date = null;
         try (var writer = new BufferedWriter(new FileWriter(outputPath.toFile()))) {
-            writer.write("## " + toSentenceCase(exercise));
-            for (var datedSet : datedSets) {
-
-                // new date?
-                if (!datedSet.getDate().equals(date)) {
-                    date = datedSet.getDate();
-                    writer.write("\n\n### " + formatShortDate(date) + '\n');
-                    writer.write("\n| Weight (kg) | Reps |");
-                    writer.write("\n| ----------- | ---- |");
-                }
-
-                // set
-                writer.write("\n| ");
-                writer.write(datedSet.getWeightKg() != null ? formatDouble(datedSet.getWeightKg()) : "n/a");
-                writer.write(" | ");
-                writer.write(datedSet.getReps() != null ? formatDouble(datedSet.getReps()) : "n/a");
-                writer.write(" |");
-            }
+            writer.write("## " + toSentenceCase(exercise.getName()));
+            dates.forEach(date -> writeFoo(writer, date, exercise.getSets(date)));
         }
     }
 
-    private Map<String, List<DatedSet>> groupSetsByExercise() {
-        var datedSetsByExercise = new HashMap<String, List<DatedSet>>();
+    @SneakyThrows
+    private void writeFoo(Writer writer, LocalDate date, List<Set> sets) {
+
+        // header
+        writer.write("\n\n### " + formatShortDate(date) + '\n');
+        writer.write("\n| Weight (kg) | Reps |");
+        writer.write("\n| ----------- | ---- |");
+
+        // sets
+        for (var set : sets) {
+            writer.write("\n| ");
+            writer.write(set.getWeightKg() != null ? formatDouble(set.getWeightKg()) : "n/a");
+            writer.write(" | ");
+            writer.write(set.getReps() != null ? formatDouble(set.getReps()) : "n/a");
+            writer.write(" |");
+        }
+    }
+
+    private Iterable<ExerciseSetMap> groupSetsByExercise() {
+        var exercises = new HashMap<String, ExerciseSetMap>();
         for (var workout : workoutService.getWorkouts()) {
             for (var set : workout.getSets()) {
-
-                var datedSet = new DatedSet();
-                datedSet.setDate(workout.getDate());
-                datedSet.setReps(set.getReps());
-                datedSet.setWeightKg(set.getWeightKg());
-
-                datedSetsByExercise
-                        .computeIfAbsent(set.getExercise(), x -> new ArrayList<>())
-                        .add(datedSet);
+                exercises
+                        .computeIfAbsent(set.getExercise(), x -> new ExerciseSetMap(set.getExercise()))
+                        .add(workout.getDate(), set);
             }
         }
-        return datedSetsByExercise;
+        return exercises.values();
     }
 }
