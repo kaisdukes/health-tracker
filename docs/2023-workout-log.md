@@ -55,13 +55,13 @@ Now I've got a number of sets to work with (26 sets per day), I can break this d
 | Exercise                  | Sets | Main muscle groups | Target weight (kg) |
 | ------------------------- | ---- | ------------------ | ------------------ |
 | [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md)      | 4    | Chest              | 44, 48, 52, 56     |
-| Incline chest dumbbells   | 4    | Chest              | 40, 44, 48, 52     |
-| Dumbbell flys             | 2    | Chest              | 36, 36             |
-| Shoulder press            | 4    | Shoulders          | 28, 32, 36, 36      |
-| Close grip dumbbell press | 3    | Triceps            | 36, 40, 44         |
-| Skull crushers            | 3    | Triceps            | 22.5, 25, 27.5     |
-| Tricep push downs         | 2    | Triceps            | 27, 32             |
-| Hanging leg raise         | 4    | Abs                |                    |
+| [Incline chest dumbbells](reports/exercises/incline-chest-dumbbells.md)   | 4    | Chest              | 40, 44, 48, 52     |
+| [Dumbbell flys](reports/exercises/dumbbell-flys.md)             | 2    | Chest              | 36, 36             |
+| [Shoulder press](reports/exercises/shoulder-press.md)            | 4    | Shoulders          | 28, 32, 36, 36      |
+| [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md) | 3    | Triceps            | 36, 40, 44         |
+| [Skull crushers](reports/exercises/skull-crushers.md)            | 3    | Triceps            | 22.5, 25, 27.5     |
+| [Tricep push downs](reports/exercises/tricep-push-downs.md)         | 2    | Triceps            | 27, 32             |
+| [Hanging leg raise](reports/exercises/hanging-leg-raise.md)         | 4    | Abs                |                    |
 
 ### Day 2: Back and biceps (26 sets)
 
