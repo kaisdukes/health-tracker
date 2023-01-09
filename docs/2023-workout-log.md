@@ -135,9 +135,9 @@ I'm going to try a 4-month course. The testosterone booster needs to be cycled t
 
 Some downsides:
 
-1.These boosters have some risk
-2.They need to be cycled on/off
-3.You can't take them all the time
+1. These boosters have some risk
+2. They need to be cycled on/off
+3. You can't take them all the time
 
 To stay safe, after the 4-month cycle I'm going to get blood tests done to see if there are any liver issues.
 
