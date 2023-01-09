@@ -49,10 +49,27 @@ public class HealthService {
     }
 
     public double getAveragedMetric(LocalDate date, Metric metric) {
+
+        // use the averaged value for the date specified if we have one
         var averagedTimeSeries = getAveragedTimeSeries(metric);
-        return averagedTimeSeries.hasValue(date)
-                ? averagedTimeSeries.get(date)
-                : getTimeSeries(metric).getMostRecent(date);
+        if (averagedTimeSeries.hasValue(date)) {
+            return averagedTimeSeries.get(date);
+        }
+
+        // otherwise, try to fall back to the most recent averaged value
+        var averaged = averagedTimeSeries.getMostRecent(date);
+        if (averaged != null) {
+            return averaged.getValue();
+        }
+
+        // if we don't have a most recent averaged value, use the most recent raw value if available
+        var raw = getTimeSeries(metric).getMostRecent(date);
+        if (raw != null) {
+            return raw.getValue();
+        }
+
+        // not found
+        throw new RuntimeException("Failed to find averaged " + metric.getDescription() + " for date " + date);
     }
 
     @SneakyThrows

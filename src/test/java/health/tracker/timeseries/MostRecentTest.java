@@ -10,9 +10,7 @@ import java.util.List;
 import static health.tracker.timeseries.MostRecent.getMostRecentItem;
 import static java.util.stream.Collectors.toList;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.is;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.hamcrest.Matchers.*;
 
 class MostRecentTest {
 
@@ -52,11 +50,10 @@ class MostRecentTest {
     }
 
     @Test
-    void shouldThrowForMissingMostRecentItem() {
+    void shouldReturnNullForNoMostRecentItem() {
         var items = list(12, 13, 14, 15);
-        assertThrows(
-                RuntimeException.class,
-                () -> getMostRecentItem(items, x -> x.date, date(11)));
+        var mostRecent = getMostRecentItem(items, x -> x.date, date(11));
+        assertThat(mostRecent, is(nullValue()));
     }
 
     private static List<Item> list(int... values) {

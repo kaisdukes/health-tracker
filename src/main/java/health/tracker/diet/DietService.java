@@ -38,7 +38,11 @@ public class DietService {
     }
 
     public Diet getDiet(LocalDate date) {
-        return getMostRecentItem(diets, Diet::getDate, date);
+        var diet = getMostRecentItem(diets, Diet::getDate, date);
+        if (diet == null) {
+            throw new RuntimeException("Failed to find most recent diet for date " + date);
+        }
+        return diet;
     }
 
     private void readDiet(final FilenameInfo filenameInfo) {

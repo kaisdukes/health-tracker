@@ -26,7 +26,11 @@ public class ActivityService {
     }
 
     public List<Activity> getActivities(LocalDate date) {
-        return getMostRecentItem(activities, DailyActivities::getDate, date).getActivities();
+        var dailyActivities = getMostRecentItem(activities, DailyActivities::getDate, date);
+        if (dailyActivities == null) {
+            throw new RuntimeException("Failed to find most recent daily activities for date " + date);
+        }
+        return dailyActivities.getActivities();
     }
 
     private void readDailyActivities(final FilenameInfo filenameInfo) {

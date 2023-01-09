@@ -28,8 +28,8 @@ public class TimeSeries implements Iterable<Point> {
         return value;
     }
 
-    public double getMostRecent(LocalDate date) {
-        return getMostRecentItem(points, Point::getDate, date).getValue();
+    public Point getMostRecent(LocalDate date) {
+        return getMostRecentItem(points, Point::getDate, date);
     }
 
     public boolean hasValue(LocalDate date) {
