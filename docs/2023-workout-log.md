@@ -131,7 +131,7 @@ Today I also made a purchase from [Predator Nutrition](https://www.predatornutri
 
 However, the three products by [Competitive Edge Labs](https://competitiveedgelabs.com) looked like they were well thought out. They're mostly natural herb extracts for boosting testosterone and promoting muscle growth. I spent time going through each and every ingredient, and most of them appeared to have scientific research studies showing modest but significant effects. I'm not expecting miracles as these are not steroids, but at my age I'll take whatever works.
 
-I'm going to try a 4-month course. The testosterone booster needs to be cycled to avoid tolerance (6 weeks on / 4 weeks off), but the anabolic boosters should be fine to take continuously.
+I'm going to try a 4-month course. The testosterone booster needs to be cycled to avoid tolerance (6 weeks on / 4 weeks off), but the anabolic boosters should be fine to take continuously during that period.
 
 Some downsides:
 
