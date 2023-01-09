@@ -144,7 +144,7 @@ To stay safe, after the 4-month cycle I'm going to get blood tests done to see i
 ### CEL M-Test (testosterone booster)
 
 * [Fadogia Agrestis](https://google.com/search?q=fadogia%20agrestis%20bodybuilding)
-* [Urtica Dioica](https://google.com/search?q=urtica%dioica%20bodybuilding)
+* [Urtica Dioica](https://google.com/search?q=urtica%20dioica%20bodybuilding)
 * [Ashwagandha](https://google.com/search?q=ashwagandha%20bodybuilding)
 * [Eurycoma Longifolia](https://google.com/search?q=eurycoma%20longifolia%20bodybuilding)
 * [Shilajit](https://google.com/search?q=shilajit%20bodybuilding)
