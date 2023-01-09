@@ -120,3 +120,48 @@ Let's see how our sets per week compare against [these volume guidelines](https:
 Looking good! We're in the guideline range for all muscle groups. It's hard to hit the midpoint for all muscle groups as this only a 4-day split and not a 5-day routine. However, we're pretty close in most cases.
 
 I'll try this workout for a while and see how it goes. Will be interesting to compare this to the 5-day split I'm currently doing. Hopefully, the extra rest will be worth it.
+
+## January 9th, 2023
+
+I've completed the first week on the new 4-day split today, and after much thinking, weighing up the risks and discussion with friends, I've also decided to start on natural testosterone and anabolic boosters for a 4-month trial period. I'm also going to get blood work done before and after the trial period in case of any liver issues.
+
+The 4-day split feels really good. I'm loving the extra rest days compared to pull/push/legs/rest cycles I was doing previously, and I'm also happy I'm still doing chest and pull-ups twice a week. Also did abs for the first time in years and was happy that my abs actually got sore. The hanging leg raises are a killer exercise! Will definitely be continuing with the 4-day split for a while, likely all the way through the long cut, down to 12% body fat. The split feels well thought out and I'm loving it. Have been getting a brief, but awesome post-workout natural high.
+
+Today I also made a purchase from [Predator Nutrition](https://www.predatornutrition.com) for three products (ingredients below). Are these going to actually work? I'm not sure. I'm already eating a well thought out and balanced diet while cutting, sleeping well, taking Whey Protein, Creatine, BCAA, Multivitamins, HMB, Omega-3 and B12. I feel I may be starting to get into the area of diminishing returns with further supplements.
+
+However, the three products by [Competitive Edge Labs](https://competitiveedgelabs.com) looked like they were well thought out. They're mostly natural herb extracts for boosting testosterone and promoting muscle growth. I spent time going through each and every ingredient, and most of them appeared to have scientific research studies showing modest but significant effects. I'm not expecting miracles as these are not steroids, but at my age I'll take whatever works.
+
+I'm going to try a 4-month course. The testosterone booster needs to be cycled to avoid tolerance (6 weeks on / 4 weeks off), but the anabolic boosters should be fine to take continuously.
+
+Some downsides:
+
+1.These boosters have some risk
+2.They need to be cycled on/off
+3.You can't take them all the time
+
+To stay safe, after the 4-month cycle I'm going to get blood tests done to see if there are any liver issues.
+
+### CEL M-Test (testosterone booster)
+
+* [Fadogia Agrestis](https://google.com/search?q=Fadogia%20Agrestis%20bodybuilding)
+* [Urtica Dioica](https://google.com/search?q=Urtica%Dioica%20bodybuilding)
+* [Ashwagandha](https://google.com/search?q=Ashwagandha%20bodybuilding)
+* [Eurycoma Longfolia](https://google.com/search?q=Eurycoma%20Longfolia%20bodybuilding)
+* [Shilajit](https://google.com/search?q=Shilajit%20bodybuilding)
+* [Boron Citrate](https://google.com/search?q=Boron%20Citrate%20bodybuilding)
+* [Mucuna Pruriens](https://google.com/search?q=Mucuna%20Pruriens%20bodybuilding)
+
+### CEL Anabolic Effect (anabolic booster)
+
+* [Viscum Album](https://google.com/search?q=Viscum%20Album%20bodybuilding)
+* [Eriobotrya Japonica](https://google.com/search?q=Eriobotrya%20Japonica%20bodybuilding)
+* [Rehmannaie Radix](https://google.com/search?q=Rehmannaie%20Radix%20bodybuilding)
+* [Shilajit](https://google.com/search?q=Shilajit%20bodybuilding)
+* [ActiGin](https://google.com/search?q=anabolic%20"ActiGin"%20bodybuilding)
+* [S7](https://google.com/search?q=S7%20bodybuilding)
+* [AstraGin](https://google.com/search?q=AstraGin%20bodybuilding)
+
+### CEL Epi-Plex (anabolic booster)
+
+* [Epicatechin](https://google.com/search?q=Epicatechin%20bodybuilding)
+* [Piperine](https://google.com/search?q=Piperine%20bodybuilding)
