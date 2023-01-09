@@ -155,7 +155,7 @@ To stay safe, after the 4-month cycle I'm going to get blood tests done to see i
 
 * [Viscum Album](https://google.com/search?q=viscum%20album%20bodybuilding)
 * [Eriobotrya Japonica](https://google.com/search?q=eriobotrya%20japonica%20bodybuilding)
-* [Rehmannaie Radix](https://google.com/search?q=rehmannaie%20radix%20bodybuilding)
+* [Rehmanniae Radix](https://google.com/search?q=rehmanniae%20radix%20bodybuilding)
 * [Shilajit](https://google.com/search?q=shilajit%20bodybuilding)
 * [ActiGin](https://google.com/search?q=anabolic%20"ActiGin"%20bodybuilding)
 * [S7](https://google.com/search?q=S7%20bodybuilding)
