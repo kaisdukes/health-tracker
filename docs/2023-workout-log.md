@@ -146,7 +146,7 @@ To stay safe, after the 4-month cycle I'm going to get blood tests done to see i
 * [Fadogia Agrestis](https://google.com/search?q=Fadogia%20Agrestis%20bodybuilding)
 * [Urtica Dioica](https://google.com/search?q=Urtica%Dioica%20bodybuilding)
 * [Ashwagandha](https://google.com/search?q=Ashwagandha%20bodybuilding)
-* [Eurycoma Longfolia](https://google.com/search?q=Eurycoma%20Longfolia%20bodybuilding)
+* [Eurycoma Longifolia](https://google.com/search?q=Eurycoma%20Longifolia%20bodybuilding)
 * [Shilajit](https://google.com/search?q=Shilajit%20bodybuilding)
 * [Boron Citrate](https://google.com/search?q=Boron%20Citrate%20bodybuilding)
 * [Mucuna Pruriens](https://google.com/search?q=Mucuna%20Pruriens%20bodybuilding)
