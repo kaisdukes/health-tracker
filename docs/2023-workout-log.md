@@ -212,7 +212,7 @@ Shown to promote hypertrophy in mice (source: [PubMed](https://pubmed.ncbi.nlm.n
 
 ### Eriobotrya Japonica
 
-Prevents muscle degredation in rats (source: [PubMed](https://pubmed.ncbi.nlm.nih.gov/26004741)), so may be useful to avoid muscle loss in humans when cutting.
+Prevents muscle degredation in rats (source: [PubMed](https://pubmed.ncbi.nlm.nih.gov/26004741)), so may be useful to avoid muscle loss in humans while cutting.
 
 ### Rehmannia
 
@@ -224,7 +224,7 @@ Shown to support endurance in multiple studies.
 
 ### S7
 
-A combination of coffee, green tea, turmeric, tart cherry, blueberry, broccoli and kale that may boost gym pumps.
+A combination of coffee, green tea, turmeric, tart cherry, blueberry, broccoli and kale, that may boost gym pumps.
 
 ### AstraGin
 
