@@ -232,7 +232,7 @@ Helps with absorption of the other ingredients in the anabolic booster. Backed b
 
 ### Epicatechin
 
-May cause moderate strength increases according to scientific studies (source: [Examine](https://examine.com/articles/does-dark-chocolates-epicatechin-content-promote-muscle-growth)). More likely to boost endurance and gym pump according to however anecdotal evidence from bodybuilders.
+May cause moderate strength increases according to scientific studies (source: [Examine](https://examine.com/articles/does-dark-chocolates-epicatechin-content-promote-muscle-growth)). However, more likely to boost endurance and gym pump according to anecdotal evidence from bodybuilders.
 
 ## January 10th, 2023
 
