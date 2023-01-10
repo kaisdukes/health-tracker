@@ -163,7 +163,7 @@ Dosage: 6 capsules per day, 3 at breakfast and 3 at dinner.
 | --------- | ----------------------------------- |
 | [Viscum Album](https://google.com/search?q=viscum%20album%20bodybuilding) | 2g |
 | [Eriobotrya Japonica](https://google.com/search?q=eriobotrya%20japonica%20bodybuilding) | 1g |
-| [Rehmanniae Radix](https://google.com/search?q=rehmanniae%20radix%20bodybuilding) | 1g |
+| [Rehmannia](https://google.com/search?q=rehmannia%20bodybuilding) | 1g |
 | [Shilajit](https://google.com/search?q=shilajit%20bodybuilding) | 250mg |
 | [ActiGin](https://google.com/search?q=anabolic%20"ActiGin"%20bodybuilding) | 50mg |
 | [S7](https://google.com/search?q=S7%20bodybuilding) | 50mg |
@@ -214,7 +214,7 @@ Shown to promote hypertrophy in mice (source: [PubMed](https://pubmed.ncbi.nlm.n
 
 Prevents muscle degredation in rats (source: [PubMed](https://pubmed.ncbi.nlm.nih.gov/26004741)), so may be useful to avoid muscle loss in humans when cutting.
 
-### Rehmanniae Radix
+### Rehmannia
 
 Not clear if this is an anabolic booster (source: [WebMD](https://www.webmd.com/vitamins/ai/ingredientmono-1155/rehmannia)).
 
