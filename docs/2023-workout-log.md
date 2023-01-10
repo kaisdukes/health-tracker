@@ -129,7 +129,7 @@ The 4-day split feels really good. I'm loving the extra rest days compared to pu
 
 Today I made a purchase from [Predator Nutrition](https://www.predatornutrition.com) for three products (ingredients below). Are these going to actually work? I'm not sure. I'm already eating a well thought out and balanced diet while cutting, sleeping well, taking whey protein, creatine, BCAA, multivitamins, HMB, omega-3 and B12. I feel I may be starting to get into the area of diminishing returns with further supplements.
 
-However, the three products by [Competitive Edge Labs](https://competitiveedgelabs.com) looked like they were well thought out. They're mostly natural herb extracts for boosting testosterone and promoting muscle growth. I spent time going through each and every ingredient, and most of them appeared to have scientific research studies showing modest but significant effects. I'm not expecting miracles as these are not steroids, but at my age I'll take whatever works.
+However, the three products by [Competitive Edge Labs](https://competitiveedgelabs.com) looked like they were well thought out. They're mostly natural herb extracts for boosting testosterone and promoting muscle growth. I spent time going through each and every ingredient, and most of them appeared to have scientific research studies showing modest but significant effects. **I'm not expecting miracles as these are not steroids**, but at my age I'll take whatever works.
 
 I'm going to try a 4-month course. The testosterone booster needs to be cycled to avoid tolerance (6 weeks on / 4 weeks off), but the anabolic boosters should be fine to take continuously over that period.
 
