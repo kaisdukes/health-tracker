@@ -143,28 +143,40 @@ To stay safe, after the 4-month cycle I'm going to get blood tests done to see i
 
 ### CEL M-Test (testosterone booster)
 
-* [Fadogia Agrestis](https://google.com/search?q=fadogia%20agrestis%20bodybuilding)
-* [Urtica Dioica](https://google.com/search?q=urtica%20dioica%20bodybuilding)
-* [Ashwagandha](https://google.com/search?q=ashwagandha%20bodybuilding)
-* [Eurycoma Longifolia](https://google.com/search?q=eurycoma%20longifolia%20bodybuilding)
-* [Shilajit](https://google.com/search?q=shilajit%20bodybuilding)
-* [Boron Citrate](https://google.com/search?q=boron%20citrate%20bodybuilding)
-* [Mucuna Pruriens](https://google.com/search?q=mucuna%20pruriens%20bodybuilding)
+Dosage: 6 capsules per day, 3 at breakfast and 3 at dinner.
+
+| Ingredient| Dosage per day                      |
+| --------- | ----------------------------------- |
+| [Fadogia Agrestis](https://google.com/search?q=fadogia%20agrestis%20bodybuilding) | 1.2g |
+| [Urtica Dioica](https://google.com/search?q=urtica%20dioica%20bodybuilding) | 1.2g |
+| [Ashwagandha](https://google.com/search?q=ashwagandha%20bodybuilding) | 695mg |
+| [Eurycoma Longifolia](https://google.com/search?q=eurycoma%20longifolia%20bodybuilding) | 500mg |
+| [Shilajit](https://google.com/search?q=shilajit%20bodybuilding) | 200mg |
+| [Boron Citrate](https://google.com/search?q=boron%20citrate%20bodybuilding) | 200mg |
+| [Mucuna Pruriens](https://google.com/search?q=mucuna%20pruriens%20bodybuilding) | 100mg |
 
 ### CEL Anabolic Effect (anabolic booster)
 
-* [Viscum Album](https://google.com/search?q=viscum%20album%20bodybuilding)
-* [Eriobotrya Japonica](https://google.com/search?q=eriobotrya%20japonica%20bodybuilding)
-* [Rehmanniae Radix](https://google.com/search?q=rehmanniae%20radix%20bodybuilding)
-* [Shilajit](https://google.com/search?q=shilajit%20bodybuilding)
-* [ActiGin](https://google.com/search?q=anabolic%20"ActiGin"%20bodybuilding)
-* [S7](https://google.com/search?q=S7%20bodybuilding)
-* [AstraGin](https://google.com/search?q=AstraGin%20bodybuilding)
+Dosage: 6 capsules per day, 3 at breakfast and 3 at dinner.
+
+| Ingredient| Dosage per day                      |
+| --------- | ----------------------------------- |
+| [Viscum Album](https://google.com/search?q=viscum%20album%20bodybuilding) | 2g |
+| [Eriobotrya Japonica](https://google.com/search?q=eriobotrya%20japonica%20bodybuilding) | 1g |
+| [Rehmanniae Radix](https://google.com/search?q=rehmanniae%20radix%20bodybuilding) | 1g |
+| [Shilajit](https://google.com/search?q=shilajit%20bodybuilding) | 250mg |
+| [ActiGin](https://google.com/search?q=anabolic%20"ActiGin"%20bodybuilding) | 50mg |
+| [S7](https://google.com/search?q=S7%20bodybuilding) | 50mg |
+| [AstraGin](https://google.com/search?q=AstraGin%20bodybuilding) | 50mg |
 
 ### CEL Epi-Plex (anabolic booster)
 
-* [Epicatechin](https://google.com/search?q=Epicatechin%20bodybuilding)
-* [Piperine](https://google.com/search?q=Piperine%20bodybuilding)
+Dosage: 2 capsules per day, 1 at breakfast and 1 at dinner.
+
+| Ingredient| Dosage per day                      |
+| --------- | ----------------------------------- |
+| [Epicatechin](https://google.com/search?q=Epicatechin%20bodybuilding) | 300mg |
+| [Piperine](https://google.com/search?q=Piperine%20bodybuilding) | 20mg |
 
 ## January 10th, 2023
 
