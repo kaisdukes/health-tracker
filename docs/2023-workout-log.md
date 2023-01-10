@@ -123,7 +123,7 @@ I'll try this workout for a while and see how it goes. Will be interesting to co
 
 ## January 9th, 2023
 
-I've completed the first week on the new 4-day split today, and after much thinking, weighing up the risks and discussion with friends, I've also decided to start on natural testosterone and anabolic boosters for a 4-month trial period. I'm also going to get blood work done before and after the trial period in case of any liver issues.
+I've completed the first week on the new 4-day split today, and after much thinking, weighing up the risks and discussion with friends, I've also decided to start on natural testosterone and anabolic boosters for a 4-month trial period. I'm going to get blood work done before and after the trial period in case of any liver issues.
 
 The 4-day split feels really good. I'm loving the extra rest days compared to pull/push/legs/rest cycles I was doing previously, and I'm also happy I'm still doing chest and pull-ups twice a week. Also did abs for the first time in years and was happy that my abs actually got sore. The [hanging leg raises](reports/exercises/hanging-leg-raise.md) are a killer exercise! Will definitely be continuing with the 4-day split for a while, likely all the way through the long cut, down to 12% body fat. The split feels well thought out and I'm loving it. Have been getting a brief, but awesome post-workout natural high.
 
