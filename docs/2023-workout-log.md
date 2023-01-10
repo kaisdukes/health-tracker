@@ -165,3 +165,11 @@ To stay safe, after the 4-month cycle I'm going to get blood tests done to see i
 
 * [Epicatechin](https://google.com/search?q=Epicatechin%20bodybuilding)
 * [Piperine](https://google.com/search?q=Piperine%20bodybuilding)
+
+## January 10th, 2023
+
+Just got my blood work results back before I start on the boosters. I also had a blood test 4 months ago at the start of September 2022, just around the same time I started properly weight training again. Initial testosterone levels in early September were 17.2 nmol/L. With the blood test just in, I'm at 21.5 nmol/L (with 0.363 nmol/L free testosterone). Normal ranges for men over 40 are between roughly 12 and 31 nmol/L.
+
+The summary is my testosterone levels are completely normal and if anything are almost exactly in the middle of the expected range. They've increased slightly (from around 17 to 22 nmol/L) over the last 4 months since I switched over to a much more healthy lifestyle with good diet and exercise.
+
+Will be interesting to compare this to the next blood test in around 4 months after the trial course of boosters. Hopefully healthy levels of increased testosterone and no liver issues.
