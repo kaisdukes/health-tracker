@@ -178,6 +178,62 @@ Dosage: 2 capsules per day, 1 at breakfast and 1 at dinner.
 | [Epicatechin](https://google.com/search?q=Epicatechin%20bodybuilding) | 300mg |
 | [Piperine](https://google.com/search?q=Piperine%20bodybuilding) | 20mg |
 
+### Fadogia Agrestis
+
+No human studies to show that this boosts testosterone in males (source: [WebMD](https://www.webmd.com/vitamins/ai/ingredientmono-1162/fadogia-agrestis)), however anecdotal evidence from bodybuilders is that this is a significant testosterone booster. Scientific studies on rats have shown strong results (source: [PubMed](https://pubmed.ncbi.nlm.nih.gov/16281088)).
+
+### Urtica Dioica
+
+Rat studies have shown this improves free testosterone levels (source: [PubMed](https://pubmed.ncbi.nlm.nih.gov/21806658)). It's not clear if these results translate to humans.
+
+### Ashwagandha
+
+Human studies have shown modest increases in testosterone (source: [Examine](https://examine.com/articles/does-ashwagandha-increase-testosterone)).
+
+### Eurycoma Longifolia
+
+Multiple scientific studies on humans have shown significant increases in muscle strength and testosterone levels (source: [Wikipedia](https://en.wikipedia.org/wiki/Eurycoma_longifolia)).
+
+### Shilajit
+
+Human studies have shown significant testosterone increases at 500mg per day (source: [Healthline](https://www.healthline.com/health/shilajit)). Note that I'll be taking Shilajit both from CEL M-Test and from CEL Anabolic Effect, for a total dosage of 450mg daily.
+
+### Boron Citrate
+
+Proven to increase the metabolism of total testosterone to free testosterone (source: [Healthline](https://www.healthline.com/health/boron-testosterone)).
+
+### Mucuna Pruriens
+
+Shown to promote modest increases in testosterone in human studies (source: [Examine](https://examine.com/supplements/mucuna-pruriens/research)).
+
+### Viscum Album
+
+Shown to promote hypertrophy in mice (source: [PubMed](https://pubmed.ncbi.nlm.nih.gov/28109285)).
+
+### Eriobotrya Japonica
+
+Prevents muscle degredation in rats (source: [PubMed](https://pubmed.ncbi.nlm.nih.gov/26004741)), so may be useful to avoid muscle loss in humans when cutting.
+
+### Rehmanniae Radix
+
+Not clear if this is an anabolic booster (source: [WebMD](https://www.webmd.com/vitamins/ai/ingredientmono-1155/rehmannia)).
+
+### ActiGin
+
+Shown to support endurance in multiple studies.
+
+### S7
+
+A combination of coffee, green tea, turmeric, tart cherry, blueberry, broccoli and kale that may boost gym pumps.
+
+### AstraGin
+
+Helps with absorption of the other ingredients in the anabolic booster. Backed by multiple scientific studies.
+
+### Epicatechin
+
+May cause moderate strength increases according to scientific studies (source: [Examine](https://examine.com/articles/does-dark-chocolates-epicatechin-content-promote-muscle-growth)). More likely to boost endurance and gym pump according to however anecdotal evidence from bodybuilders.
+
 ## January 10th, 2023
 
 Just got my blood work results back before I start on the boosters. I also had a blood test 4 months ago at the start of September 2022, around the same time I started properly weight training again. Initial testosterone levels in early September were 17.2 nmol/L. With the blood test just in, I'm at 21.5 nmol/L (with 0.363 nmol/L free testosterone). Normal ranges for men over 40 are between roughly 12 and 31 nmol/L.
