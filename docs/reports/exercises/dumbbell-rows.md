@@ -1,5 +1,13 @@
 ## Dumbbell rows
 
+### 12 Jan 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 60 | 12 |
+| 64 | 12 |
+| 68 | 12 |
+
 ### 05 Jan 2023
 
 | Weight (kg) | Reps |
