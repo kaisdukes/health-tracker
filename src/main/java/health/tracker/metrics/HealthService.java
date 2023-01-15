@@ -69,7 +69,7 @@ public class HealthService {
         }
 
         // not found
-        throw new RuntimeException("Failed to find averaged " + metric.getDescription() + " for date " + date);
+        throw new RuntimeException("Failed to find averaged " + metric.getDescription() + " for " + date + '.');
     }
 
     @SneakyThrows
