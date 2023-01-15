@@ -28,7 +28,7 @@ public class ActivityService {
     public List<Activity> getActivities(LocalDate date) {
         var dailyActivities = getMostRecentItem(activities, DailyActivities::getDate, date);
         if (dailyActivities == null) {
-            throw new RuntimeException("Failed to find most recent daily activities for date " + date);
+            throw new RuntimeException("Failed to find most recent daily activities for " + date + '.');
         }
         return dailyActivities.getActivities();
     }

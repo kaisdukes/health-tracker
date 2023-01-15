@@ -40,7 +40,7 @@ public class DietService {
     public Diet getDiet(LocalDate date) {
         var diet = getMostRecentItem(diets, Diet::getDate, date);
         if (diet == null) {
-            throw new RuntimeException("Failed to find most recent diet for date " + date);
+            throw new RuntimeException("Failed to find most recent diet for " + date + '.');
         }
         return diet;
     }
