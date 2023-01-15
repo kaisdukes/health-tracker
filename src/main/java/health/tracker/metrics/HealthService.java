@@ -26,16 +26,29 @@ public class HealthService {
     }
 
     public TimeSeries getTimeSeries(Metric metric) {
+
+        // already exists
         var timeSeries = metrics.get(metric);
-        if (timeSeries == null) {
-            if (metric == Metric.BodyFatPercentage) {
+        if (timeSeries != null) {
+            return timeSeries;
+        }
+
+        // create on first use
+        switch (metric) {
+            case FatMassKg -> {
+                timeSeries = computeFatMass();
+                metrics.put(metric, timeSeries);
+                return timeSeries;
+            }
+            case BodyFatPercentage -> {
                 timeSeries = computeBodyFatPercentage();
                 metrics.put(metric, timeSeries);
-            } else {
-                throw new RuntimeException("No time series data found for metric '" + metric + "'.");
+                return timeSeries;
             }
         }
-        return timeSeries;
+
+        // not found
+        throw new RuntimeException("No time series data found for metric '" + metric + "'.");
     }
 
     public TimeSeries getAveragedTimeSeries(Metric metric) {
@@ -85,17 +98,30 @@ public class HealthService {
                 });
     }
 
-    private TimeSeries computeBodyFatPercentage() {
-        var bodyFat = new TimeSeries();
+    private TimeSeries computeFatMass() {
+        var fatMass = new TimeSeries();
         var leanMass = getTimeSeries(Metric.LeanMassKg);
         var weight = getTimeSeries(Metric.WeightKg);
 
         for (var point : leanMass) {
             var date = point.getDate();
             if (weight.hasValue(date)) {
-                var weightValue = weight.get(date);
-                var value = 100 * (weightValue - point.getValue()) / weightValue;
-                bodyFat.add(date, value);
+                fatMass.add(date, weight.get(date) - point.getValue());
+            }
+        }
+
+        return fatMass;
+    }
+
+    private TimeSeries computeBodyFatPercentage() {
+        var bodyFat = new TimeSeries();
+        var fatMass = getTimeSeries(Metric.FatMassKg);
+        var weight = getTimeSeries(Metric.WeightKg);
+
+        for (var point : fatMass) {
+            var date = point.getDate();
+            if (weight.hasValue(date)) {
+                bodyFat.add(date, 100 * point.getValue() / weight.get(date));
             }
         }
 

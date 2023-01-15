@@ -10,6 +10,7 @@ import static java.util.stream.Collectors.toMap;
 public enum Metric {
     WeightKg("weight", Unit.Kilogram),
     LeanMassKg("lean mass", Unit.Kilogram),
+    FatMassKg("fat mass", Unit.Kilogram),
     BodyFatPercentage("body fat", Unit.Percentage);
 
     private static final Map<String, Metric> METRICS_BY_KEY
