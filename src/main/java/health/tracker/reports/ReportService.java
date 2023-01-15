@@ -5,7 +5,6 @@ import health.tracker.activity.MetService;
 import health.tracker.diet.DietService;
 import health.tracker.exercises.ExerciseService;
 import health.tracker.metrics.HealthService;
-import health.tracker.metrics.Metric;
 import health.tracker.reports.macros.MacrosReport;
 import health.tracker.reports.metrics.MetricsReport;
 import health.tracker.reports.workouts.ExerciseReports;
@@ -47,7 +46,7 @@ public class ReportService {
 
         // metrics
         var metricsReport = new MetricsReport(dataPath, healthService);
-        metricsReport.createReport(Metric.WeightKg);
+        metricsReport.createReports();
 
         // macros
         var macrosReport = new MacrosReport(

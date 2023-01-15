@@ -37,8 +37,16 @@ public class MetricsReport {
         NUMBER_FORMATTER.setMaximumFractionDigits(2);
     }
 
+    public void createReports() {
+        for (var metric : Metric.values()) {
+            if (metric == Metric.WeightKg) { // TODO: Remove on 2023-01-18!
+                createReport(metric);
+            }
+        }
+    }
+
     @SneakyThrows
-    public void createReport(Metric metric) {
+    private void createReport(Metric metric) {
 
         //  create a graphics context
         var width = IMAGE_WIDTH;
