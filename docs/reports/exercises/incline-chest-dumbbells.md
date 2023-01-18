@@ -1,5 +1,14 @@
 ## Incline chest dumbbells
 
+### 18 Jan 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 40 | 12 |
+| 44 | 10 |
+| 48 | 7 |
+| 52 | 5 |
+
 ### 14 Jan 2023
 
 | Weight (kg) | Reps |
