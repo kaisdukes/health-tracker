@@ -39,9 +39,7 @@ public class MetricsReport {
 
     public void createReports() {
         for (var metric : Metric.values()) {
-            if (metric == Metric.WeightKg) { // TODO: Remove on 2023-01-18!
-                createReport(metric);
-            }
+            createReport(metric);
         }
     }
 
