@@ -80,6 +80,6 @@
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
-| [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md) | 44 | 10 | 16 Jan 2023 |
+| [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md) | 44 | 11 | 23 Jan 2023 |
 | [Skull crushers](reports/exercises/skull-crushers.md) | 27.5 | 12 | 04 Jan 2023 |
 | [Tricep push downs](reports/exercises/tricep-push-downs.md) | 32 | 12 | 09 Jan 2023 |
