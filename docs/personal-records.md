@@ -27,7 +27,7 @@
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
-| [Hammer curls](reports/exercises/hammer-curls.md) | 32 | 10 | 19 Jan 2023 |
+| [Hammer curls](reports/exercises/hammer-curls.md) | 32 | 11 | 26 Jan 2023 |
 | [Preacher curls](reports/exercises/preacher-curls.md) | 37.5 | 12 | 09 Jan 2023 |
 
 ### Calves
