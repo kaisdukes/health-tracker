@@ -43,7 +43,7 @@
 | -------- | ----------- | ---- | ---- |
 | [Dumbbell flys](reports/exercises/dumbbell-flys.md) | 36 | 12 | 14 Jan 2023 |
 | [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md) | 56 | 9 | 25 Jan 2023 |
-| [Incline chest dumbbells](reports/exercises/incline-chest-dumbbells.md) | 48 | 9 | 26 Dec 2022 |
+| [Incline chest dumbbells](reports/exercises/incline-chest-dumbbells.md) | 48 | 10 | 28 Jan 2023 |
 
 ### Hamstrings
 
@@ -66,8 +66,8 @@
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
-| [Dumbbell front raise](reports/exercises/dumbbell-front-raise.md) | 28 | 9 | 21 Jan 2023 |
-| [Dumbbell shoulder flys](reports/exercises/dumbbell-shoulder-flys.md) | 32 | 9 | 21 Jan 2023 |
+| [Dumbbell front raise](reports/exercises/dumbbell-front-raise.md) | 28 | 10 | 28 Jan 2023 |
+| [Dumbbell shoulder flys](reports/exercises/dumbbell-shoulder-flys.md) | 32 | 10 | 28 Jan 2023 |
 | [Shoulder press](reports/exercises/shoulder-press.md) | 36 | 8 | 14 Jan 2023 |
 
 ### Traps

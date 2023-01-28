@@ -1,5 +1,14 @@
 ## Hanging leg raise
 
+### 28 Jan 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| n/a | 6 |
+| n/a | 6 |
+| n/a | 6 |
+| n/a | 6 |
+
 ### 25 Jan 2023
 
 | Weight (kg) | Reps |
