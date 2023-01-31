@@ -321,7 +321,7 @@ I'm excited about February's training plan for one big reason. I'm finally going
 | [Shoulder press](reports/exercises/shoulder-press.md)          | 4    | Shoulders          | 28, 32, 36, 36     |
 | [Dumbbell shoulder flys](reports/exercises/dumbbell-shoulder-flys.md)  | 3    | Shoulders          | 24, 28, 32         |
 | [Dumbbell front raise](reports/exercises/dumbbell-front-raise.md)    | 3    | Shoulders          | 20, 24, 28         |
-| [1-minute planks](reports/exercises/planks.md)      | 2    | Abs                | n/a                |
+| 1-minute planks      | 2    | Abs                | n/a                |
 | [Hanging leg raise](reports/exercises/hanging-leg-raise.md)       | 4    | Abs                | n/a                |
 
 ### Day 6: Legs and arms (26 sets)
