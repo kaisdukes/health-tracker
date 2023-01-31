@@ -244,6 +244,10 @@ Will be interesting to compare this to the next blood test in around 4 months af
 
 # Feburary 2023
 
+## Diet progress
+
+At the start of January I was 80 kg at 22% body fat. After a month, I'm now down to 76 kg at 20% body fat, a significant achievement. I've lost around a kilo a week, which is probably close to the upper limit for what is generally considered to be safe weight loss. However, unfortunately, my original thoughts that I would lose fat and retain lean mass while dieting appear to have been wishful thinking. The current weight loss is around 60% fat and 40% lean mass. I originally thought if I don't lose lean mass and only burn fat, I would get down to around 70-72 kg to hit my dieting goal of 12% body fat. It now looks like around 63-64 kg is a more realistic bodyweight for the 12% body fat goal if trends continue.
+
 ## Weight progression
 
 I've completed 4 weeks on the 4-day a week split, having dropped the number of days slightly from 5 days a week previously, as I felt I was overtraining while dieting. Weight training on a calorie deficit is hard. Especially when you are trying to lift heavy and continue with progressive overload. However, strength training is essential if you want to retain as much lean mass as possible while cutting.
@@ -251,7 +255,7 @@ I've completed 4 weeks on the 4-day a week split, having dropped the number of d
 Advantages of the January 4-day routine:
 
 * It's chest, shoulders and arms focused, so I'm developing the muscles I wanted to in the first place.
-* It feels well thought and balanced. Each week I'm exercising every major muscle group to some extent.
+* It feels well thought out and balanced. Each week I'm exercising every major muscle group to some extent.
 * My legs still feel strong and in good shape in proportion to other muscle groups, even though I've reduced legs to only squats and leg press once a week. This could also be because I'm consistently walking over 10k steps a day at a brisk pace.
 
 Disadvantages:
