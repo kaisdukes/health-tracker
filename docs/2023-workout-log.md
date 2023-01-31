@@ -244,22 +244,22 @@ Will be interesting to compare this to the next blood test in around 4 months af
 
 # Feburary 2023
 
-### Weight progression
+## Weight progression
 
-I've completed 4 weeks on the 4-day a week split, having dropped the number of days slightly from 5 days a week previously as I felt I was overtraining while dieting. Weight training on a calorie defecit is very hard. Especially when you are trying to lift heavy and continue with progressive overload. However, it's essential if you want to retain as much lean mass as possible while cutting.
+I've completed 4 weeks on the 4-day a week split, having dropped the number of days slightly from 5 days a week previously as I felt I was overtraining while dieting. Weight training on a calorie deficit is very hard. Especially when you are trying to lift heavy and continue with progressive overload. However, it's essential if you want to retain as much lean mass as possible while cutting.
 
 Advantages of the current 4-day routine:
 
 * It's chest, shoulders and arms focused, so I'm developing the muscles I wanted to in the first place
 * It feels well thought and balanced. I feel that each week I'm exercises every major muscle group to some extent
-* My legs still feel strong and in good shape in proprtion to other muscle groups, even though I've reduced legs to only squats and leg press once a week. This could also be beacuse I'm consistently walking over 10k steps a day at a brisk pace.
+* My legs still feel strong and in good shape in proportion to other muscle groups, even though I've reduced legs to only squats and leg press once a week. This could also be because I'm consistently walking over 10k steps a day at a brisk pace.
 
 Disadvantages:
 
 * My back is developing as much as I would have liked, although given I'm only working out 4 days a week it's almost impossible to hit every major muscle group as much as I would like to
 * Hanging knee raises were too easy and felt like a waste of sets. I could be doing something else with that time in the gym.
 
-New routine for Feburary is listed below. This is esentially the same as the January routine but with a few changes:
+New routine for February is listed below. This is essentially the same as the January routine, but with a few changes:
 
 * Increased weight on arms exercises and legs
 * Increased weight on back exercises, except for pull downs
@@ -268,7 +268,7 @@ New routine for Feburary is listed below. This is esentially the same as the Jan
 * I've replaced hanging knee raises with 1-minue planks
 * For the exercises I'm not increasing through weight, I can still get progressive improvements by increasing reps while focusing on form, until I'm comfortably in the 8-12 rep range
 
-I'm excited about Feburary for one reason. I'm finally going to try to flat bench press using the 30kg a side dumbbless. A major achievement, if I can progress to this level while dieting.
+I'm excited about February's training plan for one big reason. I'm finally going to try to flat bench press using the 30 kg a side dumbbells. A major achievement, if I can progress to this level while dieting.
 
 ### Day 1: Chest, shoulders, triceps and abs (26 sets)
 
