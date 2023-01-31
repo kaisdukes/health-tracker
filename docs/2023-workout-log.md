@@ -246,12 +246,12 @@ Will be interesting to compare this to the next blood test in around 4 months af
 
 ## Weight progression
 
-I've completed 4 weeks on the 4-day a week split, having dropped the number of days slightly from 5 days a week previously, as I felt I was overtraining while dieting. Weight training on a calorie deficit is hard. Especially when you are trying to lift heavy and continue with progressive overload. However, strength training essential if you want to retain as much lean mass as possible while cutting.
+I've completed 4 weeks on the 4-day a week split, having dropped the number of days slightly from 5 days a week previously, as I felt I was overtraining while dieting. Weight training on a calorie deficit is hard. Especially when you are trying to lift heavy and continue with progressive overload. However, strength training is essential if you want to retain as much lean mass as possible while cutting.
 
 Advantages of the January 4-day routine:
 
 * It's chest, shoulders and arms focused, so I'm developing the muscles I wanted to in the first place.
-* It feels well thought and balanced. I feel that each week I'm exercises every major muscle group to some extent.
+* It feels well thought and balanced. Each week I'm exercising every major muscle group to some extent.
 * My legs still feel strong and in good shape in proportion to other muscle groups, even though I've reduced legs to only squats and leg press once a week. This could also be because I'm consistently walking over 10k steps a day at a brisk pace.
 
 Disadvantages:
