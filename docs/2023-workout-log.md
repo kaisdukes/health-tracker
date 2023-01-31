@@ -241,3 +241,82 @@ Just got my blood work results back before I start on the boosters. I also had a
 The summary is my testosterone levels are completely normal and if anything are almost exactly in the middle of the expected range. They've increased slightly (from around 17 to 22 nmol/L) over the last 4 months since I switched over to a much more healthy lifestyle with good diet and exercise.
 
 Will be interesting to compare this to the next blood test in around 4 months after the trial course of boosters. Hopefully healthy levels of increased testosterone and no liver issues.
+
+# Feburary 2023
+
+### Weight progression
+
+I've completed 4 weeks on the 4-day a week split, having dropped the number of days slightly from 5 days a week previously as I felt I was overtraining while dieting. Weight training on a calorie defecit is very hard. Especially when you are trying to lift heavy and continue with progressive overload. However, it's essential if you want to retain as much lean mass as possible while cutting.
+
+Advantages of the current 4-day routine:
+
+* It's chest, shoulders and arms focused, so I'm developing the muscles I wanted to in the first place
+* It feels well thought and balanced. I feel that each week I'm exercises every major muscle group to some extent
+* My legs still feel strong and in good shape in proprtion to other muscle groups, even though I've reduced legs to only squats and leg press once a week. This could also be beacuse I'm consistently walking over 10k steps a day at a brisk pace.
+
+Disadvantages:
+
+* My back is developing as much as I would have liked, although given I'm only working out 4 days a week it's almost impossible to hit every major muscle group as much as I would like to
+* Hanging knee raises were too easy and felt like a waste of sets. I could be doing something else with that time in the gym.
+
+New routine for Feburary is listed below. This is esentially the same as the January routine but with a few changes:
+
+* Increased weight on arms exercises and legs
+* Increased weight on back exercises, except for pull downs
+* Increased weight on flat chest press, but not on incline chest press
+* More reps for pull-ups and hanging leg raises
+* I've replaced hanging knee raises with 1-minue planks
+* For the exercises I'm not increasing through weight, I can still get progressive improvements by increasing reps while focusing on form, until I'm comfortably in the 8-12 rep range
+
+I'm excited about Feburary for one reason. I'm finally going to try to flat bench press using the 30kg a side dumbbless. A major achievement, if I can progress to this level while dieting.
+
+### Day 1: Chest, shoulders, triceps and abs (26 sets)
+
+| Exercise                  | Sets | Main muscle groups | Target weight (kg) |
+| ------------------------- | ---- | ------------------ | ------------------ |
+| [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md)      | 4    | Chest              | 44, 52, 56, 60     |
+| [Incline chest dumbbells](reports/exercises/incline-chest-dumbbells.md)   | 4    | Chest              | 40, 44, 48, 52     |
+| [Dumbbell flys](reports/exercises/dumbbell-flys.md)             | 2    | Chest              | 36, 40             |
+| [Shoulder press](reports/exercises/shoulder-press.md)            | 4    | Shoulders          | 28, 32, 36, 36      |
+| [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md) | 3    | Triceps            | 36, 40, 44         |
+| [Skull crushers](reports/exercises/skull-crushers.md)            | 3    | Triceps            | 25, 27.5, 30     |
+| [Tricep push downs](reports/exercises/tricep-push-downs.md)         | 2    | Triceps            | 32, 36             |
+| [Hanging leg raise](reports/exercises/hanging-leg-raise.md)         | 4    | Abs                | n/a                |
+
+### Day 2: Back and biceps (26 sets)
+
+| Exercise         | Sets | Main muscle groups | Target weight (kg)       |
+| ---------------- | ---- | ------------------ | ------------------------ |
+| [Pull-ups](reports/exercises/pull-ups.md)         | 3    | Back               | n/a                      |
+| [Deadlifts](reports/exercises/deadlifts.md)        | 4    | Back               | 60, 70, 75, 80           |
+| [Pull downs](reports/exercises/pull-downs.md)       | 3    | Back               | 52, 59, 66               |
+| [V-bar pull downs](reports/exercises/v-bar-pull-downs.md) | 3    | Back               | 52, 59, 66               |
+| [Dumbbell rows](reports/exercises/dumbbell-rows.md)    | 3    | Back               | 60, 68, 72               |
+| [Hammer curls](reports/exercises/hammer-curls.md)     | 5    | Biceps             | 28, 28, 32, 32, 36       |
+| [Preacher curls](reports/exercises/preacher-curls.md)   | 5    | Biceps             | 35, 37.5, 37.5, 40, 40 |
+
+### Day 4: Chest, shoulders and abs (26 sets)
+
+| Exercise                | Sets | Main muscle groups | Target weight (kg) |
+| ----------------------- | ---- | ------------------ | ------------------ |
+| [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md)    | 4    | Chest              | 44, 52, 56, 60     |
+| [Incline chest dumbbells](reports/exercises/incline-chest-dumbbells.md) | 4    | Chest              | 40, 44, 48, 52     |
+| [Dumbbell flys](reports/exercises/dumbbell-flys.md)           | 2    | Chest              | 36, 40             |
+| [Shoulder press](reports/exercises/shoulder-press.md)          | 4    | Shoulders          | 28, 32, 36, 36     |
+| [Dumbbell shoulder flys](reports/exercises/dumbbell-shoulder-flys.md)  | 3    | Shoulders          | 24, 28, 32         |
+| [Dumbbell front raise](reports/exercises/dumbbell-front-raise.md)    | 3    | Shoulders          | 20, 24, 28         |
+| [1-minute planks](reports/exercises/planks.md)      | 2    | Abs                | n/a                |
+| [Hanging leg raise](reports/exercises/hanging-leg-raise.md)       | 4    | Abs                | n/a                |
+
+### Day 6: Legs and arms (26 sets)
+
+| Exercise                    | Sets | Main muscle groups        | Target weight (kg)           |
+| --------------------------- | ---- | ------------------------- | ---------------------------- |
+| 4-minute cycle warm up      | n/a  | n/a                       | n/a                          |
+| [Pull-ups](reports/exercises/pull-ups.md)                    | 3    | Back                      | n/a                          |
+| [Squats (including bar only)](reports/exercises/squats.md) | 5    | Quads, hamstrings, calves | 20, 60, 70, 75, 77.5           |
+| [Leg press](reports/exercises/leg-press.md)                   | 6    | Quads, hamstrings, calves | 110, 130, 140, 150, 160, 170 |
+| [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md)   | 3    | Triceps                   | 36, 40, 44                   |
+| [Skull crushers](reports/exercises/skull-crushers.md)              | 3    | Triceps                   | 25, 27.5, 30               |
+| [Tricep push downs](reports/exercises/tricep-push-downs.md)           | 2    | Triceps                   | 32, 36                       |
+| [Preacher curls](reports/exercises/preacher-curls.md)              | 4    | Biceps                    | 35, 37.5, 37.5, 40           |
