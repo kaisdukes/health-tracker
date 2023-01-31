@@ -248,7 +248,7 @@ Will be interesting to compare this to the next blood test in around 4 months af
 
 So far, I've been weight training again for 5 months, which includes dieting for the last 8 weeks and on boosters for almost three weeks. I've been diligent with the gym this entire time, having only missed one or two sessions due to wanting additional recovery days. I've also strictly followed a high-protein healthy eating plan with calorie counting while dieting. It's not actually been as hard as I thought. I don't often get hungry as the diet is protein rich and I'm eating only whole foods which are filling. Unfortunately, sleep hasn't been great. Even though I'm going to bed at a reasonable time, I'm waking up at least once a night to use the bathroom as I'm trying to drink 4 litres of water a day. It's often hard to get back to sleep after this.
 
-As expected, the boosters have given only mind benefits, but these benefits are more than welcome:
+As expected, the boosters have given only mild benefits, but these benefits are more than welcome:
 
 * The biggest thing I've noticed is increased energy levels and reduced fatigue. I'm not quite as energized at the gym as I was before dieting, when I was in a calorie surplus, but it's not far off. Evidence for this is that before dieting, I could comfortably complete most workouts in around an hour. During dieting, I needed longer rest breaks between sets, and workouts dragged to an hour and 15-20 minutes. But they are book to around an hour now, and I'm almost always able to keep rest breaks between sets to around 90 seconds, which is ideal for hypertrophy.
 * Modest, slightly increased strength in the gym. But this is more than welcome, and well worth the price of the boosters.
