@@ -250,7 +250,7 @@ So far, I've been weight training again for 5 months, which includes dieting for
 
 As expected, the boosters have given only mild benefits, but these benefits are more than welcome:
 
-* The biggest thing I've noticed is increased energy levels and reduced fatigue. I'm not quite as energized at the gym as I was before dieting, when I was in a calorie surplus, but it's not far off. Evidence for this is that before dieting, I could comfortably complete most workouts in around an hour. During dieting, I needed longer rest breaks between sets, and workouts dragged to an hour and 15-20 minutes. But they are book to around an hour now, and I'm almost always able to keep rest breaks between sets to around 90 seconds, which is ideal for hypertrophy.
+* The biggest thing I've noticed is increased energy levels and reduced fatigue. I'm not quite as energized at the gym as I was before dieting, when I was in a calorie surplus, but it's not far off. Evidence for this is that before dieting, I could comfortably complete most workouts in around an hour. During dieting, I needed longer rest breaks between sets, and workouts dragged to an hour and 15-20 minutes. But they are back to around an hour now, and I'm almost always able to keep rest breaks between sets to around 90 seconds, which is ideal for hypertrophy.
 * Modest, slightly increased strength in the gym. But this is more than welcome, and well worth the price of the boosters.
 * I look and feel more muscular, more toned, and better defined. This is only slight, but again, well worth it.
 
