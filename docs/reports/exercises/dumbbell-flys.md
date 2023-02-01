@@ -1,5 +1,12 @@
 ## Dumbbell flys
 
+### 01 Feb 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 36 | 12 |
+| 40 | 9 |
+
 ### 28 Jan 2023
 
 | Weight (kg) | Reps |

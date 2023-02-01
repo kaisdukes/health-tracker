@@ -11,7 +11,7 @@
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
 | [Hanging knee raise](reports/exercises/hanging-knee-raise.md) | n/a | 8 | 07 Jan 2023 |
-| [Hanging leg raise](reports/exercises/hanging-leg-raise.md) | n/a | 6 | 04 Jan 2023 |
+| [Hanging leg raise](reports/exercises/hanging-leg-raise.md) | n/a | 8 | 01 Feb 2023 |
 
 ### Back
 
@@ -41,9 +41,9 @@
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
-| [Dumbbell flys](reports/exercises/dumbbell-flys.md) | 36 | 12 | 14 Jan 2023 |
+| [Dumbbell flys](reports/exercises/dumbbell-flys.md) | 40 | 9 | 01 Feb 2023 |
 | [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md) | 56 | 9 | 25 Jan 2023 |
-| [Incline chest dumbbells](reports/exercises/incline-chest-dumbbells.md) | 48 | 10 | 28 Jan 2023 |
+| [Incline chest dumbbells](reports/exercises/incline-chest-dumbbells.md) | 52 | 8 | 01 Feb 2023 |
 
 ### Hamstrings
 
@@ -82,4 +82,4 @@
 | -------- | ----------- | ---- | ---- |
 | [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md) | 44 | 12 | 30 Jan 2023 |
 | [Skull crushers](reports/exercises/skull-crushers.md) | 27.5 | 12 | 04 Jan 2023 |
-| [Tricep push downs](reports/exercises/tricep-push-downs.md) | 32 | 12 | 09 Jan 2023 |
+| [Tricep push downs](reports/exercises/tricep-push-downs.md) | 36 | 10 | 01 Feb 2023 |
