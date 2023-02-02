@@ -17,10 +17,10 @@
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
-| [Deadlifts](reports/exercises/deadlifts.md) | 75 | 12 | 12 Jan 2023 |
-| [Dumbbell rows](reports/exercises/dumbbell-rows.md) | 68 | 12 | 05 Jan 2023 |
+| [Deadlifts](reports/exercises/deadlifts.md) | 80 | 8 | 02 Feb 2023 |
+| [Dumbbell rows](reports/exercises/dumbbell-rows.md) | 72 | 8 | 02 Feb 2023 |
 | [Pull downs](reports/exercises/pull-downs.md) | 66 | 10 | 12 Jan 2023 |
-| [Pull-ups](reports/exercises/pull-ups.md) | n/a | 4 | 05 Jan 2023 |
+| [Pull-ups](reports/exercises/pull-ups.md) | n/a | 6 | 02 Feb 2023 |
 | [V-bar pull downs](reports/exercises/v-bar-pull-downs.md) | 66 | 10 | 05 Jan 2023 |
 
 ### Biceps
@@ -28,7 +28,7 @@
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
 | [Hammer curls](reports/exercises/hammer-curls.md) | 32 | 11 | 26 Jan 2023 |
-| [Preacher curls](reports/exercises/preacher-curls.md) | 37.5 | 12 | 09 Jan 2023 |
+| [Preacher curls](reports/exercises/preacher-curls.md) | 40 | 8 | 02 Feb 2023 |
 
 ### Calves
 
