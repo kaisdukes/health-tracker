@@ -67,7 +67,7 @@
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
 | [Dumbbell front raise](reports/exercises/dumbbell-front-raise.md) | 28 | 10 | 28 Jan 2023 |
-| [Dumbbell shoulder flys](reports/exercises/dumbbell-shoulder-flys.md) | 32 | 10 | 28 Jan 2023 |
+| [Dumbbell shoulder flys](reports/exercises/dumbbell-shoulder-flys.md) | 32 | 11 | 04 Feb 2023 |
 | [Shoulder press](reports/exercises/shoulder-press.md) | 36 | 8 | 14 Jan 2023 |
 
 ### Traps

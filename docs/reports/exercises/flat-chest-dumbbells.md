@@ -1,5 +1,14 @@
 ## Flat chest dumbbells
 
+### 04 Feb 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 44 | 12 |
+| 52 | 12 |
+| 56 | 7 |
+| 60 | 5 |
+
 ### 01 Feb 2023
 
 | Weight (kg) | Reps |
