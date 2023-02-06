@@ -49,7 +49,7 @@ public class Forecaster {
 
     private List<Projection> getProjections(double targetBodyFatPercentage, DietMode dietMode) {
         var projections = new ArrayList<Projection>();
-        for (var i = 1; i <= 5; i++) {
+        for (var i = 1; i <= 6; i++) {
             projections.add(getProjection(targetBodyFatPercentage, dietMode, i));
         }
         return projections;
