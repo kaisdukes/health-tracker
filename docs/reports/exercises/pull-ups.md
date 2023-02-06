@@ -1,5 +1,13 @@
 ## Pull-ups
 
+### 06 Feb 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| n/a | 6 |
+| n/a | 6 |
+| n/a | 6 |
+
 ### 02 Feb 2023
 
 | Weight (kg) | Reps |

@@ -28,14 +28,14 @@
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
 | [Hammer curls](reports/exercises/hammer-curls.md) | 32 | 11 | 26 Jan 2023 |
-| [Preacher curls](reports/exercises/preacher-curls.md) | 40 | 8 | 02 Feb 2023 |
+| [Preacher curls](reports/exercises/preacher-curls.md) | 40 | 12 | 06 Feb 2023 |
 
 ### Calves
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
-| [Leg press](reports/exercises/leg-press.md) | 160 | 20 | 09 Jan 2023 |
-| [Squats](reports/exercises/squats.md) | 75 | 12 | 09 Jan 2023 |
+| [Leg press](reports/exercises/leg-press.md) | 170 | 20 | 06 Feb 2023 |
+| [Squats](reports/exercises/squats.md) | 77.5 | 10 | 06 Feb 2023 |
 
 ### Chest
 
@@ -49,18 +49,18 @@
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
-| [Leg press](reports/exercises/leg-press.md) | 160 | 20 | 09 Jan 2023 |
+| [Leg press](reports/exercises/leg-press.md) | 170 | 20 | 06 Feb 2023 |
 | [Lying leg curls](reports/exercises/lying-leg-curls.md) | 50 | 8 | 21 Dec 2022 |
 | [Seated leg curls](reports/exercises/seated-leg-curls.md) | 52 | 12 | 17 Dec 2022 |
-| [Squats](reports/exercises/squats.md) | 75 | 12 | 09 Jan 2023 |
+| [Squats](reports/exercises/squats.md) | 77.5 | 10 | 06 Feb 2023 |
 
 ### Quads
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
 | [Leg extensions](reports/exercises/leg-extensions.md) | 59 | 12 | 09 Dec 2022 |
-| [Leg press](reports/exercises/leg-press.md) | 160 | 20 | 09 Jan 2023 |
-| [Squats](reports/exercises/squats.md) | 75 | 12 | 09 Jan 2023 |
+| [Leg press](reports/exercises/leg-press.md) | 170 | 20 | 06 Feb 2023 |
+| [Squats](reports/exercises/squats.md) | 77.5 | 10 | 06 Feb 2023 |
 
 ### Shoulders
 
@@ -81,5 +81,5 @@
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
 | [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md) | 44 | 12 | 30 Jan 2023 |
-| [Skull crushers](reports/exercises/skull-crushers.md) | 27.5 | 12 | 04 Jan 2023 |
-| [Tricep push downs](reports/exercises/tricep-push-downs.md) | 36 | 10 | 01 Feb 2023 |
+| [Skull crushers](reports/exercises/skull-crushers.md) | 30 | 12 | 06 Feb 2023 |
+| [Tricep push downs](reports/exercises/tricep-push-downs.md) | 36 | 12 | 06 Feb 2023 |
