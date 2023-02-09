@@ -41,8 +41,8 @@
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
-| [Dumbbell flys](reports/exercises/dumbbell-flys.md) | 40 | 9 | 01 Feb 2023 |
-| [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md) | 56 | 9 | 25 Jan 2023 |
+| [Dumbbell flys](reports/exercises/dumbbell-flys.md) | 40 | 10 | 09 Feb 2023 |
+| [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md) | 56 | 10 | 09 Feb 2023 |
 | [Incline chest dumbbells](reports/exercises/incline-chest-dumbbells.md) | 52 | 8 | 01 Feb 2023 |
 
 ### Hamstrings
