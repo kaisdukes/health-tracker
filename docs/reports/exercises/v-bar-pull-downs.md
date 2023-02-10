@@ -1,5 +1,13 @@
 ## V-bar pull downs
 
+### 10 Feb 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 52 | 12 |
+| 59 | 10 |
+| 66 | 7 |
+
 ### 02 Feb 2023
 
 | Weight (kg) | Reps |

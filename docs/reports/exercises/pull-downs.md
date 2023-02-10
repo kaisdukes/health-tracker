@@ -1,5 +1,13 @@
 ## Pull downs
 
+### 10 Feb 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 52 | 12 |
+| 59 | 12 |
+| 66 | 8 |
+
 ### 02 Feb 2023
 
 | Weight (kg) | Reps |
