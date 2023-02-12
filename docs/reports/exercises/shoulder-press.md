@@ -1,5 +1,14 @@
 ## Shoulder press
 
+### 12 Feb 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 28 | 12 |
+| 32 | 11 |
+| 36 | 8 |
+| 36 | 6 |
+
 ### 09 Feb 2023
 
 | Weight (kg) | Reps |
