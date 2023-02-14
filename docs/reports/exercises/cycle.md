@@ -1,5 +1,11 @@
 ## Cycle
 
+### 14 Feb 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| n/a | n/a |
+
 ### 06 Feb 2023
 
 | Weight (kg) | Reps |

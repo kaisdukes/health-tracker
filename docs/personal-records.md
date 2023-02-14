@@ -35,7 +35,7 @@
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
 | [Leg press](reports/exercises/leg-press.md) | 170 | 20 | 06 Feb 2023 |
-| [Squats](reports/exercises/squats.md) | 77.5 | 10 | 06 Feb 2023 |
+| [Squats](reports/exercises/squats.md) | 77.5 | 12 | 14 Feb 2023 |
 
 ### Chest
 
@@ -52,7 +52,7 @@
 | [Leg press](reports/exercises/leg-press.md) | 170 | 20 | 06 Feb 2023 |
 | [Lying leg curls](reports/exercises/lying-leg-curls.md) | 50 | 8 | 21 Dec 2022 |
 | [Seated leg curls](reports/exercises/seated-leg-curls.md) | 52 | 12 | 17 Dec 2022 |
-| [Squats](reports/exercises/squats.md) | 77.5 | 10 | 06 Feb 2023 |
+| [Squats](reports/exercises/squats.md) | 77.5 | 12 | 14 Feb 2023 |
 
 ### Quads
 
@@ -60,7 +60,7 @@
 | -------- | ----------- | ---- | ---- |
 | [Leg extensions](reports/exercises/leg-extensions.md) | 59 | 12 | 09 Dec 2022 |
 | [Leg press](reports/exercises/leg-press.md) | 170 | 20 | 06 Feb 2023 |
-| [Squats](reports/exercises/squats.md) | 77.5 | 10 | 06 Feb 2023 |
+| [Squats](reports/exercises/squats.md) | 77.5 | 12 | 14 Feb 2023 |
 
 ### Shoulders
 
