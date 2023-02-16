@@ -1,5 +1,13 @@
 ## Close grip dumbbell press
 
+### 16 Feb 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 36 | 12 |
+| 40 | 9 |
+| 44 | 6 |
+
 ### 14 Feb 2023
 
 | Weight (kg) | Reps |
