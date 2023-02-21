@@ -1,5 +1,13 @@
 ## Preacher curls
 
+### 21 Feb 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 35 | 12 |
+| 37.5 | 12 |
+| 37.5 | 12 |
+
 ### 17 Feb 2023
 
 | Weight (kg) | Reps |
