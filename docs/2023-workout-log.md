@@ -343,3 +343,5 @@ I'm struggling. Hopefully will sleep well tonight. Only 4 hours sleep last night
 Taking some sleeping pills. Also taking a week off the gym starting today. I usually take a week
 off every 6-8 weeks of training for body recovery, and it's been 10 weeks straight training already.
 Will be reducing calories slightly (but not much) to compensate, but still will be  doing 10k steps a day.
+
+Now down to 74 kg at 19% body fat.
