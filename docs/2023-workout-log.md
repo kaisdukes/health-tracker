@@ -242,9 +242,9 @@ The summary is my testosterone levels are completely normal and if anything are 
 
 Will be interesting to compare this to the next blood test in around 4 months after the trial course of boosters. Hopefully healthy levels of increased testosterone and no liver issues.
 
-# Feburary 2023
+# February 2023
 
-## Feburary 1st, 2023
+## February 1st, 2023
 
 So far, I've been weight training again for 5 months, which includes dieting for the last 8 weeks and being on natural testosterone and anabolic boosters for almost three weeks. I've been diligent with the gym this entire time, having only missed one or two sessions due to wanting additional recovery days. I've also strictly followed a high-protein healthy eating plan with calorie counting while dieting. It's not actually been as hard as I thought. I don't often get hungry as the diet is protein rich and I'm eating only whole foods which are filling. Unfortunately, sleep hasn't been great. Even though I'm going to bed at a reasonable time, I'm waking up at least once a night to use the bathroom as I'm trying to drink 4 litres of water a day. It's often hard to get back to sleep after this.
 
@@ -336,3 +336,11 @@ I'm excited about February's training plan for one big reason. I'm finally going
 | [Skull crushers](reports/exercises/skull-crushers.md)              | 3    | Triceps                   | 25, 27.5, 30               |
 | [Tricep push downs](reports/exercises/tricep-push-downs.md)           | 2    | Triceps                   | 32, 36                       |
 | [Preacher curls](reports/exercises/preacher-curls.md)              | 4    | Biceps                    | 35, 37.5, 37.5, 40           |
+
+## February 23rd, 2023
+
+I'm struggling. Hopefully will sleep well tonight. Only 4 hours sleep last night due to insomnia.
+Taking some sleeping pills. Also taking a week off the gym starting today.  I usually take a week
+off every 6-8 weeks of training for body recovery, and it's been 10 weeks straight  training already.
+Will be reducing calories very slightly (but not much) to compensate, but still will be  doing 10k
+steps a day.
