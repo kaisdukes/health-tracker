@@ -346,3 +346,7 @@ since my last week off.  Will be reducing calories slightly (but not much) to co
 still be  doing 10k steps a day.
 
 Now down to 74 kg at 19% body fat.
+
+## February 26th, 2023
+
+Cycling off CEL M-Test for 30 days.
