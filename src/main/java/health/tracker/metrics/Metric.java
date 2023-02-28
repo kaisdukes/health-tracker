@@ -5,6 +5,7 @@ import health.tracker.Unit;
 import java.util.Arrays;
 import java.util.Map;
 
+import static java.util.function.Function.identity;
 import static java.util.stream.Collectors.toMap;
 
 public enum Metric {
@@ -14,7 +15,7 @@ public enum Metric {
     BodyFatPercentage("body fat", Unit.Percentage);
 
     private static final Map<String, Metric> METRICS_BY_KEY
-            = Arrays.stream(values()).collect(toMap(Metric::getKey, x -> x));
+            = Arrays.stream(values()).collect(toMap(Metric::getKey, identity()));
 
     private final String key;
     private final String description;

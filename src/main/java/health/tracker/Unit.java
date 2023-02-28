@@ -3,6 +3,7 @@ package health.tracker;
 import java.util.Arrays;
 import java.util.Map;
 
+import static java.util.function.Function.identity;
 import static java.util.stream.Collectors.toMap;
 
 public enum Unit {
@@ -14,7 +15,7 @@ public enum Unit {
     Milliliter("ml");
 
     private static final Map<String, Unit> UNITS_BY_SYMBOL
-            = Arrays.stream(values()).collect(toMap(Unit::getSymbol, x -> x));
+            = Arrays.stream(values()).collect(toMap(Unit::getSymbol, identity()));
 
     private final String symbol;
 
