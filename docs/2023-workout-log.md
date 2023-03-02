@@ -389,16 +389,16 @@ from 1 minute to 1 minute 30 seconds.
 
 ### Day 4: Chest, shoulders and abs (26 sets)
 
-| Exercise                | Sets | Main muscle groups | Target weight (kg) |
-| ----------------------- | ---- | ------------------ | ------------------ |
-| [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md)    | 4    | Chest              | 44, 52, 56, 60     |
+| Exercise                                                                | Sets | Main muscle groups | Target weight (kg) |
+|-------------------------------------------------------------------------| ---- | ------------------ | ------------------ |
+| [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md)       | 4    | Chest              | 44, 52, 56, 60     |
 | [Incline chest dumbbells](reports/exercises/incline-chest-dumbbells.md) | 4    | Chest              | 40, 44, 48, 52     |
-| [Dumbbell flys](reports/exercises/dumbbell-flys.md)           | 2    | Chest              | 36, 40             |
-| [Shoulder press](reports/exercises/shoulder-press.md)          | 4    | Shoulders          | 28, 32, 36, 36     |
-| [Dumbbell shoulder flys](reports/exercises/dumbbell-shoulder-flys.md)  | 3    | Shoulders          | 24, 28, 32         |
-| [Dumbbell front raise](reports/exercises/dumbbell-front-raise.md)    | 3    | Shoulders          | 20, 24, 28         |
-| 1-minute planks      | 2    | Abs                | n/a                |
-| [Hanging leg raise](reports/exercises/hanging-leg-raise.md)       | 4    | Abs                | n/a                |
+| [Dumbbell flys](reports/exercises/dumbbell-flys.md)                     | 2    | Chest              | 36, 40             |
+| [Shoulder press](reports/exercises/shoulder-press.md)                   | 4    | Shoulders          | 28, 32, 36, 36     |
+| [Dumbbell shoulder flys](reports/exercises/dumbbell-shoulder-flys.md)   | 3    | Shoulders          | 24, 28, 32         |
+| [Dumbbell front raise](reports/exercises/dumbbell-front-raise.md)       | 3    | Shoulders          | 20, 24, 28         |
+| 1:30 minute planks                                                      | 2    | Abs                | n/a                |
+| [Hanging leg raise](reports/exercises/hanging-leg-raise.md)             | 4    | Abs                | n/a                |
 
 ### Day 6: Legs and arms (26 sets)
 
