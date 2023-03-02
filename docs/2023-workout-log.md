@@ -372,7 +372,7 @@ from 1 minute to 1 minute 30 seconds.
 | [Shoulder press](reports/exercises/shoulder-press.md)            | 4    | Shoulders          | 28, 32, 36, 36     |
 | [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md) | 3    | Triceps            | 36, 40, 44         |
 | [Skull crushers](reports/exercises/skull-crushers.md)            | 3    | Triceps            | 25, 30, 32.5       |
-| [Tricep push downs](reports/exercises/tricep-push-downs.md)         | 2    | Triceps            | 36, 40             |
+| [Tricep push downs](reports/exercises/tricep-push-downs.md)         | 2    | Triceps            | 36, 41             |
 | [Hanging leg raise](reports/exercises/hanging-leg-raise.md)         | 4    | Abs                | n/a                |
 
 ### Day 2: Back and biceps (26 sets)
@@ -410,5 +410,5 @@ from 1 minute to 1 minute 30 seconds.
 | [Leg press](reports/exercises/leg-press.md)                   | 6    | Quads, hamstrings, calves | 110, 130, 140, 150, 160, 170 |
 | [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md)   | 3    | Triceps                   | 36, 40, 44                   |
 | [Skull crushers](reports/exercises/skull-crushers.md)              | 3    | Triceps                   | 25, 30, 32.5                 |
-| [Tricep push downs](reports/exercises/tricep-push-downs.md)           | 2    | Triceps                   | 36, 40                       |
+| [Tricep push downs](reports/exercises/tricep-push-downs.md)           | 2    | Triceps                   | 36, 41                       |
 | [Preacher curls](reports/exercises/preacher-curls.md)              | 4    | Biceps                    | 35, 40, 40, 42.5             |
