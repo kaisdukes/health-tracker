@@ -350,3 +350,64 @@ Now down to 74 kg at 19% body fat.
 ## February 26th, 2023
 
 Cycling off CEL M-Test for 30 days.
+
+# March 2023
+
+## March 2nd, 2023
+
+Have started supplementing with 13g of collagen as part of my pre-workout in an attempt to improve knee aches.
+This is probably partly age related and part related to a previous minor knee injury. I've been off the gym for a week
+for recovery, but back today. It's going to be hard to increase weights this month as I'm close to plateauing, having
+been cutting now for 3 months, trying to get down to 12% body fat before bulking up again. However, I should be able to
+increase weights for a few exercises, mostly arms as well as aiming for more reps on pull-ups.
+
+### Day 1: Chest, shoulders, triceps and abs (26 sets)
+
+| Exercise                  | Sets | Main muscle groups | Target weight (kg) |
+| ------------------------- | ---- | ------------------ |--------------------|
+| [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md)      | 4    | Chest              | 44, 52, 56, 60     |
+| [Incline chest dumbbells](reports/exercises/incline-chest-dumbbells.md)   | 4    | Chest              | 40, 44, 48, 52     |
+| [Dumbbell flys](reports/exercises/dumbbell-flys.md)             | 2    | Chest              | 36, 40             |
+| [Shoulder press](reports/exercises/shoulder-press.md)            | 4    | Shoulders          | 28, 32, 36, 36     |
+| [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md) | 3    | Triceps            | 36, 40, 44         |
+| [Skull crushers](reports/exercises/skull-crushers.md)            | 3    | Triceps            | 25, 30, 32.5       |
+| [Tricep push downs](reports/exercises/tricep-push-downs.md)         | 2    | Triceps            | 36 40              |
+| [Hanging leg raise](reports/exercises/hanging-leg-raise.md)         | 4    | Abs                | n/a                |
+
+### Day 2: Back and biceps (26 sets)
+
+| Exercise         | Sets | Main muscle groups | Target weight (kg)     |
+| ---------------- | ---- | ------------------ |------------------------|
+| [Pull-ups](reports/exercises/pull-ups.md)         | 3    | Back               | n/a                    |
+| [Deadlifts](reports/exercises/deadlifts.md)        | 4    | Back               | 60, 70, 80, 85         |
+| [Pull downs](reports/exercises/pull-downs.md)       | 3    | Back               | 52, 59, 66             |
+| [V-bar pull downs](reports/exercises/v-bar-pull-downs.md) | 3    | Back               | 52, 59, 66             |
+| [Dumbbell rows](reports/exercises/dumbbell-rows.md)    | 3    | Back               | 60, 68, 72             |
+| [Hammer curls](reports/exercises/hammer-curls.md)     | 5    | Biceps             | 28, 28, 32, 32, 36     |
+| [Preacher curls](reports/exercises/preacher-curls.md)   | 5    | Biceps             | 35, 40, 40, 42.5, 42.5 |
+
+### Day 4: Chest, shoulders and abs (26 sets)
+
+| Exercise                | Sets | Main muscle groups | Target weight (kg) |
+| ----------------------- | ---- | ------------------ | ------------------ |
+| [Flat chest dumbbells](reports/exercises/flat-chest-dumbbells.md)    | 4    | Chest              | 44, 52, 56, 60     |
+| [Incline chest dumbbells](reports/exercises/incline-chest-dumbbells.md) | 4    | Chest              | 40, 44, 48, 52     |
+| [Dumbbell flys](reports/exercises/dumbbell-flys.md)           | 2    | Chest              | 36, 40             |
+| [Shoulder press](reports/exercises/shoulder-press.md)          | 4    | Shoulders          | 28, 32, 36, 36     |
+| [Dumbbell shoulder flys](reports/exercises/dumbbell-shoulder-flys.md)  | 3    | Shoulders          | 24, 28, 32         |
+| [Dumbbell front raise](reports/exercises/dumbbell-front-raise.md)    | 3    | Shoulders          | 20, 24, 28         |
+| 1-minute planks      | 2    | Abs                | n/a                |
+| [Hanging leg raise](reports/exercises/hanging-leg-raise.md)       | 4    | Abs                | n/a                |
+
+### Day 6: Legs and arms (26 sets)
+
+| Exercise                    | Sets | Main muscle groups        | Target weight (kg)           |
+| --------------------------- | ---- | ------------------------- |------------------------------|
+| 4-minute cycle warm up      | n/a  | n/a                       | n/a                          |
+| [Pull-ups](reports/exercises/pull-ups.md)                    | 3    | Back                      | n/a                          |
+| [Squats (including bar only)](reports/exercises/squats.md) | 5    | Quads, hamstrings, calves | 20, 60, 70, 75, 80           |
+| [Leg press](reports/exercises/leg-press.md)                   | 6    | Quads, hamstrings, calves | 110, 130, 140, 150, 160, 170 |
+| [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md)   | 3    | Triceps                   | 36, 40, 44                   |
+| [Skull crushers](reports/exercises/skull-crushers.md)              | 3    | Triceps                   | 25, 30, 32.5                 |
+| [Tricep push downs](reports/exercises/tricep-push-downs.md)           | 2    | Triceps                   | 36, 40                       |
+| [Preacher curls](reports/exercises/preacher-curls.md)              | 4    | Biceps                    | 35, 40, 40, 42.5             |
