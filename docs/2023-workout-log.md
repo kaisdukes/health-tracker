@@ -281,7 +281,7 @@ New routine for February is listed below. This is essentially the same as the Ja
 * Increased weight on back exercises, except for pull downs.
 * Increased weight on flat chest press, but not on incline chest press.
 * More reps for pull-ups and hanging leg raises.
-* I've replaced hanging knee raises with 1-minue planks. The plan is to build up to 2-minute planks by increasing 30 seconds each month.
+* I've replaced hanging knee raises with 1-minute planks. The plan is to build up to 2-minute planks by increasing 30 seconds each month.
 * For the exercises I'm not increasing through weight, I can still get progressive improvements by increasing reps while focusing on form, until I'm comfortably in the 8-12 rep range.
 
 I'm excited about February's training plan for one big reason. I'm finally going to try to flat bench press using the 30 kg a side dumbbells. A major achievement, if I can progress to this level while dieting.
@@ -359,7 +359,8 @@ Have started supplementing with 13g of collagen as part of my pre-workout in an 
 This is probably partly age related and part related to a previous minor knee injury. I've been off the gym for a week
 for recovery, but back today. It's going to be hard to increase weights this month as I'm close to plateauing, having
 been cutting now for 3 months, trying to get down to 12% body fat before bulking up again. However, I should be able to
-increase weights for a few exercises, mostly arms as well as aiming for more reps on pull-ups.
+increase weights for a few exercises, mostly arms as well as aiming for more reps on pull-ups. Also increasing plank
+from 1 minute to 1 minute 30 seconds.
 
 ### Day 1: Chest, shoulders, triceps and abs (26 sets)
 
