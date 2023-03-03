@@ -1,5 +1,12 @@
 ## Tricep push downs
 
+### 02 Mar 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 36 | 12 |
+| 41 | 12 |
+
 ### 21 Feb 2023
 
 | Weight (kg) | Reps |

@@ -1,5 +1,13 @@
 ## Skull crushers
 
+### 02 Mar 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 25 | 12 |
+| 30 | 10 |
+| 32.5 | 6 |
+
 ### 21 Feb 2023
 
 | Weight (kg) | Reps |

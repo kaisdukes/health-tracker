@@ -11,7 +11,7 @@
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
 | [Hanging knee raise](reports/exercises/hanging-knee-raise.md) | n/a | 8 | 07 Jan 2023 |
-| [Hanging leg raise](reports/exercises/hanging-leg-raise.md) | n/a | 8 | 01 Feb 2023 |
+| [Hanging leg raise](reports/exercises/hanging-leg-raise.md) | n/a | 10 | 02 Mar 2023 |
 
 ### Back
 
@@ -82,4 +82,4 @@
 | -------- | ----------- | ---- | ---- |
 | [Close grip dumbbell press](reports/exercises/close-grip-dumbbell-press.md) | 44 | 12 | 30 Jan 2023 |
 | [Skull crushers](reports/exercises/skull-crushers.md) | 30 | 12 | 06 Feb 2023 |
-| [Tricep push downs](reports/exercises/tricep-push-downs.md) | 36 | 12 | 06 Feb 2023 |
+| [Tricep push downs](reports/exercises/tricep-push-downs.md) | 41 | 12 | 02 Mar 2023 |
