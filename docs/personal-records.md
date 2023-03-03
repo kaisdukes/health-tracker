@@ -17,10 +17,10 @@
 
 | Exercise | Weight (kg) | Reps | Date |
 | -------- | ----------- | ---- | ---- |
-| [Deadlifts](reports/exercises/deadlifts.md) | 80 | 12 | 17 Feb 2023 |
-| [Dumbbell rows](reports/exercises/dumbbell-rows.md) | 72 | 10 | 17 Feb 2023 |
+| [Deadlifts](reports/exercises/deadlifts.md) | 85 | 12 | 03 Mar 2023 |
+| [Dumbbell rows](reports/exercises/dumbbell-rows.md) | 72 | 12 | 03 Mar 2023 |
 | [Pull downs](reports/exercises/pull-downs.md) | 66 | 10 | 12 Jan 2023 |
-| [Pull-ups](reports/exercises/pull-ups.md) | n/a | 6 | 02 Feb 2023 |
+| [Pull-ups](reports/exercises/pull-ups.md) | n/a | 8 | 03 Mar 2023 |
 | [V-bar pull downs](reports/exercises/v-bar-pull-downs.md) | 66 | 10 | 05 Jan 2023 |
 
 ### Biceps
