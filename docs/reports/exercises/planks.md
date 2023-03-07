@@ -1,5 +1,12 @@
 ## Planks
 
+### 07 Mar 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| n/a | n/a |
+| n/a | n/a |
+
 ### 19 Feb 2023
 
 | Weight (kg) | Reps |

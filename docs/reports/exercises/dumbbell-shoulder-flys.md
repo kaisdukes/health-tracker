@@ -1,5 +1,13 @@
 ## Dumbbell shoulder flys
 
+### 07 Mar 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 24 | 12 |
+| 28 | 12 |
+| 32 | 12 |
+
 ### 19 Feb 2023
 
 | Weight (kg) | Reps |

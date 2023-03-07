@@ -1,5 +1,13 @@
 ## Dumbbell front raise
 
+### 07 Mar 2023
+
+| Weight (kg) | Reps |
+| ----------- | ---- |
+| 20 | 12 |
+| 24 | 12 |
+| 28 | 12 |
+
 ### 19 Feb 2023
 
 | Weight (kg) | Reps |
